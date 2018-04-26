@@ -147,7 +147,7 @@ $contact_us = new contact_us($result->fetch());
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .inptext.datepicker {
                         background-color: #f7f7f7;
-                        background-image: url(http://static.websiteonline.cn/website/plugin/new_message_form/images/datepicker.png) !important;
+                        background-image: url(/website/plugin/new_message_form/images/datepicker.png) !important;
                         background-position: right 5px center !important;
                         background-repeat: no-repeat !important;
                     }
@@ -180,7 +180,7 @@ $contact_us = new contact_us($result->fetch());
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .radiobox label.labelofradio:before, #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .radiobox label.labelofradio .before {
                         content: " ";
-                        background: url(http://static.websiteonline.cn/website/plugin/new_message_form/images/radio_bg.png) left center no-repeat;
+                        background: url(/website/plugin/new_message_form/images/radio_bg.png) left center no-repeat;
                         height: 100%;
                         left: 0;
                         width: 16px;
@@ -194,7 +194,7 @@ $contact_us = new contact_us($result->fetch());
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .radiobox.on label.labelofradio:before, #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .radiobox.on label.labelofradio .before {
                         content: " ";
-                        background: url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms2/radio_checkedbg.png) left center no-repeat;
+                        background: url(/website/plugin/new_message_form/skins/ms2/radio_checkedbg.png) left center no-repeat;
                         color: #f7901d;
                     }
 
@@ -226,7 +226,7 @@ $contact_us = new contact_us($result->fetch());
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .checkbox label.labelofcheckbox:before, #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .checkbox label.labelofcheckbox .before {
                         content: " ";
-                        background: url(http://static.websiteonline.cn/website/plugin/new_message_form/images/checkbox_bg.png) left center no-repeat;
+                        background: url(/website/plugin/new_message_form/images/checkbox_bg.png) left center no-repeat;
                         height: 100%;
                         left: 0;
                         position: absolute;
@@ -235,7 +235,7 @@ $contact_us = new contact_us($result->fetch());
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .checkbox.on label.labelofcheckbox:before, #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .checkbox.on label.labelofcheckbox .before {
                         content: "";
-                        background: url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms2/checkbox_checkedbg.png) left center no-repeat;
+                        background: url(/website/plugin/new_message_form/skins/ms2/checkbox_checkedbg.png) left center no-repeat;
                         color: #f7901d;
                     }
 
@@ -246,7 +246,7 @@ $contact_us = new contact_us($result->fetch());
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .btn-select {
                         position: relative;
                         background-color: #f7f7f7;
-                        background-image: url(http://static.websiteonline.cn/website/plugin/new_message_form/images/selarrow.png) !important;
+                        background-image: url(/website/plugin/new_message_form/images/selarrow.png) !important;
                         background-position: right 5px center !important;
                         background-repeat: no-repeat !important;
                         border: #dedede 1px solid;
@@ -418,7 +418,7 @@ $contact_us = new contact_us($result->fetch());
                     }
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .radiobox.on label.labelofradio:before, #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .radiobox.on label.labelofradio .before {
-                        background-image: url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms2/radio_checkedbg.png);
+                        background-image: url(/website/plugin/new_message_form/skins/ms2/radio_checkedbg.png);
                     }
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .checkbox.on {
@@ -430,15 +430,15 @@ $contact_us = new contact_us($result->fetch());
                     }
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .checkbox.on label.labelofcheckbox:before, #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .checkbox.on label.labelofcheckbox .before {
-                        background-image: url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms2/checkbox_checkedbg.png);
+                        background-image: url(/website/plugin/new_message_form/skins/ms2/checkbox_checkedbg.png);
                     }
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .btn-select.on {
-                        background-image: url(http://static.websiteonline.cn/website/plugin/new_message_form/images/selarrow.png) !important;
+                        background-image: url(/website/plugin/new_message_form/images/selarrow.png) !important;
                     }
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .inptext.datepicker:focus {
-                        background-image: url(http://static.websiteonline.cn/website/plugin/new_message_form/images/datepicker.png) !important;
+                        background-image: url(/website/plugin/new_message_form/images/datepicker.png) !important;
                     }
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 a.btnsubmit:hover {
@@ -554,7 +554,7 @@ $contact_us = new contact_us($result->fetch());
                                 if ($title.children('.reqtip').length > 0) $reqtip = $title.children('.reqtip').detach();
                                 if ($parent.is('.inpbox')) {
                                     $(node).attr('placeholder', decode($title.hide().html() || ''));
-                                    $LAB.script('http://static.websiteonline.cn/website/script/userloginpc/jquery.placeholder.min.js').wait(function () {
+                                    $LAB.script('/website/script/userloginpc/jquery.placeholder.min.js').wait(function () {
                                         $(node).placeholder();
                                     })
                                 } else {
@@ -651,7 +651,7 @@ $contact_us = new contact_us($result->fetch());
                     });
                     // Datepicker
                     if ('' == 'datepicker') {
-                        var datedir = "http://static.websiteonline.cn/website/plugin/new_message_form/js";
+                        var datedir = "/website/plugin/new_message_form/js";
                         if ($('link#date_picker').length == 0) {
                             $('<link id="date_picker" rel="stylesheet" />').attr({
                                 "type": 'text/css', "href": datedir + '/jquery.cxcalendar.css'
@@ -662,7 +662,7 @@ $contact_us = new contact_us($result->fetch());
                         });
                     }
                     if ('' == 'datepickers') {
-                        var datedir = "http://static.websiteonline.cn/website/plugin/new_message_form/js";
+                        var datedir = "/website/plugin/new_message_form/js";
                         if ($('link#date_picker').length == 0) {
                             $('<link id="date_picker" rel="stylesheet" />').attr({
                                 "type": 'text/css', "href": datedir + '/jquery.cxcalendar.css'
@@ -719,8 +719,8 @@ $contact_us = new contact_us($result->fetch());
                     }
                     // Submit
                     $LAB
-                        .script('http://static.websiteonline.cn/website/script/jquery.validate.js')
-                        .script("http://static.websiteonline.cn/website/script/webuploader/webuploader.js")
+                        .script('/index/jquery.validate.js')
+                        .script("/index/webuploader.js")
                         .wait(function () {
                             var getQueenItem = function (id) {
                                 return $('.fileQueue_chooser_' + window.id).find('.uploadifyQueueItem').filter(function () {
@@ -750,7 +750,7 @@ $contact_us = new contact_us($result->fetch());
                             var pickid = '.' + layerid + 'user_pic_upload';
                             uploader = WebUploader.create({
                                 auto: false,
-                                swf: 'http://static.websiteonline.cn/website/script/webuploader/Uploader.swf',
+                                swf: '/website/script/webuploader/Uploader.swf',
                                 server: parseToURL('wp_frontpage', 'locale_users_uploadify'),
                                 pick: {id: pickid, multiple: false},
                                 formData: {fileType: 'ico|gif|jpg|jpeg|png', maxFileSize: '2097152'},//文件上传请求的参数表，每次发送都会发送此对象中的参数。
@@ -787,7 +787,7 @@ $contact_us = new contact_us($result->fetch());
                                     'instanceID': file.id,
                                     'fileName': file.name,
                                     'fileSize': WebUploader.formatSize(file.size),
-                                    'cancelpng': "http://static.websiteonline.cn/website/script/multiupload/cancel.png",
+                                    'cancelpng': "/website/script/multiupload/cancel.png",
                                     'className': 'uploadifyQueueItem'
                                 }
                                 // Create the file item template

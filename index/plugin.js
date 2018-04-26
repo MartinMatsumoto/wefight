@@ -775,7 +775,7 @@ function layer_unslider_init_func(params){
 					jsFolder = scripts[i].src.substr(0, scripts[i].src.lastIndexOf("/") + 1);
 			}
 			$LAB
-			.script(relativeToAbsoluteURL('plugin/unslider/js/html5zoo.js?v=6')).wait(function(){
+			.script(relativeToAbsoluteURL('html5zoo.js?v=6')).wait(function(){
 					var win_width = $('#scroll_container_bg').width();
 				jQuery("#"+layerid+"html5zoo-1").html5zoo({
 					jsfolder:jsFolder,

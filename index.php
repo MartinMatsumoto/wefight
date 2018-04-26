@@ -16,9 +16,6 @@
     <TITLE>您的网站名称</TITLE>
     <META name="keywords" content="网站关键字">
     <META name="description" content="网站描述">
-    <liNK href="http://static.websiteonline.cn/website/template/default/images/favicon.ico" rel="shortcut icon"
-          type="image/x-icon">
-    <liNK href="http://static.websiteonline.cn/website/template/default/images/favicon.ico" rel="Bookmark">
     <liNK href="index/default.css" rel="stylesheet" type="text/css">
     <liNK href="index/media.css" rel="stylesheet" type="text/css">
     <liNK href="index/title.css" rel="stylesheet" type="text/css">
@@ -63,7 +60,7 @@ $about_us = new about_us($result->fetch());
         'islogin': '0',
         'domain': 'tpl-cf61794',
         'p_rooturl': 'http://education-300.view.sitestar.cn',
-        'static_rooturl': 'http://static.websiteonline.cn/website',
+        'static_rooturl': '/index',
         'interface_locale': "zh_CN",
         'dev_mode': "0",
         'getsession': ''

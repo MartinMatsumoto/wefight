@@ -9,10 +9,6 @@
     <TITLE>东北师大附中与朝阳合作办学 2012年9月开学</TITLE>
     <META name="keywords" content="网站关键字">
     <META name="description" content="网站描述">
-    <LINK href="http://static.websiteonline.cn/website/template/default/images/favicon.ico"
-          rel="shortcut icon" type="image/x-icon">
-    <LINK href="http://static.websiteonline.cn/website/template/default/images/favicon.ico"
-          rel="Bookmark">
     <LINK href="/index/default.css"
           rel="stylesheet" type="text/css">
     <LINK href="/index/media.css"
@@ -82,7 +78,7 @@ if($id != 0){
         'islogin': '0',
         'domain': 'tpl-cf61794',
         'p_rooturl': 'http://education-300.view.sitestar.cn',
-        'static_rooturl': 'http://static.websiteonline.cn/website',
+        'static_rooturl': '/index',
         'interface_locale': "zh_CN",
         'dev_mode': "0",
         'getsession': ''

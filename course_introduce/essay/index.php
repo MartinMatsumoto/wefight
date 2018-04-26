@@ -32,8 +32,6 @@ if($id != 0){
     <title>英语培训</title>
     <meta name="keywords" content="网站关键字" />
     <meta name="description" content="网站描述" />
-    <link href="http://static.websiteonline.cn/website/template/default/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="http://static.websiteonline.cn/website/template/default/images/favicon.ico" rel="Bookmark" />
     <link href="/index/default.css" rel="stylesheet" type="text/css" />
     <link href="/index/media.css" rel="stylesheet" type="text/css" />
     <link href="/index/title.css" rel="stylesheet" type="text/css" />
@@ -79,7 +77,7 @@ if($id != 0){
         'islogin': '0',
         'domain': 'tpl-cf61794',
         'p_rooturl': 'http://education-300.view.sitestar.cn',
-        'static_rooturl': 'http://static.websiteonline.cn/website',
+        'static_rooturl': '/index',
         'interface_locale': "zh_CN",
         'dev_mode': "0",
         'getsession': ''
@@ -740,16 +738,16 @@ if($id != 0){
                         </div>
                         <script language="javascript">
 
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("src", "http://static.websiteonline.cn/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("datas", "http://static.websiteonline.cn/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("src", "/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("datas", "/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
 
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("src", "http://static.websiteonline.cn/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("datas", "http://static.websiteonline.cn/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("src", "/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("datas", "/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
 
 
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("data", "http://static.websiteonline.cn/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("data", "/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
 
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("data", "http://static.websiteonline.cn/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("data", "/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
 
 
                             $('#layerA2F0C72F0F57DA2F939601D7B2C2AE04').find('.arrow_left,.arrow_right').hover(function () {
