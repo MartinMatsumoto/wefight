@@ -21,7 +21,7 @@ class index_banner_dao
         $this->conn = new connection_mysql();
     }
 
-    function save($image_url, $text1, $text2, $text3, $text4)
+    function save($image_url)
     {
 
         try {
@@ -34,7 +34,7 @@ class index_banner_dao
         return true;
     }
 
-    function modify($image_url, $text1, $text2, $text3, $text4, $id)
+    function modify($image_url, $id)
     {
 
         try {

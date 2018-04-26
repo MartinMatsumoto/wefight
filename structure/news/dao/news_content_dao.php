@@ -31,14 +31,6 @@ class news_content_dao
         return $exist;
     }
 
-    function getOne($openid)
-    {
-        $stmt = $this->conn->pdo->prepare($this->getOne);
-        $stmt->bindParam(':openid', $openid);
-        $stmt->execute();
-        return $stmt;
-    }
-
     function save($news_id, $content, $type)
     {
 

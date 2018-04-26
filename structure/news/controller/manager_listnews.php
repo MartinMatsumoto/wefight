@@ -10,13 +10,13 @@ require_once '../../../entrance.php';
 $begin = intval($_POST["begin"]);
 $pageSize = intval($_POST["pageSize"]);
 
-$dao = new essay_dao();
+$dao = new news_dao();
 
-$result = $dao->listEssays($begin, $pageSize, null, null);
+$result = $dao->listNews($begin, $pageSize, null);
 $arr = array();
 while ($row = $result->fetch()) {
-    $essay = new essay($row);
-    array_push($arr, $essay);
+    $news = new news($row);
+    array_push($arr, $news);
 }
 $content = new result($arr, errorCode::$success);
 

@@ -20,7 +20,7 @@ $banner_dao = new index_banner_dao();
 
     <META http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <TITLE>您的网站名称</TITLE>
+    <TITLE>成都北武咏春国术馆</TITLE>
     <META name="keywords" content="网站关键字">
     <META name="description" content="网站描述">
     <liNK href="../index/default.css" rel="stylesheet" type="text/css">
@@ -43,9 +43,6 @@ $banner_dao = new index_banner_dao();
         display: block;
     }
     </STYLE>
-    <script type="text/javascript">
-        document.domain = 'www.aaaaa.com';
-    </script>
 </HEAD>
 <BODY><INPUT name="_user_level_val" type="hidden" value="2">
 <SCRIPT language="javascript" src="../index/script.js" type="text/javascript"></SCRIPT>

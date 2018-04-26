@@ -13,7 +13,7 @@
     <META content="IE=11.0000" http-equiv="X-UA-Compatible">
     <META http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <TITLE>您的网站名称</TITLE>
+    <TITLE>成都北武咏春国术馆</TITLE>
     <META name="keywords" content="网站关键字">
     <META name="description" content="网站描述">
     <liNK href="index/default.css" rel="stylesheet" type="text/css">
@@ -36,7 +36,6 @@
             display: block;
         }
     </STYLE>
-    <META name="GENERATOR" content="MSHTML 11.00.10570.1001">
 </HEAD>
 <BODY><INPUT name="_user_level_val" type="hidden" value="2">
 <?php
@@ -354,7 +353,7 @@ $about_us = new about_us($result->fetch());
                      style="border-width: 0px; border-color: transparent; padding: 0px; width: 266px; height: 145px; display: block; -ms-word-wrap: break-word;">
                     <FONT
                             color="#ffffff" face="微软雅黑"><span
-                                style="line-height: 30.8px; font-size: 14px;"><?php echo $index_content1->content?></span></FONT>
+                                style="line-height: 30.8px; font-size: 14px;"><?php echo $index_content4->content?></span></FONT>
                 </div>
             </div>
             <SCRIPT>                 $('#layer503D667A018C0594D777168C8DC64B46').triggerHandler('layer_ready');</SCRIPT>
@@ -366,7 +365,7 @@ $about_us = new about_us($result->fetch());
                      style="border-width: 0px; border-color: transparent; padding: 0px; width: 230px; height: 126px; display: block; -ms-word-wrap: break-word;">
                     <FONT
                             color="#ffffff" face="微软雅黑"><span
-                                style="line-height: 30.8px; font-size: 14px;"><?php echo $index_content2->content?></span></FONT>
+                                style="line-height: 30.8px; font-size: 14px;"><?php echo $index_content3->content?></span></FONT>
                 </div>
             </div>
             <SCRIPT>                 $('#layer418768531F2218F955EFE3C140399AA4').triggerHandler('layer_ready');</SCRIPT>
@@ -378,7 +377,7 @@ $about_us = new about_us($result->fetch());
                      style="border-width: 0px; border-color: transparent; padding: 0px; width: 239px; height: 126px; display: block; -ms-word-wrap: break-word;">
                     <FONT
                             color="#ffffff" face="微软雅黑"><span
-                                style="line-height: 30.8px; font-size: 14px;"><?php echo $index_content3->content?></span></FONT>
+                                style="line-height: 30.8px; font-size: 14px;"><?php echo $index_content2->content?></span></FONT>
                 </div>
             </div>
             <SCRIPT>                 $('#layer765C5C507E844FAF2D960F41F74D27D7').triggerHandler('layer_ready');</SCRIPT>
@@ -388,7 +387,7 @@ $about_us = new about_us($result->fetch());
                  deg="0" mid="" type="title">
                 <div class="wp-title_content"
                      style="border-width: 0px; border-color: transparent; padding: 0px; width: 230px; height: 126px; display: block; -ms-word-wrap: break-word;"><span
-                            style="color: rgb(255, 255, 255); line-height: 220%; font-family: 微软雅黑; font-size: 14px;"><?php echo $index_content4->content?></span>
+                            style="color: rgb(255, 255, 255); line-height: 220%; font-family: 微软雅黑; font-size: 14px;"><?php echo $index_content1->content?></span>
                 </div>
             </div>
             <SCRIPT>                 $('#layerBD6CD19F1B129784BB1A400B5A81AE7D').triggerHandler('layer_ready');</SCRIPT>

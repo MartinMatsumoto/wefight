@@ -7,13 +7,14 @@
  */
 require_once '../../../entrance.php';
 
-$id = intval($_POST["id"]);
-
 $dao = new index_content_dao();
 
-$result = $dao->getOne($id);
-$index_content = new aboutus($row = $result->fetch());
-$content = new result($index_content, errorCode::$success);
-
+$result = $dao->listIndexContent();
+$arr = array();
+while ($row = $result->fetch()) {
+    $index_content = new index_content($row);
+    array_push($arr, $index_content);
+}
+$content = new result($arr, errorCode::$success);
 $json_string = json_encode($content, JSON_UNESCAPED_UNICODE);
 echo $json_string;

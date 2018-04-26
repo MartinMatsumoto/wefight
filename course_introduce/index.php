@@ -10,7 +10,7 @@ $banner_dao = new index_banner_dao();
     <META content="IE=11.0000" http-equiv="X-UA-Compatible">
     <META http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <TITLE>您的网站名称</TITLE>
+    <TITLE>成都北武咏春国术馆</TITLE>
     <META name="keywords" content="网站关键字">
     <META name="description" content="网站描述">
     <LINK href="/index/default.css" rel="stylesheet" type="text/css">

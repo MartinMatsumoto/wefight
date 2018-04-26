@@ -28,7 +28,7 @@ class index_content_dao
         return $stmt;
     }
 
-    function modify($id, $content, $title)
+    function modify($id, $title, $content)
     {
         try {
             $stmt = $this->conn->pdo->prepare($this->modifyIndexContent);

@@ -10,8 +10,8 @@ class news_dao
 {
     private $conn;
 
-    private $saveNews = "INSERT INTO NEWS_INTRO(title,author,create_date,sub_title,type) VALUES (:title,:author,:create_date,:sub_title,:type)";
-    private $modifyNews = "UPDATE NEWS_INTRO SET `title` = :title,`author` = :author,`create_date` = :create_date,`sub_title` = :sub_title,`type` = :type WHERE id = :id";
+    private $saveNews = "INSERT INTO NEWS_INTRO(cover_url,title,author,create_date,sub_title) VALUES (:cover_url,:title,:author,:create_date,:sub_title)";
+    private $modifyNews = "UPDATE NEWS_INTRO SET `cover_url` = :cover_url,`title` = :title,`author` = :author,`create_date` = :create_date,`sub_title` = :sub_title WHERE id = :id";
     private $getOne = "SELECT * FROM `NEWS_INTRO` WHERE id = :id";
     private $getPrev = "SELECT * FROM `NEWS_INTRO` WHERE id < :id AND delete_ = 0 ORDER BY ID DESC LIMIT 1";
     private $getNext = "SELECT * FROM `NEWS_INTRO` WHERE id > :id AND delete_ = 0 LIMIT 1";
@@ -60,12 +60,12 @@ class news_dao
         return $stmt;
     }
 
-    function save($type, $title, $author, $create_date, $sub_title)
+    function save($cover_url, $title, $author, $create_date, $sub_title)
     {
 
         try {
             $stmt = $this->conn->pdo->prepare($this->saveNews);
-            $stmt->bindParam(':type', $type);
+            $stmt->bindParam(':cover_url', $cover_url);
             $stmt->bindParam(':title', $title);
             $stmt->bindParam(':author', $author);
             $stmt->bindParam(':create_date', $create_date);
@@ -79,11 +79,11 @@ class news_dao
         }
     }
 
-    function modify($type, $title, $author, $create_date, $sub_title, $id)
+    function modify($cover_url, $title, $author, $create_date, $sub_title, $id)
     {
         try {
             $stmt = $this->conn->pdo->prepare($this->modifyNews);
-            $stmt->bindParam(':type', $type);
+            $stmt->bindParam(':cover_url', $cover_url);
             $stmt->bindParam(':title', $title);
             $stmt->bindParam(':author', $author);
             $stmt->bindParam(':create_date', $create_date);
@@ -100,7 +100,7 @@ class news_dao
     {
         $listNewss = "SELECT * FROM NEWS_INTRO WHERE 1=1 ";
 
-        if(isset($delete_)){
+        if (isset($delete_)) {
             $listNewss .= " AND delete_ = :delete_";
         }
 
@@ -108,7 +108,7 @@ class news_dao
         $stmt = $this->conn->pdo->prepare($listNewss);
         $stmt->bindParam(':be', $begin, PDO::PARAM_INT);
         $stmt->bindParam(':en', $size, PDO::PARAM_INT);
-        if(isset($delete_)){
+        if (isset($delete_)) {
             $stmt->bindParam(':delete_', $delete_, PDO::PARAM_INT);
         }
         $stmt->execute();

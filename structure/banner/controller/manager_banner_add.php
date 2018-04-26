@@ -7,10 +7,6 @@
  */
 require_once '../../../entrance.php';
 
-$text1 = $_POST["text1"];
-$text2 = $_POST["text2"];
-$text3 = $_POST["text3"];
-$text4 = $_POST["text4"];
 $user_id = $_COOKIE['jushouqing_manager_id'];
 
 $file = $_FILES['image'];//得到传输的数据
@@ -30,14 +26,14 @@ if (!is_uploaded_file($file['tmp_name'])) {
     return;
 }
 
-$file_name = "/upload/manager/" . $user_id . "_" . time() . '.' . $type;
+$file_name = "/upload/banner/" . $user_id . "_" . time() . '.' . $type;
 $upload_name = $ROOT_DIR . $file_name;
 
 //开始移动文件到相应的文件夹
 if (move_uploaded_file($file['tmp_name'], $upload_name)) {
     $dao = new index_banner_dao();
 
-    $result = $dao->save($file_name, $text1, $text2, $text3, $text4);
+    $result = $dao->save($file_name);
     $content = new result(null, errorCode::$success);
     $json_string = json_encode($content, JSON_UNESCAPED_UNICODE);
     echo $json_string;

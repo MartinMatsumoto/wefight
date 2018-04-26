@@ -11,7 +11,7 @@ $result_group = $group_dao->listGroup(0);
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>您的网站名称</title>
+    <title>成都北武咏春国术馆</title>
     <meta name="keywords" content="网站关键字" />
     <meta name="description" content="网站描述" />
     <link href="/index/default.css" rel="stylesheet" type="text/css" />
@@ -35,7 +35,6 @@ $result_group = $group_dao->listGroup(0);
         }
 
     </style>
-    <meta name="GENERATOR" content="MSHTML 11.00.10570.1001" />
 </head>
 <body>
 <input name="_user_level_val" type="hidden" value="2" />

@@ -114,33 +114,9 @@ Ext.define('MyDesktop.BannerWindow', {
                             },
                             {
                                 text: "图片地址",
-                                width: 100,
+                                width: 500,
                                 sortable: true,
                                 dataIndex: 'image_url'
-                            },
-                            {
-                                text: "第一行字",
-                                width: 140,
-                                sortable: true,
-                                dataIndex: 'text1'
-                            },
-                            {
-                                text: "第二行字",
-                                width: 140,
-                                sortable: true,
-                                dataIndex: 'text2'
-                            },
-                            {
-                                text: "第三行字",
-                                width: 140,
-                                sortable: true,
-                                dataIndex: 'text3'
-                            },
-                            {
-                                text: "第四行字",
-                                width: 140,
-                                sortable: true,
-                                dataIndex: 'text4'
                             }
                         ]
                     }
@@ -241,22 +217,6 @@ Ext.define('MyDesktop.BannerWindow', {
                 vtype:'imageUpload',
                 allowBlank : true
             }, {
-                fieldLabel: '第一行字',
-                name: 'text1',
-                allowBlank: true
-            }, {
-                fieldLabel: '第二行字',
-                name: 'text2',
-                allowBlank: true
-            }, {
-                fieldLabel: '第三行字',
-                name: 'text3',
-                allowBlank: true
-            }, {
-                fieldLabel: '第四行字',
-                name: 'text4',
-                allowBlank: true
-            }, {
                 fieldLabel: '温馨提示',
                 xtype : 'displayfield',
                 value : '图片推荐大小为1350x580像素，所有图片高度请保持一致，请用photoshop转换为web所用格式，大小请压缩至500kb以内。'
@@ -324,22 +284,6 @@ Ext.define('MyDesktop.BannerWindow', {
                 xtype : 'filefield',
                 vtype:'imageUpload',
                 allowBlank : false
-            }, {
-                fieldLabel: '第一行字',
-                name: 'text1',
-                allowBlank: true
-            }, {
-                fieldLabel: '第二行字',
-                name: 'text2',
-                allowBlank: true
-            }, {
-                fieldLabel: '第三行字',
-                name: 'text3',
-                allowBlank: true
-            }, {
-                fieldLabel: '第四行字',
-                name: 'text4',
-                allowBlank: true
             }, {
                 fieldLabel: '温馨提示',
                 xtype : 'displayfield',

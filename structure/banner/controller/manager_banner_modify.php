@@ -8,10 +8,6 @@
 require_once '../../../entrance.php';
 
 $image_url = $_POST["image_url"];
-$text1 = $_POST["text1"];
-$text2 = $_POST["text2"];
-$text3 = $_POST["text3"];
-$text4 = $_POST["text4"];
 $id = $_POST["id"];
 $user_id = $_COOKIE['jushouqing_manager_id'];
 
@@ -22,7 +18,7 @@ $dao = new index_banner_dao();
 
 //没有上传
 if(empty($name)){
-    $result = $dao->modify($image_url, $text1, $text2, $text3, $text4, $id);
+    $result = $dao->modify($image_url, $id);
     $content = new result(null, errorCode::$success);
     $json_string = json_encode($content, JSON_UNESCAPED_UNICODE);
     echo $json_string;
@@ -42,13 +38,13 @@ if (!is_uploaded_file($file['tmp_name'])) {
     return;
 }
 
-$file_name = "/upload/manager/" . $user_id . "_" . time() . '.' . $type;
+$file_name = "/upload/banner/" . $user_id . "_" . time() . '.' . $type;
 $upload_name = $ROOT_DIR . $file_name;
 
 //开始移动文件到相应的文件夹
 if (move_uploaded_file($file['tmp_name'], $upload_name)) {
 
-    $result = $dao->modify($file_name, $text1, $text2, $text3, $text4, $id);
+    $result = $dao->modify($file_name, $id);
     $content = new result(null, errorCode::$success);
     $json_string = json_encode($content, JSON_UNESCAPED_UNICODE);
     echo $json_string;

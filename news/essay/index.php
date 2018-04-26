@@ -37,7 +37,6 @@
         }
     </STYLE>
 
-    <META name="GENERATOR" content="MSHTML 11.00.10570.1001">
 </HEAD>
 <BODY>
 <?php

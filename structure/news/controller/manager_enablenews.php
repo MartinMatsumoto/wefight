@@ -9,9 +9,9 @@ require_once '../../../entrance.php';
 
 $id = intval($_POST["id"]);
 
-$dao = new essay_dao();
+$dao = new news_dao();
 
-$result = $dao->delete($id);
+$result = $dao->enable($id);
 $content = new result(errorCode::$success, errorCode::$success);
 
 $json_string = json_encode($content, JSON_UNESCAPED_UNICODE);

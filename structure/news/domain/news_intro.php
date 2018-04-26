@@ -22,6 +22,8 @@ class news
     public $cover_url;
     //删除
     public $delete_;
+    //首页展示
+    public $index_show;
     // 文章内容
     public $essay_content;
 
@@ -55,6 +57,10 @@ class news
 
             if (array_key_exists("delete_", $row)) {
                 $this->delete_ = $row["delete_"];
+            }
+
+            if (array_key_exists("index_show", $row)) {
+                $this->index_show = $row["index_show"];
             }
 
             if (array_key_exists("essay_content", $row)) {

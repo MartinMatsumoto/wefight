@@ -13,7 +13,7 @@ $contact_us = new contact_us($result->fetch());
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>您的网站名称</title>
+    <title>成都北武咏春国术馆</title>
     <meta name="keywords" content="网站关键字" />
     <meta name="description" content="网站描述" />
     <link href="/index/default.css" rel="stylesheet" type="text/css" />
@@ -37,9 +37,10 @@ $contact_us = new contact_us($result->fetch());
         }
     </style>
     <script type="text/javascript">
-        document.domain = 'sitestar.cn';
+        //<![CDATA[
+        window.jQuery || document.write("<script src='http://api.map.baidu.com/api?v=2.0&ak=Ndcgn2ltp8kXkG2Ip599tREPa3lNrhic'>"+"<"+"/script>");
+        //]]>
     </script>
-    <meta name="GENERATOR" content="MSHTML 11.00.10570.1001" />
 </head>
 <body>
 <input name="_user_level_val" type="hidden" value="2" />
@@ -94,7 +95,32 @@ $contact_us = new contact_us($result->fetch());
                 </script>
                 <div class="wp-baidumap_content" style="border-width: 0px; border-color: transparent; width: 564px; height: 348px;">
                     <div class="lockmove" style="width: 564px; height: 348px; position: absolute;"></div>
-                    <iframe name="mapif" width="100%" height="100%" src="/index/baidu.htm" frameborder="0" scrolling="no" type="1"></iframe>
+                    <div id="map_container" class="map_container" style="width: 564px;height: 348px;"></div>
+                    <script type="text/javascript">
+                        var map = new BMap.Map("map_container");          // 创建地图实例
+                        var point = new BMap.Point(<?php echo $contact_us->longitude ?>,<?php echo $contact_us->latitude ?>);  // 创建点坐标
+                        map.centerAndZoom(point, 30);                 // 初始化地图，设置中心点坐标和地图级别
+
+                        map.addControl(new BMap.NavigationControl());
+                        map.addControl(new BMap.ScaleControl());
+                        map.addControl(new BMap.OverviewMapControl());
+                        // 启用滚轮放大缩小
+                        map.enableScrollWheelZoom();
+
+                        var marker = new BMap.Marker(point);  // 创建标注
+                        var opts = {
+                            width : 100,     // 信息窗口宽度
+                            height: 70,     // 信息窗口高度
+                            enableMessage:true,//设置允许信息窗发送短息
+                        }
+                        var infoWindow = new BMap.InfoWindow("<?php echo $contact_us->address ?>", opts);  // 创建信息窗口对象
+                        marker.addEventListener("click", function(){
+                            map.openInfoWindow(infoWindow,point); //开启信息窗口
+                        });
+                        map.openInfoWindow(infoWindow,point); //开启信息窗口
+                        map.addOverlay(marker);               // 将标注添加到地图中
+                        marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+                    </script>
                 </div>
             </div>
             <script>                 $('#layer617850E97F5764746E724A5681758787').triggerHandler('layer_ready');</script>

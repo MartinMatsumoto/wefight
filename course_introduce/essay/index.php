@@ -62,7 +62,6 @@ if($id != 0){
             color: #ffffff !important;
         }
     </style>
-    <meta name="GENERATOR" content="MSHTML 11.00.10570.1001" />
 </head>
 <body>
 <input name="_user_level_val" type="hidden" value="2" />
