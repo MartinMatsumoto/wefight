@@ -33,7 +33,7 @@ var getContentIndex = function (parent, child) {
 //设置图片路径
 function getpicPathNewsModify()
 {
-    var PICTURE_URL = Ext.getCmp("cover_url_modify").getValue();
+    var PICTURE_URL = Ext.getCmp("news_cover_url_modify").getValue();
     if (!Ext.isEmpty(PICTURE_URL)) {
         Ext.getCmp("imageNewsPathshow").getEl().dom.src = PICTURE_URL;
     } else {
@@ -66,7 +66,7 @@ var newsStore = Ext.create('Ext.data.Store', {
 var newsAddContentForm = Ext.create('Ext.window.Window', {
     id : 'newsAddContentWindow',
     layout: 'fit',
-    title: '增加文章内容',
+    title: '增加新闻内容',
     closeAction: 'hide',
     width: 600,
     height: 200,
@@ -210,7 +210,7 @@ var newsAddContent = function (content, type) {
 var newsAddImageForm = Ext.create('Ext.window.Window', {
     id : 'newsAddImageWindow',
     layout: 'fit',
-    title: '增加文章图片',
+    title: '增加新闻图片',
     closeAction: 'hide',
     width: 600,
     height: 200,
@@ -273,6 +273,8 @@ function getNewsSelModel(){
                 Ext.getCmp("news_modify_button").setDisabled(false);
                 Ext.getCmp("news_delete_button").setDisabled(false);
                 Ext.getCmp("news_enable_button").setDisabled(false);
+                Ext.getCmp("news_show_button").setDisabled(false);
+                Ext.getCmp("news_hide_button").setDisabled(false);
             }
         }
     });
@@ -314,7 +316,7 @@ Ext.define('MyDesktop.NewsWindow', {
 
     init: function () {
         this.launcher = {
-            text: '文章管理'
+            text: '新闻管理'
         };
     },
 
@@ -327,7 +329,7 @@ Ext.define('MyDesktop.NewsWindow', {
         if (!win) {
             win = desktop.createWindow({
                 id: 'news-win',
-                title: '文章信息管理',
+                title: '新闻信息管理',
                 width: 740,
                 height: 480,
                 iconCls: 'icon-grid',
@@ -377,14 +379,21 @@ Ext.define('MyDesktop.NewsWindow', {
                                 sortable: true,
                                 dataIndex: 'delete_',
                                 renderer: deleteRender
+                            },
+                            {
+                                text: "首页展示",
+                                width: 70,
+                                sortable: true,
+                                dataIndex: 'index_show',
+                                renderer: deleteRender
                             }
                         ]
                     }
                 ],
                 tbar: [{
                     id: 'news_add_button',
-                    text: '增加文章',
-                    tooltip: '增加文章',
+                    text: '增加新闻',
+                    tooltip: '增加新闻',
                     handler: function () {
                         Ext.getCmp('newsAddForm').getForm().reset();
                         this_.newsAddForm.show();
@@ -393,7 +402,7 @@ Ext.define('MyDesktop.NewsWindow', {
                     id: 'news_modify_button',
                     text: '修改信息',
                     disabled: true,
-                    tooltip: '修改某个文章填报的信息',
+                    tooltip: '修改某个新闻填报的信息',
                     handler: function () {
                         Ext.getCmp('newsModifyForm').getForm().reset();
                         Ext.getCmp('newsModifyForm').form.loadRecord(currentSel);
@@ -403,11 +412,11 @@ Ext.define('MyDesktop.NewsWindow', {
                     }
                 }, '-', {
                     id: 'news_delete_button',
-                    text: '删除文章',
+                    text: '删除新闻',
                     disabled: true,
-                    tooltip: '删除某个文章填报的信息',
+                    tooltip: '删除某个新闻填报的信息',
                     handler: function () {
-                        Ext.MessageBox.confirm('确定', '是否要删除文章?', function (btn, text) {
+                        Ext.MessageBox.confirm('确定', '是否要删除新闻?', function (btn, text) {
                             if (btn == "yes") {
                                 Ext.Ajax.request({
                                     url: '/structure/news/controller/manager_delnews.php',
@@ -420,6 +429,8 @@ Ext.define('MyDesktop.NewsWindow', {
                                         Ext.getCmp("news_modify_button").setDisabled(true);
                                         Ext.getCmp("news_delete_button").setDisabled(true);
                                         Ext.getCmp("news_enable_button").setDisabled(true);
+                                        Ext.getCmp("news_show_button").setDisabled(true);
+                                        Ext.getCmp("news_hide_button").setDisabled(true);
                                     }
                                 });
                             }
@@ -427,11 +438,11 @@ Ext.define('MyDesktop.NewsWindow', {
                     }
                 }, '-', {
                     id: 'news_enable_button',
-                    text: '恢复文章',
+                    text: '恢复新闻',
                     disabled: true,
-                    tooltip: '恢复某个文章填报的信息',
+                    tooltip: '恢复某个新闻填报的信息',
                     handler: function () {
-                        Ext.MessageBox.confirm('确定', '是否要恢复文章?', function (btn, text) {
+                        Ext.MessageBox.confirm('确定', '是否要恢复新闻?', function (btn, text) {
                             if (btn == "yes") {
                                 Ext.Ajax.request({
                                     url: '/structure/news/controller/manager_enablenews.php',
@@ -444,6 +455,60 @@ Ext.define('MyDesktop.NewsWindow', {
                                         Ext.getCmp("news_modify_button").setDisabled(true);
                                         Ext.getCmp("news_delete_button").setDisabled(true);
                                         Ext.getCmp("news_enable_button").setDisabled(true);
+                                        Ext.getCmp("news_show_button").setDisabled(true);
+                                        Ext.getCmp("news_hide_button").setDisabled(true);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }, '-', {
+                    id: 'news_show_button',
+                    text: '首页展示',
+                    disabled: true,
+                    tooltip: '首页展示某个新闻填报的信息',
+                    handler: function () {
+                        Ext.MessageBox.confirm('确定', '是否要首页展示新闻?', function (btn, text) {
+                            if (btn == "yes") {
+                                Ext.Ajax.request({
+                                    url: '/structure/news/controller/manager_shownews.php',
+                                    params: {
+                                        id: currentSel.data.id
+                                    },
+                                    success: function (response) {
+                                        this_.store.reload();
+                                        newsSelModel.deselectAll();
+                                        Ext.getCmp("news_modify_button").setDisabled(true);
+                                        Ext.getCmp("news_delete_button").setDisabled(true);
+                                        Ext.getCmp("news_enable_button").setDisabled(true);
+                                        Ext.getCmp("news_show_button").setDisabled(true);
+                                        Ext.getCmp("news_hide_button").setDisabled(true);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }, '-', {
+                    id: 'news_hide_button',
+                    text: '取消首页',
+                    disabled: true,
+                    tooltip: '取消首页展示某个新闻填报的信息',
+                    handler: function () {
+                        Ext.MessageBox.confirm('确定', '是否要取消首页展示?', function (btn, text) {
+                            if (btn == "yes") {
+                                Ext.Ajax.request({
+                                    url: '/structure/news/controller/manager_hidenews.php',
+                                    params: {
+                                        id: currentSel.data.id
+                                    },
+                                    success: function (response) {
+                                        this_.store.reload();
+                                        newsSelModel.deselectAll();
+                                        Ext.getCmp("news_modify_button").setDisabled(true);
+                                        Ext.getCmp("news_delete_button").setDisabled(true);
+                                        Ext.getCmp("news_enable_button").setDisabled(true);
+                                        Ext.getCmp("news_show_button").setDisabled(true);
+                                        Ext.getCmp("news_hide_button").setDisabled(true);
                                     }
                                 });
                             }
@@ -465,7 +530,7 @@ Ext.define('MyDesktop.NewsWindow', {
     newsModifyForm: Ext.create('Ext.window.Window', {
         id : 'newsModifyWindow',
         layout: 'fit',
-        title: '修改用户信息',
+        title: '修改新闻信息',
         closeAction: 'hide',
         width: 740,
         height: 480,
@@ -524,7 +589,7 @@ Ext.define('MyDesktop.NewsWindow', {
                 allowBlank: false
             }, {
                 name : 'cover_url',
-                id : 'cover_url_modify',
+                id : 'news_cover_url_modify',
                 xtype : 'hidden'
             }, {
                 xtype : 'image',
@@ -580,9 +645,11 @@ Ext.define('MyDesktop.NewsWindow', {
                                     Ext.getCmp("news_modify_button").setDisabled(true);
                                     Ext.getCmp("news_delete_button").setDisabled(true);
                                     Ext.getCmp("news_enable_button").setDisabled(true);
+                                    Ext.getCmp("news_show_button").setDisabled(true);
+                                    Ext.getCmp("news_hide_button").setDisabled(true);
                                     Ext.getCmp('newsModifyForm').getForm().reset();
                                     Ext.getCmp('news_modify_content_container').removeAll();
-                                    Ext.Msg.alert('成功', '文章修改成功。');
+                                    Ext.Msg.alert('成功', '新闻修改成功。');
                                     Ext.getCmp('newsModifyWindow').close();
                                     newsSelModel.deselectAll();
                                     newsStore.reload();
@@ -591,6 +658,8 @@ Ext.define('MyDesktop.NewsWindow', {
                                     Ext.getCmp("news_modify_button").setDisabled(true);
                                     Ext.getCmp("news_delete_button").setDisabled(true);
                                     Ext.getCmp("news_enable_button").setDisabled(true);
+                                    Ext.getCmp("news_show_button").setDisabled(true);
+                                    Ext.getCmp("news_hide_button").setDisabled(true);
                                     newsSelModel.deselectAll();
                                     Ext.Msg.alert('失败', '请刷新后重试。');
                                 }
@@ -603,7 +672,7 @@ Ext.define('MyDesktop.NewsWindow', {
     newsAddForm: Ext.create('Ext.window.Window', {
         id : 'newsAddWindow',
         layout: 'fit',
-        title: '增加文章',
+        title: '增加新闻',
         closeAction: 'hide',
         width: 740,
         height: 480,
@@ -700,9 +769,11 @@ Ext.define('MyDesktop.NewsWindow', {
                                     Ext.getCmp("news_modify_button").setDisabled(true);
                                     Ext.getCmp("news_delete_button").setDisabled(true);
                                     Ext.getCmp("news_enable_button").setDisabled(true);
+                                    Ext.getCmp("news_show_button").setDisabled(true);
+                                    Ext.getCmp("news_hide_button").setDisabled(true);
                                     Ext.getCmp('newsAddForm').getForm().reset();
                                     Ext.getCmp('news_content_container').removeAll();
-                                    Ext.Msg.alert('成功', '文章添加成功。');
+                                    Ext.Msg.alert('成功', '新闻添加成功。');
                                     Ext.getCmp('newsAddWindow').close();
                                     newsSelModel.deselectAll();
                                     newsStore.reload();
@@ -711,6 +782,8 @@ Ext.define('MyDesktop.NewsWindow', {
                                     Ext.getCmp("news_modify_button").setDisabled(true);
                                     Ext.getCmp("news_delete_button").setDisabled(true);
                                     Ext.getCmp("news_enable_button").setDisabled(true);
+                                    Ext.getCmp("news_show_button").setDisabled(true);
+                                    Ext.getCmp("news_hide_button").setDisabled(true);
                                     newsSelModel.deselectAll();
                                     Ext.Msg.alert('失败', '请刷新后重试。');
                                 }

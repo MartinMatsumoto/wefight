@@ -18,6 +18,8 @@ class news_dao
     private $count = "SELECT COUNT(*) AS COUNT from `NEWS_INTRO`";
     private $delete = "UPDATE `NEWS_INTRO` SET delete_ = 1 WHERE id = :id";
     private $enable = "UPDATE `NEWS_INTRO` SET delete_ = 0 WHERE id = :id";
+    private $show = "UPDATE `NEWS_INTRO` SET index_show = 1 WHERE id = :id";
+    private $hide = "UPDATE `NEWS_INTRO` SET index_show = 0 WHERE id = :id";
 
     //构造函数
     function __construct()
@@ -133,6 +135,22 @@ class news_dao
     function enable($id)
     {
         $stmt = $this->conn->pdo->prepare($this->enable);
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt;
+    }
+
+    function hide($id)
+    {
+        $stmt = $this->conn->pdo->prepare($this->hide);
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt;
+    }
+
+    function show($id)
+    {
+        $stmt = $this->conn->pdo->prepare($this->show);
         $stmt->bindParam(':id', $id, PDO::PARAM_INT);
         $stmt->execute();
         return $stmt;

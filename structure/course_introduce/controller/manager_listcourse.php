@@ -10,17 +10,17 @@ require_once '../../../entrance.php';
 $begin = intval($_POST["begin"]);
 $pageSize = intval($_POST["pageSize"]);
 
-$dao = new essay_dao();
+$dao = new course_intro_dao();
 
-$result = $dao->listEssays($begin, $pageSize, null, null);
+$result = $dao->listCourseIntro($begin, $pageSize, null, null);
 $arr = array();
 while ($row = $result->fetch()) {
-    $essay = new courseintroduce($row);
-    array_push($arr, $essay);
+    $course_intro = new course_introduce($row);
+    array_push($arr, $course_intro);
 }
 $content = new result($arr, errorCode::$success);
 
-$countResult = $dao->count();
+$countResult = $dao->count(null);
 $countRow = $countResult->fetch();
 $content->count = $countRow["COUNT"];
 

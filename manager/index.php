@@ -24,7 +24,7 @@ if (!empty($key) && !empty($name) && !empty($id)) {
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>绵阳职业技术学院成都校友会-后台管理系统</title>
+    <title>成都北武咏春国术馆-后台管理系统</title>
 
     <link rel="stylesheet" type="text/css" href="css/desktop.css"/>
     <link rel="stylesheet" type="text/css" href="css/ext-all.css"/>
