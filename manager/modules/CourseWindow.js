@@ -30,6 +30,15 @@ var getContentIndex = function (parent, child) {
     return 0;
 }
 
+var courseTypeRender = function (val) {
+    if (val == 1) {
+        return '醉聚绵职';
+    } else if (val == 2) {
+        return '首善蓉城';
+    }
+    return val;
+}
+
 //设置图片路径
 function getpicPathCourseModify()
 {
@@ -49,6 +58,28 @@ var courseStore = Ext.create('Ext.data.Store', {
         extraParams: {},
         type: 'rest',
         url: '/structure/course_introduce/controller/manager_listcourse.php',
+        reader: {
+            type: 'json',
+            root: 'content',// JSON数组对象名
+            totalProperty: 'count'// 数据集记录总数
+        },
+        actionMethods: {
+            read: 'POST'
+        },
+        limitParam: 'pageSize',
+        //pageParam : 'currentPage',
+        startParam: 'begin'
+    }
+});
+
+var courseTypeStore = Ext.create('Ext.data.Store', {
+    fields: ['id', 'title', 'author', 'create_date', 'sub_title', 'type', 'delete_','cover_url', 'index_show', 'course_content'],
+    autoLoad: false,
+    pageSize: 20,
+    proxy: {
+        extraParams: {},
+        type: 'rest',
+        url: '/structure/course_introduce/controller/manager_listcourse_type.php',
         reader: {
             type: 'json',
             root: 'content',// JSON数组对象名
@@ -374,6 +405,13 @@ Ext.define('MyDesktop.CourseWindow', {
                                 dataIndex: 'sub_title'
                             },
                             {
+                                text: "类型",
+                                width: 70,
+                                sortable: true,
+                                dataIndex: 'type',
+                                renderer: courseTypeRender
+                            },
+                            {
                                 text: "是否删除",
                                 width: 70,
                                 sortable: true,
@@ -572,6 +610,30 @@ Ext.define('MyDesktop.CourseWindow', {
                 fieldLabel: '标题',
                 name: 'title',
                 allowBlank: false
+            }, {
+                fieldLabel: '类型',
+                name: 'type',
+                size: 5,
+                allowBlank: false,
+                xtype: 'combo',
+                mode: 'local',
+                value: '1',
+                forceSelection: true,
+                editable: false,
+                typeAhead: true,
+                displayField: 'name',
+                valueField: 'value',
+                queryMode: 'local',
+                store: Ext.create('Ext.data.Store', {
+                    fields: ['name', 'value'],
+                    data: [{
+                        name: '醉聚绵职',
+                        value: '1'
+                    }, {
+                        name: '首善蓉城',
+                        value: '2'
+                    }]
+                })
             }, {
                 fieldLabel: '作者',
                 name: 'author',
