@@ -1,0 +1,18 @@
+.uploadifyQueueItem {
+	font: 11px/normal Verdana, Geneva, sans-serif; padding: 5px; width: auto; margin-top: 2px; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255);
+}
+.uploadifyError {
+	border: 2px solid rgb(251, 203, 188) !important; border-image: none !important; background-color: rgb(253, 229, 221) !important;
+}
+.uploadifyQueueItem .cancel {
+	float: right;
+}
+.uploadifyQueue .completed {
+	background-color: rgb(229, 229, 229);
+}
+.uploadifyProgress {
+	width: 100%; margin-top: 5px; background-color: rgb(229, 229, 229);
+}
+.uploadifyProgressBar {
+	width: 1px; height: 3px; background-color: rgb(0, 153, 255);
+}

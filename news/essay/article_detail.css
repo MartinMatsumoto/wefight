@@ -1,0 +1,40 @@
+.wp-article_detail_content .artdetail_title {
+	padding: 3px 0px; width: 100%; text-align: center; color: rgb(66, 97, 0); line-height: 1.7em; overflow: hidden; font-size: 16px; font-weight: bold;
+}
+.wp-article_detail_content .artview_info {
+	padding: 3px 0px; text-align: center; line-height: 1.7em;
+}
+.wp-article_detail_content .artview_intro {
+	padding: 5px 0px; border: 1px solid rgb(229, 229, 229); border-image: none; color: rgb(134, 134, 134); line-height: 1.7em; text-indent: 24px; margin-bottom: 10px; background-color: rgb(245, 245, 245);
+}
+.wp-article_detail_content .artview_content {
+	line-height: 1.7em; padding-top: 8px; clear: both; min-height: 50px;
+}
+.wp-article_detail_content .artview_thumb {
+	border: 1px solid rgb(213, 225, 226); border-image: none; width: 95px; height: 90px; text-align: center; margin-right: 10px; float: left;
+}
+.wp-article_detail_content .artview_thumb img {
+	vertical-align: middle; display: inline-block;
+}
+.wp-article_detail_content .artview_guide {
+	margin-top: 5px; float: left;
+}
+.artview_detail {
+	text-indent: 0px;
+}
+.artview_detail table {
+	margin: auto;
+}
+.wp-article_detail_content .artview_prev_next a:hover {
+	text-decoration: none;
+}
+.wp-article_detail_content .artview_detail ol {
+	list-style-type: decimal;
+}
+.wp-article_detail_content .artview_detail ol li {
+	display: list-item; list-style-type: decimal;
+}
+.essay_image{
+	text-align: center;
+	margin: 20px 0 20px 0;
+}

@@ -1,0 +1,33 @@
+.wp-chtml_content .wp-script {
+	width: 0px; height: 0px; font-size: 0px; display: none;
+}
+.wp-chtml_content .wp-style {
+	width: 0px; height: 0px; font-size: 0px; display: none;
+}
+.wp-chtml_content .wp-iframe {
+	width: 0px; height: 0px; font-size: 0px; display: none;
+}
+.wp-chtml_content img.wp-flash {
+	background-position: center; border: currentColor; border-image: none; width: 32px; height: 32px; background-repeat: no-repeat;
+}
+.wp-chtml_content img.wp-rm {
+	background-position: center; border: currentColor; border-image: none; width: 32px; height: 32px; background-repeat: no-repeat;
+}
+.wp-chtml_content img.wp-media {
+	background-position: center; border: currentColor; border-image: none; width: 32px; height: 32px; background-repeat: no-repeat;
+}
+.wp-chtml_content img.wp-flash {
+	background-image: url("../view/icons/flash.gif");
+}
+.wp-chtml_content img.wp-rm {
+	background-image: url("../view/icons/rm.gif");
+}
+.wp-chtml_content img.wp-media {
+	background-image: url("../view/icons/media.gif");
+}
+.wp-chtml_content img.wp-anchor {
+	border: currentColor; border-image: none; width: 16px; height: 16px;
+}
+.wp-chtml_content div.imgloading {
+	background: url("/template/default/images/loading2.gif") no-repeat center; left: 0px; top: 0px; position: absolute;
+}

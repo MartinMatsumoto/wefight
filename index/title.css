@@ -1,0 +1,63 @@
+.wp-title_content {
+	line-height: 140%; overflow: hidden; font-size: 12px;
+}
+.wp-title_content h1 {
+	line-height: 140%;
+}
+.wp-title_content h2 {
+	line-height: 140%;
+}
+.wp-title_content h3 {
+	line-height: 140%;
+}
+.wp-title_content .wp-script {
+	width: 0px; height: 0px; font-size: 0px; display: none;
+}
+.wp-title_content .wp-style {
+	width: 0px; height: 0px; font-size: 0px; display: none;
+}
+.wp-title_content .wp-iframe {
+	width: 0px; height: 0px; font-size: 0px; display: none;
+}
+.wp-title_content img.wp-flash {
+	background-position: center; border: currentColor; border-image: none; width: 32px; height: 32px; background-repeat: no-repeat;
+}
+.wp-title_content img.wp-rm {
+	background-position: center; border: currentColor; border-image: none; width: 32px; height: 32px; background-repeat: no-repeat;
+}
+.wp-title_content img.wp-media {
+	background-position: center; border: currentColor; border-image: none; width: 32px; height: 32px; background-repeat: no-repeat;
+}
+.wp-title_content img.wp-flash {
+	background-image: url("../view/icons/flash.gif");
+}
+.wp-title_content img.wp-rm {
+	background-image: url("../view/icons/rm.gif");
+}
+.wp-title_content img.wp-media {
+	background-image: url("../view/icons/media.gif");
+}
+.wp-title_content img.wp-anchor {
+	border: currentColor; border-image: none; width: 16px; height: 16px;
+}
+.wp-title_content ul {
+	list-style: inside;
+}
+.wp-title_content ul li {
+	list-style-type: disc;
+}
+.wp-title_content ol {
+	list-style: decimal inside;
+}
+.wp-title_content ol li {
+	list-style-type: decimal;
+}
+.wp-title_content span {
+	line-height: 140%;
+}
+.wp-title_content p {
+	line-height: 140%;
+}
+.wp-title_content div {
+	line-height: 140%;
+}

@@ -1,0 +1,15 @@
+.wp-article_category_content .old_version_1 {
+	padding-top: 5px;
+}
+.wp-article_category_content .old_version_1 ul li {
+	background: url("../view/images/li-arrow.gif") no-repeat 0px 5px; padding: 0px 0px 4px 12px; width: 100%; overflow: hidden; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed; float: left;
+}
+.wp-article_category_content .old_version_1 ul li.lastline {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.wp-article_category_content .old_version_1 ul ul {
+	display: none;
+}
+.wp-article_category_content .old_version_1 ul ul li {
+	background: none; padding: 0px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}

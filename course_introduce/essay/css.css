@@ -1,0 +1,54 @@
+.Gpic {
+	margin: 0px auto; width: 300px; height: 412px; padding-top: 5px; position: relative;
+}
+.cxpng {
+	left: 7px; top: 10px; position: absolute; z-index: 100;
+}
+.Gpic .pic {
+	width: 300px; height: 300px; text-align: center; overflow: hidden; position: relative;
+}
+.Gpic .pic img {
+	margin: 0px auto;
+}
+.Xgt {
+	padding: 9px 0px 0px; width: 100%; height: 68px; float: left;
+}
+.Xgt .Al {
+	width: 23px; height: 68px; margin-left: 2px; float: left; display: inline;
+}
+.overflow_zgt{
+	overflow-x: scroll !important;
+}
+.Xgt .zgt {
+	width: 249px; overflow: hidden; margin-top: 2px; margin-left: 1px; float: left;
+}
+.Xgt .zgt ul {
+	
+}
+.Xgt .zgt li {
+	width: 60px; height: 68px; margin-right: 6px; float: left;
+}
+.Xgt .zgt li .wp-new-prodcuts-detail-picture-small-element {
+	border: 1px solid rgb(156, 156, 156); border-image: none;
+}
+.Xgt .zgt li img {
+	width: 54px; height: 54px; float: left;
+}
+.Xgt .Ar {
+	width: 23px; height: 68px; float: left;
+}
+.Gpic .wp-new-prodcuts-detail-picture-small-element {
+	position: relative;
+}
+.Gpic .pic div.imgloading {
+	left: 0px; top: 0px; position: absolute;
+}
+.Gpic .wp-new-prodcuts-detail-picture-small-element div.imgloading {
+	left: 0px; top: 0px; position: absolute;
+}
+.Xgt .arrowimg {
+	cursor: pointer;
+}
+.Xgt .arrowimg img {
+	width: 23px; height: 68px;
+}
