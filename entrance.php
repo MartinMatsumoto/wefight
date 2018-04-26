@@ -31,3 +31,7 @@ require_once dirname(__FILE__) . '/structure/group/dao/group_dao.php';
 require_once dirname(__FILE__) . '/structure/group/domain/group.php';
 require_once dirname(__FILE__) . '/structure/contact_us/dao/index_contact_us_dao.php';
 require_once dirname(__FILE__) . '/structure/contact_us/domain/contact_us.php';
+
+require_once dirname(__FILE__) . '/structure/operator/domain/operator.php';
+require_once dirname(__FILE__) . '/structure/operator/dao/operator_dao.php';
+

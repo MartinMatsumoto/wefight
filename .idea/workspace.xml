@@ -2,11 +2,571 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdae6ef-4cb3-492c-a5d9-bb64d0d0fb35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/boundlist/trigger-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/box/corners-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/box/corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/box/l-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/box/l.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/box/r-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/box/r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/box/tb-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/box/tb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn-group/btn-group-default-framed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn-group/btn-group-default-framed-notitle-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn-group/btn-group-default-framed-notitle-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn-group/btn-group-default-framed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-disabled-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-disabled-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-focus-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-focus-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-pressed-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-pressed-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-large-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-disabled-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-disabled-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-focus-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-focus-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-pressed-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-pressed-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-medium-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-disabled-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-disabled-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-focus-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-focus-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-pressed-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-pressed-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-small-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-focus-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-focus-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-pressed-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-pressed-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-large-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-focus-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-focus-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-pressed-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-pressed-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-medium-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-focus-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-focus-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-pressed-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-pressed-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/btn/btn-default-toolbar-small-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/group-cs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/group-lr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/group-tb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-b-noline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-b.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-bo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-light-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-light.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-noline-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-noline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-o-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-o.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/button/s-arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/datepicker/datepicker-footer-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/datepicker/datepicker-header-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/dd/drop-add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/dd/drop-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/dd/drop-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/editor/tb-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/checkbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/clear-trigger-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/clear-trigger.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/date-trigger-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/date-trigger.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/error-tip-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/exclamation.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/radio.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/search-trigger-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/search-trigger.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/spinner-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/spinner-small-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/spinner-small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/text-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/trigger-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/trigger-square-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/trigger-square.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/trigger-tpl-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/trigger-tpl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/form/trigger.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/arrow-left-white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/arrow-right-white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/cell-special-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/cell-special-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/cell-special-selected-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/cell-special-selected-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/col-move-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/col-move-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/column-header-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/column-header-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/columns.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/dd-insert-arrow-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/dd-insert-arrow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/dd-insert-arrow-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/dd-insert-arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/dirty-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/dirty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/done.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/drop-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/drop-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/footer-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid-blue-hd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid-blue-split.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid-hrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid-split.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid-vista-hd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid3-hd-btn-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid3-hd-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid3-hrow-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid3-hrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/grid3-rowheader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/group-by.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/group-collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/group-expand-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/group-expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/hd-pop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/hmenu-asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/hmenu-desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/hmenu-lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/hmenu-lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/hmenu-unlock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/hmenu-unlock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/invalid_line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/mso-hd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/nowait.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/page-first-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/page-first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/page-last-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/page-last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/page-next-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/page-next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/page-prev-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/page-prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/pick-button.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/property-cell-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/property-cell-selected-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/refresh-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/refresh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/row-check-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/row-expand-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/row-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/row-sel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/sort-hd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/sort_asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/sort_desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/grid/wait.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/layout/mini-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/layout/mini-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/layout/mini-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/layout/mini-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/checked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/group-checked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/item-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/menu-item-active-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/menu-parent-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/menu-parent.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/menu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/scroll-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/scroll-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/menu/unchecked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-bottom-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-bottom-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-bottom-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-bottom-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-bottom-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-left-bg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-left-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-left-fbg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-left-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-left-sides-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-right-bg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-right-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-right-fbg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-right-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-right-sides-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-top-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-top-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-collapsed-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-left-bg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-left-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-left-fbg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-left-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-left-sides-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-right-bg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-right-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-right-fbg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-right-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-right-sides-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-top-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-top-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-framed-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-left-bg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-left-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-right-bg-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-right-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel-header/panel-header-default-top-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel/panel-default-framed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/panel/panel-default-framed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/progress/progress-default-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/blue-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/glass-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/hd-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/icon-error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/icon-info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/icon-question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/icon-warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/large-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/left-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/loading-balls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/right-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/shadow-c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/shadow-lr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/shared/warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/e-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/e-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/ne-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/ne-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/nw-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/nw-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/s-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/s-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/se-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/se-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/square.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/sw-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/sizer/sw-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/slider/slider-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/slider/slider-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/slider/slider-thumb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/slider/slider-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/slider/slider-v-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/slider/slider-v-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/slider/slider-v-thumb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/slider/slider-v-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/default-scroll-bottom-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/default-scroll-bottom-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/default-scroll-left-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/default-scroll-left-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/default-scroll-right-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/default-scroll-right-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/default-scroll-top-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/default-scroll-top-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/tab-bar-default-bottom-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/tab-bar-default-left-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/tab-bar-default-right-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab-bar/tab-bar-default-top-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-active-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-active-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-active-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-disabled-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-disabled-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-active-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-active-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-active-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-disabled-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-disabled-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tab/tab-default-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tip/tip-default-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tip/tip-default-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tip/tip-form-invalid-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tip/tip-form-invalid-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/toolbar/more-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/toolbar/more.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/toolbar/scroll-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/toolbar/scroll-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/toolbar/toolbar-default-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tools/tool-sprite-tpl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tools/tool-sprites.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tools/tools-sprites-trans.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/arrows-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-above.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-append.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-below.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-between.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-under.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/drop-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-end-minus-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-end-minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-end-plus-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-end-plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-end-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-line-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-minus-nl-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-minus-nl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-minus-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-plus-nl-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-plus-nl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-plus-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/elbow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/folder-open-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/folder-open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/folder-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/leaf-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/leaf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/tree/s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/util/splitter/mini-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/util/splitter/mini-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/util/splitter/mini-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/util/splitter/mini-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-collapsed-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window-header/window-header-default-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window/window-default-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/images/window/window-default-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/accordian.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/accordionLarge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/bogus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/chart48x48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/company.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/company_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/desktop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/desktop3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/direction.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/essay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/gears.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/gears.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/grid32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/grid48x48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/grid48x48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/gridLarge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/hatch.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/hd-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/hd-tb-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/icon_padlock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/icons-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/im32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/im48x48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/im48x48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/launcher-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/launcher-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/logout.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/member.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/notepadLarge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/person.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/powered-by-ext-js.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/statusLarge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/tabs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/item-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/scroll-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/scroll-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/start-menu-left-corners.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/start-menu-left-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/start-menu-right-corners.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/start-menu-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/start-menu-top-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/startbutton-icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/startbutton.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/taskbar-split-h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/taskbar-start-panel-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/taskbutton.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/black/taskbuttons-panel-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/sencha.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/taskbar/sencha.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/winbar-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/winbar-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/windows-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/Blue-Sencha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/Dark-Sencha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/Wood-Sencha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/desk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/desktop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/desktop2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/ext.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/shiny.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/wallpapers/sky.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/css/desktop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/css/ext-all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/ext-theme-classic-all-debug.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/ext-theme-classic-all-rtl-debug.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/ext-theme-classic-all-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/ext-theme-classic/ext-theme-classic-all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/Desktop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/Module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/ShortcutModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/StartMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/TaskBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/Video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/Wallpaper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/js/ext-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/AboutUsWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/BannerWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/BogusMenuModule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/BogusModule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/CompanyActiveWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/CompanyWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/EssayWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/GridWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/Notepad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/Settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/SystemStatus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/TabWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/UsersWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/VideoWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/WallpaperModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/operator/controller/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/operator/dao/operator_dao.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/operator/domain/operator.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact_us/index.php" afterPath="$PROJECT_DIR$/contact_us/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entrance.php" afterPath="$PROJECT_DIR$/entrance.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.php" afterPath="$PROJECT_DIR$/include/footer.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +585,28 @@
     <favorites_list name="wefight" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="operator.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structure/operator/domain/operator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.096774">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/structure/operator/controller/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2682927">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -148,12 +729,12 @@
         <option value="$PROJECT_DIR$/structure/group/dao/group_dao.php" />
         <option value="$PROJECT_DIR$/group_introduce/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/entrance.php" />
         <option value="$PROJECT_DIR$/structure/contact_us/controller/get_index_contact_us.php" />
         <option value="$PROJECT_DIR$/structure/contact_us/dao/index_contact_us_dao.php" />
         <option value="$PROJECT_DIR$/contact_us/index.php" />
         <option value="$PROJECT_DIR$/structure/contact_us/domain/contact_us.php" />
         <option value="$PROJECT_DIR$/include/footer.php" />
+        <option value="$PROJECT_DIR$/entrance.php" />
       </list>
     </option>
   </component>
@@ -400,30 +981,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/news/article_category.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/banner/controller/manager_banner_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/blank.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/news/5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/structure/news/domain/news_content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -800,14 +1357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entrance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74738675">
-          <caret line="31" column="80" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.337979">
@@ -852,35 +1401,77 @@
         <state vertical-scroll-proportion="0.5365854">
           <caret line="131" column="154" selection-start-line="131" selection-start-column="125" selection-end-line="131" selection-end-column="154" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#font#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#font#0;n#div#4;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#font#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#4;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/operator/dao/operator_dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524714896667" expanded="true" signature="150:224" placeholder="SELECT * FRO..operator..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/operator/domain/operator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.096774">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entrance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8466899">
+          <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/operator/controller/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2682927">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
