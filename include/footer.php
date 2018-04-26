@@ -1,58 +1,43 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Martin
- * Date: 2018/4/12
- * Time: 21:18
- */
+$index_contact_us_dao = new index_contact_us_dao();
+
+$result = $index_contact_us_dao->getOne(1);
+$contact_us = new contact_us($result->fetch());
 ?>
 <div id="site_footer" style="width: 1200px; height: 296px; margin-top: 0px; position: absolute; z-index: 500;">
-    <div class="full_width" style="height: 296px; position: absolute; background-color: rgb(23, 23, 23);"
-         margintopheight="0"></div>
-    <div class="full_content" id="footer_content"
-         style="left: 0px; top: 0px; width: 1200px; height: 296px; margin-left: 0px; position: absolute;">
-        <div class="cstlayer" id="layer7BC8C5DC82896F441A726BD69BE30964"
-             style="left: 73px; top: 59px; width: 363px; height: 199px; position: absolute; z-index: 101;"
-             deg="0" mid="" type="title" inbuttom="1">
-            <div class="wp-title_content"
-                 style="padding: 0px; border: 0px solid transparent; border-image: none; width: 363px; height: 199px; display: block; -ms-word-wrap: break-word;">
-                <div style="font: 12px/140% Arial, 宋体, Helvetica, sans-serif, Verdana; color: rgb(90, 90, 90);"><span
-                        style="color: rgb(204, 204, 204); line-height: 300%; font-family: 微软雅黑; font-size: 14px;">联系QQ：2585065xx&nbsp;</span>
+    <div class="full_width" style="height: 296px; position: absolute; background-color: rgb(23, 23, 23);" margintopheight="0"></div>
+    <div class="full_content" id="footer_content" style="left: 0px; top: 0px; width: 1200px; height: 296px; margin-left: 0px; position: absolute;">
+        <div class="cstlayer" id="layer7BC8C5DC82896F441A726BD69BE30964" style="left: 73px; top: 59px; width: 363px; height: 199px; position: absolute; z-index: 101;" deg="0" mid="" type="title" inbuttom="1">
+            <div class="wp-title_content" style="padding: 0px; border: 0px solid transparent; border-image: none; width: 363px; height: 199px; display: block; -ms-word-wrap: break-word;">
+                <div style="font: 12px/140% Arial, 宋体, Helvetica, sans-serif, Verdana; color: rgb(90, 90, 90);">
+                    <span style="color: rgb(204, 204, 204); line-height: 300%; font-family: 微软雅黑; font-size: 14px;">联系QQ：<?php echo $contact_us->qq ?></span>
                 </div>
-                <div style="font: 12px/140% Arial, 宋体, Helvetica, sans-serif, Verdana; color: rgb(90, 90, 90);"><span
-                        style="color: rgb(204, 204, 204); line-height: 300%; font-family: 微软雅黑; font-size: 14px;">联系地址：XXX省XXX市XXX县XXX路</span>
+                <div style="font: 12px/140% Arial, 宋体, Helvetica, sans-serif, Verdana; color: rgb(90, 90, 90);">
+                    <span style="color: rgb(204, 204, 204); line-height: 300%; font-family: 微软雅黑; font-size: 14px;">联系地址：<?php echo $contact_us->address ?></span>
                 </div>
-                <div style="font: 12px/140% Arial, 宋体, Helvetica, sans-serif, Verdana; color: rgb(90, 90, 90);"><span
-                        style="color: rgb(204, 204, 204); line-height: 300%; font-family: 微软雅黑; font-size: 14px;">手机号码：130000000xxxx
-&nbsp; &nbsp;</span></div>
-                <div><span
-                        style="font: 14px/300% 微软雅黑; color: rgb(204, 204, 204);">联系邮箱：</span><FONT
-                        color="#cccccc" face="微软雅黑"><span
-                            style="line-height: 42px; font-size: 14px;">conxxxxxxx@qq.com</span></FONT></div>
-                <div style="font: 12px/140% Arial, 宋体, Helvetica, sans-serif, Verdana; color: rgb(90, 90, 90);"><span
-                        style="color: rgb(204, 204, 204); line-height: 300%; font-family: 微软雅黑; font-size: 14px;">联系电话：020-0000
-&nbsp; &nbsp; &nbsp;400-00-0000</span></div>
+                <div style="font: 12px/140% Arial, 宋体, Helvetica, sans-serif, Verdana; color: rgb(90, 90, 90);">
+                    <span style="color: rgb(204, 204, 204); line-height: 300%; font-family: 微软雅黑; font-size: 14px;">手机号码：<?php echo $contact_us->phone ?></span>
+                </div>
+                <div>
+                    <span style="font: 14px/300% 微软雅黑; color: rgb(204, 204, 204);">联系邮箱：</span>
+                    <font color="#cccccc" face="微软雅黑"><span style="line-height: 42px; font-size: 14px;"><?php echo $contact_us->email ?></span></font>
+                </div>
+                <div style="font: 12px/140% Arial, 宋体, Helvetica, sans-serif, Verdana; color: rgb(90, 90, 90);">
+                    <span style="color: rgb(204, 204, 204); line-height: 300%; font-family: 微软雅黑; font-size: 14px;">联系电话：<?php echo $contact_us->tel ?></span>
+                </div>
             </div>
         </div>
-        <SCRIPT>                 $('#layer7BC8C5DC82896F441A726BD69BE30964').triggerHandler('layer_ready');</SCRIPT>
-
-        <div class="cstlayer" id="layer3B96EC04F640766817A41F971B772246"
-             style="left: 75px; top: 15px; width: 86px; height: 34px; position: absolute; z-index: 100;"
-             deg="0" mid="" type="title" inbuttom="1">
+        <script>                 $('#layer7BC8C5DC82896F441A726BD69BE30964').triggerHandler('layer_ready');</script>
+        <div class="cstlayer" id="layer3B96EC04F640766817A41F971B772246" style="left: 75px; top: 15px; width: 86px; height: 34px; position: absolute; z-index: 100;" deg="0" mid="" type="title" inbuttom="1">
             <div class="wp-title_content" style="padding: 0px; border: 0px solid transparent; border-image: none; width: 86px; height: 34px; display: block; -ms-word-wrap: break-word;">
                 <span style="color: rgb(204, 204, 204); font-family: 微软雅黑; font-size: 20px;">联系我们</span>
             </div>
         </div>
-        <SCRIPT>                 $('#layer3B96EC04F640766817A41F971B772246').triggerHandler('layer_ready');</SCRIPT>
-
-        <div class="cstlayer" id="layerFA7142981F4F9B1279EA8BD66124B477"
-             style="left: 738px; top: 28px; width: 334px; height: 254px; position: absolute; z-index: 102;"
-             deg="0" mid="" type="new_message_form" inbuttom="1">
-            <liNK href="index/uploadify2.css"
-                  rel="stylesheet" type="text/css">
-            <div class="wp-new_message_form_content"
-                 style="padding: 0px; border: 0px solid transparent; border-image: none; width: 334px; height: 254px; overflow: hidden;">
-                <STYLE type="text/css">#layerFA7142981F4F9B1279EA8BD66124B477 .requiredtip {
+        <script>                 $('#layer3B96EC04F640766817A41F971B772246').triggerHandler('layer_ready');</script>
+        <div class="cstlayer" id="layerFA7142981F4F9B1279EA8BD66124B477" style="left: 738px; top: 28px; width: 334px; height: 254px; position: absolute; z-index: 102;" deg="0" mid="" type="new_message_form" inbuttom="1">
+            <link href="index/uploadify2.css" rel="stylesheet" type="text/css" />
+            <div class="wp-new_message_form_content" style="padding: 0px; border: 0px solid transparent; border-image: none; width: 334px; height: 254px; overflow: hidden;">
+                <style type="text/css">#layerFA7142981F4F9B1279EA8BD66124B477 .requiredtip {
                         display: inline;
                         position: absolute;
                         left: 0;
@@ -465,9 +450,8 @@
 
                     #layerFA7142981F4F9B1279EA8BD66124B477 ul.mfields .title {
                         color: #cccccc;
-                    }</STYLE>
-
-                <STYLE type="text/css">
+                    }</style>
+                <style type="text/css">
                     #layerFA7142981F4F9B1279EA8BD66124B477 .radiobox input[type="radio"] {
                         filter: alpha(opacity=100);
                         opacity: 1;
@@ -518,42 +502,44 @@
                     #layerFA7142981F4F9B1279EA8BD66124B477 .defaultval {
                         display: none;
                     }
-                </STYLE>
-
-                <FORM class="mesform" style="overflow: hidden; position: relative;" action="index.php"
-                      method="post"><INPUT name="msid" type="hidden" value="1">
+                </style>
+                <form class="mesform" style="overflow: hidden; position: relative;" action="index.php" method="post">
+                    <input name="msid" type="hidden" value="1" />
                     <ul class="mfields">
                         <li>
-                            <div class="title">姓名</div>
-                            <div
-                                class="inpbox"><INPUT name="mes[text-i1]" class="inptext" type="text"
-                                                      maxlength="50"></div>
-                            <div style="overflow: hidden; clear: both;"></div>
-                        </li>
+                            <div class="title">
+                                姓名
+                            </div>
+                            <div class="inpbox">
+                                <input name="mes[text-i1]" class="inptext" type="text" maxlength="50" />
+                            </div>
+                            <div style="overflow: hidden; clear: both;"></div> </li>
                         <li>
-                            <div class="title">电话</div>
-                            <div
-                                class="inpbox"><INPUT name="mes[mobile-i2]" class="inptext" type="text"
-                                                      maxlength="150" data-rule-mobile="true"></div>
-                            <div style="overflow: hidden; clear: both;"></div>
-                        </li>
+                            <div class="title">
+                                电话
+                            </div>
+                            <div class="inpbox">
+                                <input name="mes[mobile-i2]" class="inptext" type="text" maxlength="150" data-rule-mobile="true" />
+                            </div>
+                            <div style="overflow: hidden; clear: both;"></div> </li>
                         <li>
-                            <div class="title">留言内容</div>
-                            <div
-                                class="inpbox"><TEXTAREA name="mes[textarea-i3]" class="txtarea"
-                                                         maxlength="50"></TEXTAREA></div>
-                            <div style="overflow: hidden; clear: both;"></div>
-                        </li>
+                            <div class="title">
+                                留言内容
+                            </div>
+                            <div class="inpbox">
+                                <textarea name="mes[textarea-i3]" class="txtarea" maxlength="50"></textarea>
+                            </div>
+                            <div style="overflow: hidden; clear: both;"></div> </li>
                     </ul>
                     <div style="overflow: hidden; clear: both;"></div>
-                    <A class="btnsubmit" href="javascript:;">提交</A></FORM>
-                <SCRIPT>
+                    <a class="btnsubmit" href="javascript:;">提交</a>
+                </form>
+                <script>
                     function add_id(id) {
                         window.id = id;
                     }
-                </SCRIPT>
-
-                <SCRIPT>
+                </script>
+                <script>
                     $(function () {
                         var $curlayer = $('#layerFA7142981F4F9B1279EA8BD66124B477'), curskn = 'ms2';
                         var layerid = 'layerFA7142981F4F9B1279EA8BD66124B477';
@@ -642,9 +628,9 @@
                                 }
                             });
                         }
-                    })</SCRIPT>
+                    })</script>
             </div>
-            <SCRIPT>$(function () {
+            <script>$(function () {
                     var $curlayer = $('#layerFA7142981F4F9B1279EA8BD66124B477');
                     var layerid = 'layerFA7142981F4F9B1279EA8BD66124B477';
                     var curskn = 'ms2';
@@ -653,8 +639,8 @@
                         $(this).closest('.btn-select').removeClass("on");
                         $(this).prev('span.cur_select').html($('> option:selected', this).html());
                     }).focus(function () {
-                        $(this).closest('.btn-select').addClass("on")
-                    })
+                            $(this).closest('.btn-select').addClass("on")
+                        })
                         .blur(function () {
                             $(this).closest('.btn-select').removeClass("on")
                         });
@@ -1113,12 +1099,12 @@
                     $curlayer.find('a.btnsubmit').unbind('click').click(function () {
                         $curlayer.find('.mesform').submit()
                     });
-                })</SCRIPT>
+                })</script>
         </div>
-        <SCRIPT>                 $('#layerFA7142981F4F9B1279EA8BD66124B477').triggerHandler('layer_ready');</SCRIPT>
+        <script>                 $('#layerFA7142981F4F9B1279EA8BD66124B477').triggerHandler('layer_ready');</script>
     </div>
 </div>
-<SCRIPT>
+<script>
     (function () {
         $('#copyright2').css('left', ($('#canvas').width() - $('#copyright2').width()) / 2);
         var minzindex = 2000;
@@ -1128,4 +1114,4 @@
         })
         $('#copyright2').css('z-index', minzindex);
     })()
-</SCRIPT>
+</script>
