@@ -2,7 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdae6ef-4cb3-492c-a5d9-bb64d0d0fb35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/db/we_fight.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/about_us/0of8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/banner/banner1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/banner/banner2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/banner/banner3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500884563.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500884620.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500886722.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500886741.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500886825.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500886901.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500886944.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500888028.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500888042.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500963804.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500964154.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500964456.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500964566.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500964804.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500965004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500966568.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1500966578.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501051156.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501051621.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501051663.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501051748.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501143708.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501143714.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501143720.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501470174.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501470283.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501470388.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501470797.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501472612.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1501472655.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502160804.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502161588.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502161714.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502162260.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502162422.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502162619.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502162848.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502162976.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502163757.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502163949.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502164071.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502164281.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502164380.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502164484.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502164677.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502164759.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502164849.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502173137.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502173241.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502173323.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502173534.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502173660.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502173784.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502174331.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502174445.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502174536.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502174544.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502174624.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502174630.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502174687.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502174878.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502175198.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502175380.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502175599.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502175732.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502177398.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502177975.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502178641.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502178919.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502245701.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502245740.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502247013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502248637.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502249121.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502249124.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502249561.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502249730.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502250380.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502259149.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502260810.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502260838.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502260866.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1502261414.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508126218.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508126867.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508126933.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508132475.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508132889.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508133020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134113.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134164.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134244.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134325.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134388.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134442.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134566.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134606.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134672.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508134908.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508135343.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508135389.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508135431.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508135544.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508135959.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508136082.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508136119.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508136283.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1508137120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1521768596.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523152592.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523152699.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523152784.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523152797.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523152808.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523365593.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523365714.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523365782.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523365851.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523365942.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523365995.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523366620.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523366639.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523366696.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523366707.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523366723.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523366757.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523366783.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523366820.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367544.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367610.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367636.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367664.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367707.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367730.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367760.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367793.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367817.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367849.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523367995.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523368014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523368024.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523368060.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523368098.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523368653.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523368738.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523368781.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523368841.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/manager/1_1523369028.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/news/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/news/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/news/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/news/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/news/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/news/6.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,48 +180,7 @@
     <favorites_list name="wefight" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CourseWindow.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager/modules/CourseWindow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="we_fight.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/db/we_fight.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6429873">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manager_listcourse_type.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_type.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.806452">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EssayWindow.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager/modules/EssayWindow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="447" column="13" selection-start-line="447" selection-start-column="13" selection-end-line="471" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,7 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/structure/four_column/domain/four_column.php" />
         <option value="$PROJECT_DIR$/structure/four_column/dao/four_column_dao.php" />
         <option value="$PROJECT_DIR$/structure/group/domain/course_introduce.php" />
         <option value="$PROJECT_DIR$/structure/group/domain/group.php" />
@@ -205,6 +321,7 @@
         <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_content.php" />
         <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_type.php" />
         <option value="$PROJECT_DIR$/manager/modules/CourseWindow.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -248,6 +365,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,8 +419,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,6 +501,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -429,25 +551,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -483,47 +605,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contact_us/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.71777">
-          <caret line="103" column="69" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#font#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#font#0;n#div#3;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#font#0;n#div#4;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/banner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35017422">
           <caret line="94" column="114" selection-start-line="94" selection-start-column="114" selection-end-line="94" selection-end-column="114" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#STRONG#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,15 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21818182">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6707317">
           <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34494773">
           <caret line="9" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.806452">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,11 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33275262">
           <caret line="12" column="68" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="68" />
-          <folding>
-            <marker date="1524725411638" expanded="true" signature="168:246" placeholder="UPDATE INDEX..." />
-            <marker date="1524725411638" expanded="true" signature="272:316" placeholder="SELECT * FRO..INDEX_CONTENT..." />
-            <marker date="1524725411638" expanded="true" signature="352:379" placeholder="SELECT * FRO..INDEX_CONTENT..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5749129">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5156794">
           <caret line="381" column="18" selection-start-line="381" selection-start-column="18" selection-end-line="381" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36933798">
           <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.109091">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6363637">
           <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15505226">
           <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49825785">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,9 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.613223">
           <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,12 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35017422">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <marker date="1524723502554" expanded="true" signature="159:214" placeholder="INSERT INTO INDEX_BANNER..." />
-            <marker date="1524723502554" expanded="true" signature="246:309" placeholder="UPDATE INDEX..." />
-            <marker date="1524723502554" expanded="true" signature="340:366" placeholder="SELECT * FRO..INDEX_BANNER..." />
-            <marker date="1524723502554" expanded="true" signature="392:433" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19163764">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.4">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31010452">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28745645">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,11 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1290324">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1524731219132" expanded="true" signature="164:243" placeholder="INSERT INTO NEWS_CONTENT..." />
-            <marker date="1524731219132" expanded="true" signature="279:325" placeholder="SELECT * FRO..NEWS_CONTENT..." />
-            <marker date="1524731219132" expanded="true" signature="355:406" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.096774">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49825785">
           <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8432056">
           <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0348432">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1533101">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46341464">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.806452">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49825785">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49825785">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,19 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37108013">
           <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
-          <folding>
-            <marker date="1524732765855" expanded="true" signature="149:276" placeholder="INSERT INTO NEWS_INTRO..." />
-            <marker date="1524732765855" expanded="true" signature="306:457" placeholder="UPDATE NEWS_..." />
-            <marker date="1524732765855" expanded="true" signature="483:524" placeholder="SELECT * FRO..NEWS_INTRO..." />
-            <marker date="1524732765855" expanded="true" signature="551:633" placeholder="SELECT * FRO..NEWS_INTRO..." />
-            <marker date="1524732765855" expanded="true" signature="660:725" placeholder="SELECT * FRO..NEWS_INTRO..." />
-            <marker date="1524732765855" expanded="true" signature="750:792" placeholder="SELECT COUNT..." />
-            <marker date="1524732765855" expanded="true" signature="818:868" placeholder="UPDATE `NEWS..." />
-            <marker date="1524732765855" expanded="true" signature="894:944" placeholder="UPDATE `NEWS..." />
-            <marker date="1524732765855" expanded="true" signature="968:1021" placeholder="UPDATE `NEWS..." />
-            <marker date="1524732765855" expanded="true" signature="1045:1098" placeholder="UPDATE `NEWS..." />
-            <marker date="1524732765855" expanded="true" signature="3281:3315" placeholder="SELECT * FRO..NEWS_INTRO..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21818182">
           <caret line="11" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3066202">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,17 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35017422">
           <caret line="123" column="24" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="24" />
-          <folding>
-            <marker date="1523720285279" expanded="true" signature="164:313" placeholder="INSERT INTO COURSE_INTRO..." />
-            <marker date="1523720285279" expanded="true" signature="350:531" placeholder="UPDATE COURS..." />
-            <marker date="1523720285279" expanded="true" signature="557:600" placeholder="SELECT * FRO..COURSE_INTRO..." />
-            <marker date="1523720285279" expanded="true" signature="627:711" placeholder="SELECT * FRO..COURSE_INTRO..." />
-            <marker date="1523720285279" expanded="true" signature="738:805" placeholder="SELECT * FRO..COURSE_INTRO..." />
-            <marker date="1523720285279" expanded="true" signature="830:884" placeholder="SELECT COUNT..." />
-            <marker date="1523720285279" expanded="true" signature="910:962" placeholder="UPDATE `COUR..." />
-            <marker date="1523720285279" expanded="true" signature="988:1040" placeholder="UPDATE `COUR..." />
-            <marker date="1523720285279" expanded="true" signature="3227:3263" placeholder="SELECT * FRO..COURSE_INTRO..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3066202">
           <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,11 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35017422">
           <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
-          <folding>
-            <marker date="1523720305334" expanded="true" signature="179:270" placeholder="INSERT INTO COURSE_INTRO_CONTENT..." />
-            <marker date="1523720305334" expanded="true" signature="313:377" placeholder="SELECT * FRO..COURSE_INTRO_CONTENT..." />
-            <marker date="1523720305334" expanded="true" signature="407:470" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36236933">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46341464">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,15 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46341464">
           <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/EssayWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="447" column="13" selection-start-line="447" selection-start-column="13" selection-end-line="471" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,36 +909,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4651568">
           <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          <folding>
-            <marker date="1523629547711" expanded="true" signature="162:223" placeholder="INSERT INTO COURSE_TYPE..." />
-            <marker date="1523629547711" expanded="true" signature="259:311" placeholder="UPDATE COURS..." />
-            <marker date="1523629547711" expanded="true" signature="337:388" placeholder="UPDATE `COUR..." />
-            <marker date="1523629547711" expanded="true" signature="414:465" placeholder="UPDATE `COUR..." />
-            <marker date="1523629547711" expanded="true" signature="1654:1689" placeholder="SELECT * FRO..COURSE_TYPE..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_type.php">
+    <entry file="file://$PROJECT_DIR$/core/db/we_fight.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.16029143">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manager/modules/CourseWindow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.036363635">
           <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/db/we_fight.sql">
+    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_type.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6429873">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.4216028">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/EssayWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.036363635">
+          <caret line="447" column="13" selection-start-line="447" selection-start-column="13" selection-end-line="471" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21818182">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
