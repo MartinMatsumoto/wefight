@@ -10,7 +10,7 @@ class course_type_dao
 {
     private $conn;
 
-    private $saveCourseType = "INSERT INTO COURSE_TYPE(name,delete_) VALUES (:name,:delete_)";
+    private $saveCourseType = "INSERT INTO COURSE_TYPE(name) VALUES (:name)";
     private $modifyCourseType = "UPDATE COURSE_TYPE SET `name` = :name WHERE id = :id";
     private $delete = "UPDATE `COURSE_TYPE` SET delete_ = 1 WHERE id = :id";
     private $enable = "UPDATE `COURSE_TYPE` SET delete_ = 0 WHERE id = :id";
@@ -37,9 +37,7 @@ class course_type_dao
     {
         try {
             $stmt = $this->conn->pdo->prepare($this->saveCourseType);
-            $delete = 0;
             $stmt->bindParam(':name', $name);
-            $stmt->bindParam(':delete_', $delete);
             $stmt->execute();
             $recentId = $stmt = $this->conn->pdo->lastInsertId();
             return $recentId;
@@ -48,7 +46,7 @@ class course_type_dao
         }
     }
 
-    function modify($name, $id)
+    function modify($id, $name)
     {
         try {
             $stmt = $this->conn->pdo->prepare($this->modifyCourseType);
@@ -56,7 +54,7 @@ class course_type_dao
             $stmt->bindParam(':id', $id);
             $stmt->execute();
             return true;
-        } catch (Exception  $e) {
+        } catch (Exception $e) {
             return false;
         }
     }

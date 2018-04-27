@@ -24,8 +24,6 @@ function getpicPathUserModify()
     } else {
         Ext.getCmp("imageUserPathshow").getEl().dom.src = "";
     }
-
-    console.log(Ext.getCmp("imageUserPathshow"));
 }
 
 var userStore = Ext.create('Ext.data.Store', {
@@ -84,7 +82,7 @@ Ext.define('MyDesktop.UsersWindow', {
 
     init: function () {
         this.launcher = {
-            text: '校友管理'
+            text: '教师管理'
         };
     },
 
@@ -97,7 +95,7 @@ Ext.define('MyDesktop.UsersWindow', {
         if (!win) {
             win = desktop.createWindow({
                 id: 'user-win',
-                title: '校友信息管理',
+                title: '教师信息管理',
                 width: 740,
                 height: 480,
                 iconCls: 'icon-grid',
@@ -393,7 +391,7 @@ Ext.define('MyDesktop.UsersWindow', {
                 {
                     text: '重置',
                     handler: function () {
-                        Ext.getCmp('userModifyForm').getForm().reset();
+                        Ext.getCmp('userAddForm').getForm().reset();
                     }
                 },
                 {

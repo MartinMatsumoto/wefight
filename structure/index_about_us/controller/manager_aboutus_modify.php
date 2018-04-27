@@ -8,20 +8,19 @@
 require_once '../../../entrance.php';
 
 $id = $_POST["id"];
-$image_url = $_POST["image_url"];
+$img_url = $_POST["img_url"];
 $content = $_POST["content"];
-$href_url = $_POST["href_url"];
 
 $user_id = $_COOKIE['jushouqing_manager_id'];
 
 $file = $_FILES['image_url_reload'];//得到传输的数据
 //得到文件名称
 $name = $file['name'];
-$dao = new index_content_dao();
+$dao = new index_about_us_dao();
 
 //没有上传
 if(empty($name)){
-    $result = $dao->modify($id, $content, $image_url, $href_url);
+    $result = $dao->modify($id, $content, $img_url);
     $content = new result(null, errorCode::$success);
     $json_string = json_encode($content, JSON_UNESCAPED_UNICODE);
     echo $json_string;
@@ -47,7 +46,7 @@ $upload_name = $ROOT_DIR . $file_name;
 //开始移动文件到相应的文件夹
 if (move_uploaded_file($file['tmp_name'], $upload_name)) {
 
-    $result = $dao->modify($id, $content, $file_name, $href_url);
+    $result = $dao->modify($id, $content, $file_name);
     $content = new result(null, errorCode::$success);
     $json_string = json_encode($content, JSON_UNESCAPED_UNICODE);
     echo $json_string;

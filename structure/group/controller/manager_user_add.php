@@ -16,7 +16,6 @@ $sex = intval($_POST["sex"]);
 $user_id = $_COOKIE['jushouqing_manager_id'];
 $file = $_FILES['image'];//得到传输的数据
 
-$dao = new news_dao();
 $file = $_FILES['image'];//得到传输的数据
 //得到文件名称
 $name = $file['name'];

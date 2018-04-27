@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdae6ef-4cb3-492c-a5d9-bb64d0d0fb35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/group/controller/manager_user_add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/group/controller/manager_user_modify.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/structure/group/controller/manager_enableessay.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/structure/group/controller/manager_essay_add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/structure/group/controller/manager_essay_add_image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/structure/group/controller/manager_essay_modify.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/structure/group/controller/manager_listessay_content.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/ContactUsWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/CourseTypeWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/course_introduce/controller/manager_coursetype_add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/course_introduce/controller/manager_coursetype_modify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/course_introduce/controller/manager_delcourse_type.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manager/modules/CompanyActiveWindow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manager/modules/CompanyWindow.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/modules/AboutUsWindow.js" afterPath="$PROJECT_DIR$/manager/modules/AboutUsWindow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/modules/App.js" afterPath="$PROJECT_DIR$/manager/modules/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/modules/UsersWindow.js" afterPath="$PROJECT_DIR$/manager/modules/UsersWindow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/group/dao/group_dao.php" afterPath="$PROJECT_DIR$/structure/group/dao/group_dao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/contact_us/controller/manager_contactus_modify.php" afterPath="$PROJECT_DIR$/structure/contact_us/controller/manager_contactus_modify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/course_introduce/dao/course_type_dao.php" afterPath="$PROJECT_DIR$/structure/course_introduce/dao/course_type_dao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/group/controller/manager_deluser.php" afterPath="$PROJECT_DIR$/structure/group/controller/manager_deluser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/group/controller/manager_user_add.php" afterPath="$PROJECT_DIR$/structure/group/controller/manager_user_add.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/group/domain/group.php" afterPath="$PROJECT_DIR$/structure/group/domain/group.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/structure/group/controller/manager_delessay.php" afterPath="$PROJECT_DIR$/structure/group/controller/manager_deluser.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/structure/group/controller/manager_listessay.php" afterPath="$PROJECT_DIR$/structure/group/controller/manager_listuser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/index_about_us/controller/get_index_about_us.php" afterPath="$PROJECT_DIR$/structure/index_about_us/controller/get_index_about_us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/index_about_us/controller/manager_aboutus_modify.php" afterPath="$PROJECT_DIR$/structure/index_about_us/controller/manager_aboutus_modify.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,25 +38,7 @@
     <favorites_list name="wefight" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="group_dao.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/structure/group/dao/group_dao.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5627178">
-              <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-              <folding>
-                <marker date="1524814626150" expanded="true" signature="151:255" placeholder="INSERT INTO TEACHER_INTRO..." />
-                <marker date="1524814626150" expanded="true" signature="286:414" placeholder="UPDATE TEACH..." />
-                <marker date="1524814626150" expanded="true" signature="440:484" placeholder="SELECT * FRO..TEACHER_INTRO..." />
-                <marker date="1524814626150" expanded="true" signature="510:563" placeholder="UPDATE `TEAC..." />
-                <marker date="1524814626150" expanded="true" signature="589:642" placeholder="UPDATE `TEAC..." />
-                <marker date="1524814626150" expanded="true" signature="2562:2599" placeholder="SELECT * FRO..TEACHER_INTRO..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,19 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/include/footer.php" />
-        <option value="$PROJECT_DIR$/news/index.php" />
-        <option value="$PROJECT_DIR$/group_introduce/index.php" />
-        <option value="$PROJECT_DIR$/news/essay/index.php" />
-        <option value="$PROJECT_DIR$/contact_us/index.php" />
-        <option value="$PROJECT_DIR$/structure/banner/dao/index_banner_dao.php" />
-        <option value="$PROJECT_DIR$/structure/banner/controller/manager_banner_modify.php" />
-        <option value="$PROJECT_DIR$/about_us/index.php" />
-        <option value="$PROJECT_DIR$/structure/index_content/controller/get_index_content.php" />
-        <option value="$PROJECT_DIR$/structure/index_content/dao/index_content_dao.php" />
-        <option value="$PROJECT_DIR$/structure/index_content/controller/manager_indexcontent_modify.php" />
-        <option value="$PROJECT_DIR$/manager/modules/IndexContentWindow.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/structure/news/controller/manager_listnews.php" />
         <option value="$PROJECT_DIR$/structure/news/domain/news_intro.php" />
         <option value="$PROJECT_DIR$/structure/news/controller/manager_listnews_content.php" />
@@ -188,13 +161,26 @@
         <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_showcourse.php" />
         <option value="$PROJECT_DIR$/structure/course_introduce/dao/course_intro_dao.php" />
         <option value="$PROJECT_DIR$/structure/course_introduce/domain/course_introduce.php" />
-        <option value="$PROJECT_DIR$/manager/modules/App.js" />
-        <option value="$PROJECT_DIR$/structure/group/domain/group.php" />
         <option value="$PROJECT_DIR$/structure/group/controller/manager_listuser.php" />
         <option value="$PROJECT_DIR$/structure/group/controller/manager_user_modify.php" />
-        <option value="$PROJECT_DIR$/manager/modules/UsersWindow.js" />
-        <option value="$PROJECT_DIR$/structure/group/controller/manager_user_add.php" />
         <option value="$PROJECT_DIR$/structure/group/dao/group_dao.php" />
+        <option value="$PROJECT_DIR$/structure/index_about_us/controller/get_index_about_us.php" />
+        <option value="$PROJECT_DIR$/structure/index_about_us/controller/manager_aboutus_modify.php" />
+        <option value="$PROJECT_DIR$/structure/contact_us/controller/manager_contactus_modify.php" />
+        <option value="$PROJECT_DIR$/structure/index_about_us/dao/index_about_us_dao.php" />
+        <option value="$PROJECT_DIR$/manager/modules/AboutUsWindow.js" />
+        <option value="$PROJECT_DIR$/manager/modules/ContactUsWindow.js" />
+        <option value="$PROJECT_DIR$/manager/modules/App.js" />
+        <option value="$PROJECT_DIR$/manager/modules/Notepad.js" />
+        <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_delcourse_type.php" />
+        <option value="$PROJECT_DIR$/structure/group/controller/manager_deluser.php" />
+        <option value="$PROJECT_DIR$/manager/modules/UsersWindow.js" />
+        <option value="$PROJECT_DIR$/structure/group/domain/group.php" />
+        <option value="$PROJECT_DIR$/manager/modules/CourseTypeWindow.js" />
+        <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_coursetype_modify.php" />
+        <option value="$PROJECT_DIR$/structure/group/controller/manager_user_add.php" />
+        <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_coursetype_add.php" />
+        <option value="$PROJECT_DIR$/structure/course_introduce/dao/course_type_dao.php" />
       </list>
     </option>
   </component>
@@ -296,6 +282,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -336,11 +384,11 @@
       <recent name="F:\PHPWorkspace\wefight\upload\news" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PHPWorkspace\wefight\structure\course_introduce\controller" />
+      <recent name="E:\PHPWorkspace\wefight\manager\modules" />
       <recent name="E:\PHPWorkspace\wefight\structure\group\controller" />
       <recent name="E:\PHPWorkspace\wefight\core\db" />
-      <recent name="E:\PHPWorkspace\wefight\structure\course_introduce\controller" />
       <recent name="E:\PHPWorkspace\wefight\structure\news\controller" />
-      <recent name="E:\PHPWorkspace\wefight\manager\modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -452,9 +500,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25841874" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25841874" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -506,182 +554,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manager/modules/BannerWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.613223">
-          <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/banner/dao/index_banner_dao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35017422">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/banner/controller/manager_banner_modify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19163764">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/IndexContentWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/index_content/controller/manager_indexcontent_modify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31010452">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/news/dao/news_content_dao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1290324">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1524731219132" expanded="true" signature="164:243" placeholder="INSERT INTO NEWS_CONTENT..." />
-            <marker date="1524731219132" expanded="true" signature="279:325" placeholder="SELECT * FRO..NEWS_CONTENT..." />
-            <marker date="1524731219132" expanded="true" signature="355:406" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0348432">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1533101">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/news/controller/manager_hidenews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/news/controller/manager_enablenews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49825785">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/news/controller/manager_shownews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49825785">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/news/controller/manager_listnews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3066202">
-          <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36236933">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/news/controller/manager_listnews_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46341464">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/dao/course_type_dao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4651568">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          <folding>
-            <marker date="1523629547711" expanded="true" signature="162:223" placeholder="INSERT INTO COURSE_TYPE..." />
-            <marker date="1523629547711" expanded="true" signature="259:311" placeholder="UPDATE COURS..." />
-            <marker date="1523629547711" expanded="true" signature="337:388" placeholder="UPDATE `COUR..." />
-            <marker date="1523629547711" expanded="true" signature="414:465" placeholder="UPDATE `COUR..." />
-            <marker date="1523629547711" expanded="true" signature="1654:1689" placeholder="SELECT * FRO..COURSE_TYPE..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/db/we_fight.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16029143">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/EssayWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036363635">
-          <caret line="447" column="13" selection-start-line="447" selection-start-column="13" selection-end-line="471" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21818182">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_type.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76655054">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -710,14 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6167247">
           <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/banner/controller/manager_banner_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3066202">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -855,63 +723,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager/js/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2727273">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5090909">
-          <caret line="80" column="33" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/group/controller/manager_deluser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/group/domain/group.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4599303">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/group/controller/manager_listuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34494773">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/group_introduce/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4268292">
           <caret line="215" column="136" selection-start-line="215" selection-start-column="136" selection-end-line="215" selection-end-column="136" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#11;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#11;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/NewsWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,31 +749,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/UsersWindow.js">
+    <entry file="file://$PROJECT_DIR$/manager/modules/VideoWindow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.507438">
-          <caret line="270" column="29" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1524814464947" expanded="true" signature="207:219" placeholder="..." />
-            <marker date="1524814464947" expanded="true" signature="288:298" placeholder="..." />
-            <marker date="1524814464947" expanded="true" signature="353:364" placeholder="..." />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structure/group/controller/manager_user_add.php">
+    <entry file="file://$PROJECT_DIR$/manager/modules/NewsWindow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.031359">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state vertical-scroll-proportion="21.163637">
+          <caret line="587" column="34" selection-start-line="587" selection-start-column="34" selection-end-line="587" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/banner/controller/manager_banner_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34494773">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/js/Module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14545454">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4363637">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.83972126">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/contact_us/controller/get_index_contact_us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4216028">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/EssayWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0181818">
+          <caret line="477" column="29" selection-start-line="477" selection-start-column="23" selection-end-line="477" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/index_content/dao/index_content_dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4216028">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding>
+            <marker date="1524725411638" expanded="true" signature="168:246" placeholder="UPDATE INDEX..." />
+            <marker date="1524725411638" expanded="true" signature="272:316" placeholder="SELECT * FRO..INDEX_CONTENT..." />
+            <marker date="1524725411638" expanded="true" signature="352:379" placeholder="SELECT * FRO..INDEX_CONTENT..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/contact_us/controller/manager_contactus_modify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73170733">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/contact_us/dao/index_contact_us_dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22996515">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <marker date="1524713924843" expanded="true" signature="171:335" placeholder="UPDATE CONTA..." />
+            <marker date="1524713924843" expanded="true" signature="361:402" placeholder="SELECT * FRO..CONTACT_US..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/index_about_us/dao/index_about_us_dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4250871">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <marker date="1524818698764" expanded="true" signature="169:252" placeholder="UPDATE INDEX..." />
+            <marker date="1524818698764" expanded="true" signature="278:323" placeholder="SELECT * FRO..INDEX_ABOUT_US..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/index_about_us/controller/manager_aboutus_modify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3066202">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/AboutUsWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322314">
+          <caret line="105" column="53" selection-start-line="105" selection-start-column="53" selection-end-line="105" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/index_about_us/controller/get_index_about_us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07665505">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49752066">
+          <caret line="79" column="92" selection-start-line="79" selection-start-column="82" selection-end-line="79" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.806452">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_delcourse_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49825785">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/group/controller/manager_listuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34494773">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/ContactUsWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322314">
+          <caret line="111" column="53" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/structure/group/dao/group_dao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5627178">
-          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.33275262">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="57" />
           <folding>
             <marker date="1524814626150" expanded="true" signature="151:255" placeholder="INSERT INTO TEACHER_INTRO..." />
             <marker date="1524814626150" expanded="true" signature="286:414" placeholder="UPDATE TEACH..." />
@@ -964,6 +933,91 @@
             <marker date="1524814626150" expanded="true" signature="589:642" placeholder="UPDATE `TEAC..." />
             <marker date="1524814626150" expanded="true" signature="2562:2599" placeholder="SELECT * FRO..TEACHER_INTRO..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/Notepad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.036363635">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <marker date="1524820159482" expanded="true" signature="210:222" placeholder="..." />
+            <marker date="1524820159482" expanded="true" signature="291:301" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/group/domain/group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1498258">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/UsersWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4545455">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1524820515618" expanded="true" signature="207:219" placeholder="..." />
+            <marker date="1524820515618" expanded="true" signature="288:298" placeholder="..." />
+            <marker date="1524820515618" expanded="true" signature="353:364" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_coursetype_modify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49825785">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/CourseTypeWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6595041">
+          <caret line="187" column="22" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/group/controller/manager_deluser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49825785">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/group/controller/manager_user_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38327527">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/course_introduce/dao/course_type_dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8606272">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <marker date="1524821683991" expanded="true" signature="162:206" placeholder="INSERT INTO COURSE_TYPE..." />
+            <marker date="1524821683991" expanded="true" signature="242:294" placeholder="UPDATE COURS..." />
+            <marker date="1524821683991" expanded="true" signature="320:371" placeholder="UPDATE `COUR..." />
+            <marker date="1524821683991" expanded="true" signature="397:448" placeholder="UPDATE `COUR..." />
+            <marker date="1524821683991" expanded="true" signature="1560:1595" placeholder="SELECT * FRO..COURSE_TYPE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_coursetype_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4216028">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -6,17 +6,17 @@
  */
 
 //设置图片路径
-function getpicPathAboutUsModify()
+function getpicPathContactUsModify()
 {
-    var PICTURE_URL = Ext.getCmp("about_us_cover_url_modify").getValue();
+    var PICTURE_URL = Ext.getCmp("contact_us_cover_url_modify").getValue();
     if (!Ext.isEmpty(PICTURE_URL)) {
-        Ext.getCmp("imageAboutUsPathshow").getEl().dom.src = PICTURE_URL;
+        Ext.getCmp("imageContactUsPathshow").getEl().dom.src = PICTURE_URL;
     } else {
-        Ext.getCmp("imageAboutUsPathshow").getEl().dom.src = "";
+        Ext.getCmp("imageContactUsPathshow").getEl().dom.src = "";
     }
 }
 
-Ext.define('MyDesktop.AboutUsWindow', {
+Ext.define('MyDesktop.ContactUsWindow', {
     extend: 'Ext.ux.desktop.Module',
     requires: [
         'Ext.data.ArrayStore',
@@ -25,34 +25,34 @@ Ext.define('MyDesktop.AboutUsWindow', {
         'Ext.grid.RowNumberer'
     ],
 
-    id: 'aboutUs-win',
+    id: 'contactUs-win',
     indexContentId : 1,
 
     init: function () {
         this.launcher = {
-            text: '关于我们管理'
+            text: '联系我们管理'
         };
     },
     createWindow: function () {
         var this_ = this;
         var desktop = this_.app.getDesktop();
-        var win = desktop.getWindow('aboutUs-win');
+        var win = desktop.getWindow('contactUs-win');
         if (!win) {
             win = desktop.createWindow({
-                id : 'aboutUsModifyWindow',
+                id : 'contactUsModifyWindow',
                 layout: 'fit',
-                title: '修改关于我们信息',
+                title: '修改联系我们信息',
                 closeAction: 'hide',
                 width: 650,
                 height: 400,
                 border: false,
                 modal: true,
                 items: [{
-                    id: 'aboutUsModifyForm',
+                    id: 'contactUsModifyForm',
                     xtype: 'form',
                     bodyPadding: 5,
                     frame: true,
-                    url: '/structure/index_about_us/controller/manager_aboutus_modify.php',
+                    url: '/structure/contact_us/controller/manager_contactus_modify.php',
                     layout: 'anchor',
                     defaultType: 'textfield',
                     fieldDefaults: {
@@ -64,37 +64,43 @@ Ext.define('MyDesktop.AboutUsWindow', {
                         xtype: 'hidden',
                         name: 'id'
                     }, {
-                        id : 'about_us_cover_url_modify',
-                        xtype: 'hidden',
-                        name: 'img_url'
+                        fieldLabel: 'qq',
+                        name: 'qq',
+                        allowBlank: false
                     }, {
-                        xtype : 'image',
-                        fieldLabel : '原始封面',
-                        width : 180,
-                        height : 90,
-                        id : 'imageAboutUsPathshow',
-                        src : ''
+                        fieldLabel: '联系地址',
+                        name: 'address',
+                        allowBlank: false
                     }, {
-                        fieldLabel : '选择图片',
-                        name : 'image_url_reload',
-                        xtype : 'filefield',
-                        vtype:'imageUpload',
-                        allowBlank : true
+                        fieldLabel: '手机号码',
+                        name: 'phone',
+                        allowBlank: false
                     }, {
-                        fieldLabel: '文字内容',
-                        name: 'content',
-                        xtype : 'textarea',
+                        fieldLabel: '联系邮箱',
+                        name: 'email',
+                        allowBlank: false
+                    }, {
+                        fieldLabel: '联系电话',
+                        name: 'tel',
+                        allowBlank: false
+                    }, {
+                        fieldLabel: '经度',
+                        name: 'longitude',
+                        allowBlank: false
+                    }, {
+                        fieldLabel: '纬度',
+                        name: 'latitude',
                         allowBlank: false
                     }, {
                         fieldLabel: '温馨提示',
                         xtype : 'displayfield',
-                        value : '图片推荐大小为481x353像素。'
+                        value : '经度纬度用来显示地图，请在百度地图上定好坐标。'
                     }],
                     buttons: [
                         {
                             text: '重置',
                             handler: function () {
-                                Ext.getCmp('aboutUsModifyForm').getForm().reset();
+                                Ext.getCmp('contactUsModifyForm').getForm().reset();
                             }
                         },
                         {
@@ -102,12 +108,12 @@ Ext.define('MyDesktop.AboutUsWindow', {
                             formBind: true,
                             disabled: false,
                             handler: function () {
-                                var form = Ext.getCmp('aboutUsModifyForm').getForm();
+                                var form = Ext.getCmp('contactUsModifyForm').getForm();
                                 if (form.isValid()) {
                                     form.submit({
                                         success: function () {
                                             Ext.Msg.alert('成功', '修改成功。');
-                                            Ext.getCmp('aboutUsModifyWindow').close();
+                                            Ext.getCmp('contactUsModifyWindow').close();
                                         },
                                         failure: function () {
                                             Ext.Msg.alert('失败', '请刷新后重试。');
@@ -124,7 +130,7 @@ Ext.define('MyDesktop.AboutUsWindow', {
                         fn : function()
                         {
                             Ext.Ajax.request({
-                                url: '/structure/index_about_us/controller/get_index_about_us.php',
+                                url: '/structure/contact_us/controller/get_index_contact_us.php',
                                 params: {
                                     id: this_.indexContentId
                                 },
@@ -139,8 +145,8 @@ Ext.define('MyDesktop.AboutUsWindow', {
                                                 return this.data;
                                             }
                                         }
-                                        Ext.getCmp('aboutUsModifyForm').form.loadRecord(content);
-                                        getpicPathAboutUsModify();
+                                        Ext.getCmp('contactUsModifyForm').form.loadRecord(content);
+                                        getpicPathContactUsModify();
                                     }
                                 },
                                 failure: function (response, options) {

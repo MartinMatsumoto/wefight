@@ -7,13 +7,11 @@
  */
 require_once '../../../entrance.php';
 
-$id = intval($_POST["id"]);
+$id = $_POST["id"];
+$name = $_POST["name"];
 
-$dao = new index_about_us_dao();
-
-$result = $dao->getOne($id);
-$about_us = new about_us($row = $result->fetch());
-$content = new result($about_us, errorCode::$success);
-
+$dao = new course_type_dao();
+$result = $dao->modify($id, $name);
+$content = new result($result, errorCode::$success);
 $json_string = json_encode($content, JSON_UNESCAPED_UNICODE);
 echo $json_string;

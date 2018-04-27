@@ -21,6 +21,8 @@ class group
 
     public $sex;
 
+    public $delete_;
+
     //构造函数
     function __construct($row)
     {
@@ -47,6 +49,10 @@ class group
 
             if (array_key_exists("sex", $row)) {
                 $this->sex = $row["sex"];
+            }
+
+            if (array_key_exists("delete_", $row)) {
+                $this->delete_ = $row["delete_"];
             }
         }
     }
