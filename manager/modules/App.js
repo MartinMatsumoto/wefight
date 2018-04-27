@@ -78,7 +78,7 @@ Ext.define('MyDesktop.App', {
                     { name: '四格管理', iconCls: 'notepad-shortcut', module: 'indexcontent-win' },
                     { name: '新闻管理', iconCls: 'essay-shortcut', module: 'news-win' },
                     { name: '课程管理', iconCls: 'essay-shortcut', module: 'course-win' },
-                    { name: '校友信息', iconCls: 'accordion-shortcut', module: 'user-win' },
+                    { name: '团队介绍', iconCls: 'accordion-shortcut', module: 'user-win' },
                     { name: '企业信息', iconCls: 'company-shortcut', module: 'company-win' },
                     { name: '首页关于我们管理', iconCls: 'direction-shortcut', module: 'aboutUs-win' },
                     { name: '首页公司动态管理', iconCls: 'companyactive-shortcut', module: 'companyActive-win' }

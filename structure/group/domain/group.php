@@ -19,6 +19,8 @@ class group
     // 文章类型
     public $cover_url;
 
+    public $sex;
+
     //构造函数
     function __construct($row)
     {
@@ -41,6 +43,10 @@ class group
 
             if (array_key_exists("cover_url", $row)) {
                 $this->cover_url = $row["cover_url"];
+            }
+
+            if (array_key_exists("sex", $row)) {
+                $this->sex = $row["sex"];
             }
         }
     }

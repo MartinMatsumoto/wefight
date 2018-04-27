@@ -15,14 +15,26 @@ var sexRender = function (val) {
     return val;
 }
 
+//设置图片路径
+function getpicPathUserModify()
+{
+    var PICTURE_URL = Ext.getCmp("user_cover_url_modify").getValue();
+    if (!Ext.isEmpty(PICTURE_URL)) {
+        Ext.getCmp("imageUserPathshow").getEl().dom.src = PICTURE_URL;
+    } else {
+        Ext.getCmp("imageUserPathshow").getEl().dom.src = "";
+    }
+
+    console.log(Ext.getCmp("imageUserPathshow"));
+}
+
 var userStore = Ext.create('Ext.data.Store', {
-    fields: ['id', 'name', 'sex', 'contact', 'school_date', 'open_id', 'area', 'department', 'major', 'career', 'career_type', 'company', 'descript'],
+    fields: ['id', 'name', 'sex', 'career', 'intro', 'cover_url', 'delete_'],
     autoLoad: false,
-    pageSize: 20,
     proxy: {
         extraParams: {},
         type: 'rest',
-        url: '/structure/user/controller/manager_listuser.php',// get_order_list.htm',
+        url: '/structure/group/controller/manager_listuser.php',// get_order_list.htm',
         reader: {
             type: 'json',
             root: 'content',// JSON数组对象名
@@ -119,81 +131,55 @@ Ext.define('MyDesktop.UsersWindow', {
                                 renderer: sexRender
                             },
                             {
-                                text: "联系方式",
+                                text: "职位",
                                 width: 120,
-                                sortable: true,
-                                dataIndex: 'contact'
-                            },
-                            {
-                                text: "所在城市",
-                                width: 70,
-                                sortable: true,
-                                dataIndex: 'area'
-                            },
-                            {
-                                text: "院系",
-                                width: 70,
-                                sortable: true,
-                                dataIndex: 'department'
-                            },
-                            {
-                                text: "专业和班级",
-                                width: 70,
-                                sortable: true,
-                                dataIndex: 'major'
-                            },
-                            {
-                                text: "职业/职位",
-                                width: 70,
                                 sortable: true,
                                 dataIndex: 'career'
                             },
                             {
-                                text: "行业类别",
-                                width: 70,
+                                text: "简介",
+                                width: 350,
                                 sortable: true,
-                                dataIndex: 'career_type'
+                                dataIndex: 'intro'
                             },
                             {
-                                text: "公司名称",
+                                text: "是否删除",
                                 width: 70,
                                 sortable: true,
-                                dataIndex: 'company'
-                            },
-                            {
-                                text: "openid",
-                                width: 70,
-                                sortable: true,
-                                dataIndex: 'open_id'
-                            },
-                            {
-                                text: "您认为校友会能为您做些什么",
-                                width: 120,
-                                sortable: true,
-                                dataIndex: 'descript'
+                                dataIndex: 'delete_',
+                                renderer: deleteRender
                             }
                         ]
                     }
                 ],
                 tbar: [{
+                    id: 'user_add_button',
+                    text: '添加教师',
+                    tooltip: '添加教师填报信息',
+                    handler: function () {
+                        Ext.getCmp('userAddForm').form.reset();
+                        this_.userAddForm.show();
+                    }
+                }, '-', {
                     id: 'user_modify_button',
-                    text: '修改信息',
+                    text: '修改教师',
                     disabled: true,
-                    tooltip: '修改某个校友填报的信息',
+                    tooltip: '修改某个教师填报的信息',
                     handler: function () {
                         Ext.getCmp('userModifyForm').form.loadRecord(currentSel);
                         this_.userModifyForm.show();
+                        getpicPathUserModify();
                     }
                 }, '-', {
                     id: 'user_delete_button',
                     text: '删除信息',
                     disabled: true,
-                    tooltip: '删除某个校友填报的信息',
+                    tooltip: '删除某个教师填报的信息',
                     handler: function () {
                         Ext.MessageBox.confirm('确定', '是否要删除 ' + currentSel.data.name + ' ?', function (btn, text) {
                             if (btn == "yes") {
                                 Ext.Ajax.request({
-                                    url: '/structure/user/controller/manager_deluser.php',
+                                    url: '/structure/group/controller/manager_deluser.php',
                                     params: {
                                         id: currentSel.data.id
                                     },
@@ -207,13 +193,7 @@ Ext.define('MyDesktop.UsersWindow', {
                             }
                         });
                     }
-                }],
-                bbar: Ext.create('Ext.PagingToolbar', {
-                    store: this.store,
-                    displayInfo: true,
-                    displayMsg: '显示 {0} - {1} 条，共计 {2} 条',
-                    emptyMsg: "没有数据"
-                })
+                }]
             });
             this.store.load();
         }
@@ -233,7 +213,7 @@ Ext.define('MyDesktop.UsersWindow', {
             xtype: 'form',
             bodyPadding: 5,
             frame: true,
-            url: '/structure/user/controller/manager_user_modify.php',
+            url: '/structure/group/controller/manager_user_modify.php',
             layout: 'anchor',
             defaultType: 'textfield',
             fieldDefaults: {
@@ -244,9 +224,6 @@ Ext.define('MyDesktop.UsersWindow', {
             items: [{
                 xtype: 'hidden',
                 name: 'id'
-            }, {
-                xtype: 'hidden',
-                name: 'open_id'
             }, {
                 fieldLabel: '用户姓名',
                 name: 'name',
@@ -279,40 +256,29 @@ Ext.define('MyDesktop.UsersWindow', {
                     }]
                 })
             }, {
-                fieldLabel: '联系方式',
-                name: 'contact',
-                allowBlank: false
+                name : 'cover_url',
+                id : 'user_cover_url_modify',
+                xtype : 'hidden'
             }, {
-                fieldLabel: '所在城市',
-                name: 'area',
-                allowBlank: false
+                xtype : 'image',
+                fieldLabel : '原始头像',
+                width : 115,
+                height : 150,
+                id : 'imageUserPathshow',
+                src : ''
             }, {
-                fieldLabel: '院系',
-                name: 'department',
-                allowBlank: true
+                fieldLabel : '重新上传头像',
+                name : 'image',
+                xtype : 'filefield',
+                vtype:'imageUpload',
+                allowBlank : true
             }, {
-                fieldLabel: '专业和班级',
-                name: 'major',
-                allowBlank: false
-            }, {
-                fieldLabel: '职业/职位',
+                fieldLabel: '职业',
                 name: 'career',
                 allowBlank: false
             }, {
-                fieldLabel: '行业类别',
-                name: 'career_type',
-                allowBlank: true
-            }, {
-                fieldLabel: '公司名称',
-                name: 'company',
-                allowBlank: true
-            }, {
-                fieldLabel: 'openid',
-                name: 'open_id',
-                xtype : 'displayfield'
-            }, {
-                fieldLabel: '您认为校友会能为您做些什么',
-                name: 'descript',
+                fieldLabel: '简介',
+                name: 'intro',
                 xtype : 'textfield',
                 allowBlank: true
             }],
@@ -334,6 +300,113 @@ Ext.define('MyDesktop.UsersWindow', {
                                 success: function (form1, action) {
                                     Ext.Msg.alert('成功', '修改成功。');
                                     Ext.getCmp('userModifyWindow').close();
+                                    Ext.getCmp("user_modify_button").setDisabled(true);
+                                    Ext.getCmp("user_delete_button").setDisabled(true);
+                                    userSelModel.deselectAll();
+                                    userStore.reload();
+                                },
+                                failure: function (form, action) {
+                                    userSelModel.deselectAll();
+                                    Ext.getCmp("user_modify_button").setDisabled(true);
+                                    Ext.getCmp("user_delete_button").setDisabled(true);
+                                    Ext.Msg.alert('失败', '请刷新后重试。');
+                                }
+                            });
+                        }
+                    }
+                }]
+        }]
+    }),
+    userAddForm: Ext.create('Ext.window.Window', {
+        id : 'userAddWindow',
+        layout: 'fit',
+        title: '添加用户信息',
+        closeAction: 'hide',
+        width: 740,
+        height: 480,
+        border: false,
+        modal: true,
+        items: [{
+            id: 'userAddForm',
+            xtype: 'form',
+            bodyPadding: 5,
+            frame: true,
+            url: '/structure/group/controller/manager_user_add.php',
+            layout: 'anchor',
+            defaultType: 'textfield',
+            fieldDefaults: {
+                labelAlign: 'left',
+                labelWidth: 80,
+                anchor: '80%'
+            },
+            items: [{
+                xtype: 'hidden',
+                name: 'id'
+            }, {
+                fieldLabel: '用户姓名',
+                name: 'name',
+                allowBlank: false
+            }, {
+                fieldLabel: '性别',
+                name: 'sex',
+                size: 5,
+                allowBlank: false,
+                xtype: 'combo',
+                mode: 'local',
+                value: '0',
+                forceSelection: true,
+                editable: false,
+                typeAhead: true,
+                displayField: 'name',
+                valueField: 'value',
+                queryMode: 'local',
+                store: Ext.create('Ext.data.Store', {
+                    fields: ['name', 'value'],
+                    data: [{
+                        name: '未知',
+                        value: '0'
+                    }, {
+                        name: '男',
+                        value: '1'
+                    }, {
+                        name: '女',
+                        value: '2'
+                    }]
+                })
+            }, {
+                fieldLabel : '上传头像',
+                name : 'image',
+                xtype : 'filefield',
+                vtype:'imageUpload',
+                allowBlank : false
+            }, {
+                fieldLabel: '职业',
+                name: 'career',
+                allowBlank: false
+            }, {
+                fieldLabel: '简介',
+                name: 'intro',
+                xtype : 'textfield',
+                allowBlank: true
+            }],
+            buttons: [
+                {
+                    text: '重置',
+                    handler: function () {
+                        Ext.getCmp('userModifyForm').getForm().reset();
+                    }
+                },
+                {
+                    text: '提交',
+                    formBind: true, // only enabled once the form is valid
+                    disabled: false,
+                    handler: function () {
+                        var form = Ext.getCmp('userAddForm').getForm();
+                        if (form.isValid()) {
+                            form.submit({
+                                success: function (form1, action) {
+                                    Ext.Msg.alert('成功', '添加成功。');
+                                    Ext.getCmp('userAddWindow').close();
                                     Ext.getCmp("user_modify_button").setDisabled(true);
                                     Ext.getCmp("user_delete_button").setDisabled(true);
                                     userSelModel.deselectAll();

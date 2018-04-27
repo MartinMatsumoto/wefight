@@ -10,8 +10,8 @@ class group_dao
 {
     private $conn;
 
-    private $saveGroup = "INSERT INTO TEACHER_INTRO(name,career,intro,cover_url) VALUES (:name,:career,:intro,:cover_url)";
-    private $modifyGroup = "UPDATE TEACHER_INTRO SET `name` = :name,`career` = :career,`intro` = :intro,`cover_url` = :cover_url WHERE id = :id";
+    private $saveGroup = "INSERT INTO TEACHER_INTRO(name,career,intro,cover_url,sex) VALUES (:name,:career,:intro,:cover_url,:sex)";
+    private $modifyGroup = "UPDATE TEACHER_INTRO SET `name` = :name,`career` = :career,`intro` = :intro,`cover_url` = :cover_url,`sex` = :sex WHERE id = :id";
     private $getOne = "SELECT * FROM `TEACHER_INTRO` WHERE id = :id";
     private $delete = "UPDATE `TEACHER_INTRO` SET delete_ = 1 WHERE id = :id";
     private $enable = "UPDATE `TEACHER_INTRO` SET delete_ = 0 WHERE id = :id";
@@ -46,7 +46,7 @@ class group_dao
         return $stmt;
     }
 
-    function save($name, $career, $intro, $cover_url)
+    function save($name, $career, $intro, $cover_url, $sex)
     {
         try {
             $stmt = $this->conn->pdo->prepare($this->saveGroup);
@@ -54,16 +54,18 @@ class group_dao
             $stmt->bindParam(':career', $career);
             $stmt->bindParam(':intro', $intro);
             $stmt->bindParam(':cover_url', $cover_url);
+            $stmt->bindParam(':sex', $sex);
             $stmt->execute();
 
             $recentId = $stmt = $this->conn->pdo->lastInsertId();
             return $recentId;
         } catch (Exception  $e) {
+            echo $e;
             return false;
         }
     }
 
-    function modify($id, $name, $career, $intro, $cover_url)
+    function modify($id, $name, $career, $intro, $cover_url, $sex)
     {
         try {
             $stmt = $this->conn->pdo->prepare($this->modifyGroup);
@@ -72,9 +74,11 @@ class group_dao
             $stmt->bindParam(':intro', $intro);
             $stmt->bindParam(':cover_url', $cover_url);
             $stmt->bindParam(':id', $id);
+            $stmt->bindParam(':sex', $sex);
             $stmt->execute();
             return true;
         } catch (Exception  $e) {
+            echo $e;
             return false;
         }
     }
@@ -85,6 +89,7 @@ class group_dao
         if (isset($delete_)) {
             $listGroups .= " AND delete_ = :delete_";
         }
+        $listGroups .= " ORDER BY ID ASC";
         $stmt = $this->conn->pdo->prepare($listGroups);
         if (isset($delete_)) {
             $stmt->bindParam(':delete_', $delete_, PDO::PARAM_INT);

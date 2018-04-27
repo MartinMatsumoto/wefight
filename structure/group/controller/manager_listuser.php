@@ -7,15 +7,13 @@
  */
 require_once '../../../entrance.php';
 
-$id = intval($_POST["id"]);
+$dao = new group_dao();
 
-$dao = new essay_content_dao();
-
-$result = $dao->listEssayContents($id);
+$result = $dao->listGroup(null);
 $arr = array();
 while ($row = $result->fetch()) {
-    $essay_cotent = new courseintroduce_content($row);
-    array_push($arr, $essay_cotent);
+    $group = new group($row);
+    array_push($arr, $group);
 }
 $content = new result($arr, errorCode::$success);
 
