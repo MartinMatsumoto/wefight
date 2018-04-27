@@ -26,7 +26,7 @@ if (!is_uploaded_file($file['tmp_name'])) {
     return;
 }
 
-$file_name = "/upload/manager/" . $user_id . "_" . time() . '.' . $type;
+$file_name = "/upload/course/" . $user_id . "_" . time() . '.' . $type;
 $upload_name = $ROOT_DIR . $file_name;
 
 //开始移动文件到相应的文件夹

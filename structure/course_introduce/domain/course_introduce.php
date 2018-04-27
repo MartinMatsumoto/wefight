@@ -26,6 +26,8 @@ class course_introduce
     public $market_price;
     //删除
     public $delete_;
+
+    public $index_show;
     // 文章类型
     public $cover_url;
 
@@ -67,6 +69,10 @@ class course_introduce
 
             if (array_key_exists("delete_", $row)) {
                 $this->delete_ = $row["delete_"];
+            }
+
+            if (array_key_exists("index_show", $row)) {
+                $this->index_show = $row["index_show"];
             }
 
             if (array_key_exists("cover_url", $row)) {

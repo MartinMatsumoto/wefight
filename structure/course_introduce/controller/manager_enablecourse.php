@@ -9,7 +9,7 @@ require_once '../../../entrance.php';
 
 $id = intval($_POST["id"]);
 
-$dao = new essay_dao();
+$dao = new course_intro_dao();
 
 $result = $dao->enable($id);
 $content = new result(errorCode::$success, errorCode::$success);

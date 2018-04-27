@@ -737,16 +737,16 @@ if($id != 0){
                         </div>
                         <script language="javascript">
 
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("src", "/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("datas", "/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("src", "/index/an1L.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("datas", "/index/an1L.gif");
 
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("src", "/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("datas", "/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("src", "/index/an1R.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("datas", "/index/an1R.gif");
 
 
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("data", "/website/plugin/tb_product_detail/styles/listStyle/images/an1L.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_left").attr("data", "/index/an1L.gif");
 
-                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("data", "/website/plugin/tb_product_detail/styles/listStyle/images/an1R.gif");
+                            $("#layerA2F0C72F0F57DA2F939601D7B2C2AE04").find(".arrow_right").attr("data", "/index/an1R.gif");
 
 
                             $('#layerA2F0C72F0F57DA2F939601D7B2C2AE04').find('.arrow_left,.arrow_right').hover(function () {

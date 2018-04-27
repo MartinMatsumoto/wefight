@@ -31,12 +31,14 @@ var getContentIndex = function (parent, child) {
 }
 
 var courseTypeRender = function (val) {
-    if (val == 1) {
-        return '醉聚绵职';
-    } else if (val == 2) {
-        return '首善蓉城';
+    var dataMap = courseTypeStoreChoose.data.map;
+    var dataKeys = courseTypeStoreChoose.data.keys;
+    for(var i=0;i<dataKeys.length;i++){
+        if(val == dataMap[dataKeys[i]].data.id){
+            return dataMap[dataKeys[i]].data.name;
+        }
     }
-    return val;
+    return "";
 }
 
 //设置图片路径
@@ -51,7 +53,7 @@ function getpicPathCourseModify()
 }
 
 var courseStore = Ext.create('Ext.data.Store', {
-    fields: ['id', 'title', 'author', 'create_date', 'sub_title', 'type', 'delete_','cover_url', 'index_show', 'course_content'],
+    fields: ['id', 'title', 'author', 'create_date', 'sub_title', 'type', 'delete_', 'market_price', 'price','cover_url', 'index_show', 'course_content'],
     autoLoad: false,
     pageSize: 20,
     proxy: {
@@ -72,10 +74,9 @@ var courseStore = Ext.create('Ext.data.Store', {
     }
 });
 
-var courseTypeStore = Ext.create('Ext.data.Store', {
-    fields: ['id', 'title', 'author', 'create_date', 'sub_title', 'type', 'delete_','cover_url', 'index_show', 'course_content'],
-    autoLoad: false,
-    pageSize: 20,
+var courseTypeStoreChoose = Ext.create('Ext.data.Store', {
+    fields: ['id', 'name', 'delete_'],
+    autoLoad: true,
     proxy: {
         extraParams: {},
         type: 'rest',
@@ -393,6 +394,18 @@ Ext.define('MyDesktop.CourseWindow', {
                                 dataIndex: 'author'
                             },
                             {
+                                text: "市场价",
+                                width: 70,
+                                sortable: true,
+                                dataIndex: 'market_price'
+                            },
+                            {
+                                text: "实价",
+                                width: 70,
+                                sortable: true,
+                                dataIndex: 'price'
+                            },
+                            {
                                 text: "创建时间",
                                 width: 120,
                                 sortable: true,
@@ -613,30 +626,26 @@ Ext.define('MyDesktop.CourseWindow', {
             }, {
                 fieldLabel: '类型',
                 name: 'type',
-                size: 5,
                 allowBlank: false,
                 xtype: 'combo',
-                mode: 'local',
-                value: '1',
                 forceSelection: true,
                 editable: false,
-                typeAhead: true,
                 displayField: 'name',
-                valueField: 'value',
-                queryMode: 'local',
-                store: Ext.create('Ext.data.Store', {
-                    fields: ['name', 'value'],
-                    data: [{
-                        name: '醉聚绵职',
-                        value: '1'
-                    }, {
-                        name: '首善蓉城',
-                        value: '2'
-                    }]
-                })
+                valueField: 'id',
+                store: courseTypeStoreChoose
             }, {
                 fieldLabel: '作者',
                 name: 'author',
+                allowBlank: false
+            }, {
+                fieldLabel: '市场价',
+                xtype : 'numberfield',
+                name: 'market_price',
+                allowBlank: false
+            }, {
+                fieldLabel: '实价',
+                xtype : 'numberfield',
+                name: 'price',
                 allowBlank: false
             }, {
                 fieldLabel: '创建时间',
@@ -769,8 +778,31 @@ Ext.define('MyDesktop.CourseWindow', {
                 name: 'title',
                 allowBlank: false
             }, {
+                fieldLabel: '类型',
+                name: 'type',
+                size: 5,
+                allowBlank: false,
+                xtype: 'combo',
+                value: '1',
+                forceSelection: true,
+                editable: false,
+                typeAhead: true,
+                displayField: 'name',
+                valueField: 'id',
+                store: courseTypeStoreChoose
+            }, {
                 fieldLabel: '作者',
                 name: 'author',
+                allowBlank: false
+            }, {
+                fieldLabel: '市场价',
+                xtype : 'numberfield',
+                name: 'market_price',
+                allowBlank: false
+            }, {
+                fieldLabel: '实价',
+                xtype : 'numberfield',
+                name: 'price',
                 allowBlank: false
             }, {
                 fieldLabel: '创建时间',
