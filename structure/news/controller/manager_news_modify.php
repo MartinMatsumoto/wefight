@@ -13,7 +13,7 @@ $author = $_POST["author"];
 $create_date = $_POST["create_date"];
 $sub_title = $_POST["sub_title"];
 $cover_url = $_POST["cover_url"];
-$user_id = $_COOKIE['jushouqing_manager_id'];
+$user_id = $_COOKIE['wefight_manager_id'];
 
 $content = $_POST["content"];
 $content_type = $_POST["content_type"];

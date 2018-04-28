@@ -1,8 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <?php
-@$key = $_COOKIE['jushouqing_manager_key'];
-@$name = $_COOKIE['jushouqing_manager_name'];
-@$id = $_COOKIE['jushouqing_manager_id'];
+@$key = $_COOKIE['wefight_manager_key'];
+@$name = $_COOKIE['wefight_manager_name'];
+@$id = $_COOKIE['wefight_manager_id'];
 
 $url = './login.php';
 if (!empty($key) && !empty($name) && !empty($id)) {

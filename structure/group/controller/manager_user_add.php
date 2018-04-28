@@ -13,7 +13,7 @@ $career = $_POST["career"];
 $intro = $_POST["intro"];
 $cover_url = "";
 $sex = intval($_POST["sex"]);
-$user_id = $_COOKIE['jushouqing_manager_id'];
+$user_id = $_COOKIE['wefight_manager_id'];
 $file = $_FILES['image'];//得到传输的数据
 
 $file = $_FILES['image'];//得到传输的数据

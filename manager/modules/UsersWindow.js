@@ -62,6 +62,7 @@ function getUserSelModel(){
                 currentSel = record;
                 Ext.getCmp("user_modify_button").setDisabled(false);
                 Ext.getCmp("user_delete_button").setDisabled(false);
+                Ext.getCmp("user_enable_button").setDisabled(false);
             }
         }
     });
@@ -186,6 +187,31 @@ Ext.define('MyDesktop.UsersWindow', {
                                         userSelModel.deselectAll();
                                         Ext.getCmp("user_modify_button").setDisabled(true);
                                         Ext.getCmp("user_delete_button").setDisabled(true);
+                                        Ext.getCmp("user_enable_button").setDisabled(true);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }, '-', {
+                    id: 'user_enable_button',
+                    text: '恢复信息',
+                    disabled: true,
+                    tooltip: '恢复某个教师填报的信息',
+                    handler: function () {
+                        Ext.MessageBox.confirm('确定', '是否要恢复教师?', function (btn, text) {
+                            if (btn == "yes") {
+                                Ext.Ajax.request({
+                                    url: '/structure/group/controller/manager_enableuser.php',
+                                    params: {
+                                        id: currentSel.data.id
+                                    },
+                                    success: function (response) {
+                                        this_.store.reload();
+                                        userSelModel.deselectAll();
+                                        Ext.getCmp("user_modify_button").setDisabled(true);
+                                        Ext.getCmp("user_delete_button").setDisabled(true);
+                                        Ext.getCmp("user_enable_button").setDisabled(true);
                                     }
                                 });
                             }
@@ -300,6 +326,7 @@ Ext.define('MyDesktop.UsersWindow', {
                                     Ext.getCmp('userModifyWindow').close();
                                     Ext.getCmp("user_modify_button").setDisabled(true);
                                     Ext.getCmp("user_delete_button").setDisabled(true);
+                                    Ext.getCmp("user_enable_button").setDisabled(true);
                                     userSelModel.deselectAll();
                                     userStore.reload();
                                 },
@@ -307,6 +334,7 @@ Ext.define('MyDesktop.UsersWindow', {
                                     userSelModel.deselectAll();
                                     Ext.getCmp("user_modify_button").setDisabled(true);
                                     Ext.getCmp("user_delete_button").setDisabled(true);
+                                    Ext.getCmp("user_enable_button").setDisabled(true);
                                     Ext.Msg.alert('失败', '请刷新后重试。');
                                 }
                             });
@@ -407,6 +435,7 @@ Ext.define('MyDesktop.UsersWindow', {
                                     Ext.getCmp('userAddWindow').close();
                                     Ext.getCmp("user_modify_button").setDisabled(true);
                                     Ext.getCmp("user_delete_button").setDisabled(true);
+                                    Ext.getCmp("user_enable_button").setDisabled(true);
                                     userSelModel.deselectAll();
                                     userStore.reload();
                                 },
@@ -414,6 +443,7 @@ Ext.define('MyDesktop.UsersWindow', {
                                     userSelModel.deselectAll();
                                     Ext.getCmp("user_modify_button").setDisabled(true);
                                     Ext.getCmp("user_delete_button").setDisabled(true);
+                                    Ext.getCmp("user_enable_button").setDisabled(true);
                                     Ext.Msg.alert('失败', '请刷新后重试。');
                                 }
                             });

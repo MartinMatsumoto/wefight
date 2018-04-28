@@ -76,9 +76,9 @@
                         success : function(re, v) { // 表单提交成功后,调用的函数.参数分为两个,一个是提交的表单对象,另一个是JSP返回的参数值对象
                             if(v && v.result && v.result.success == 1){
                                 var content = v.result.content;
-                                Ext.util.Cookies.set('jushouqing_manager_key', content.key);
-                                Ext.util.Cookies.set('jushouqing_manager_name', content.real_name);
-                                Ext.util.Cookies.set('jushouqing_manager_id', content.id);
+                                Ext.util.Cookies.set('wefight_manager_key', content.key);
+                                Ext.util.Cookies.set('wefight_manager_name', content.real_name);
+                                Ext.util.Cookies.set('wefight_manager_id', content.id);
                                 document.location.href = "./index.php";
                             }else{
                                 Ext.Msg.alert("信息", v.result.errorString);

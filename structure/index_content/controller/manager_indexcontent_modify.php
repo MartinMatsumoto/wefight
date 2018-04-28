@@ -11,7 +11,7 @@ $id = $_POST["id"];
 $title = $_POST["title"];
 $content = $_POST["content"];
 
-$user_id = $_COOKIE['jushouqing_manager_id'];
+$user_id = $_COOKIE['wefight_manager_id'];
 
 $dao = new index_content_dao();
 

@@ -28,8 +28,8 @@ var courseTypeStore = Ext.create('Ext.data.Store', {
 var currentSel = null;
 var courseTypeSelModel = null;
 
-function getCourseTypeSelModel(){
-   courseTypeSelModel = Ext.create('Ext.selection.CheckboxModel', {
+function getCourseTypeSelModel() {
+    courseTypeSelModel = Ext.create('Ext.selection.CheckboxModel', {
         mode: 'SINGLE',
         listeners: {
             beforeselect: function (catgegory, record, index, obj) {
@@ -40,6 +40,7 @@ function getCourseTypeSelModel(){
                 currentSel = record;
                 Ext.getCmp("coursetype_modify_button").setDisabled(false);
                 Ext.getCmp("coursetype_delete_button").setDisabled(false);
+                Ext.getCmp("coursetype_enable_button").setDisabled(false);
             }
         }
     });
@@ -144,6 +145,31 @@ Ext.define('MyDesktop.CourseTypeWindow', {
                                         courseTypeSelModel.deselectAll();
                                         Ext.getCmp("coursetype_modify_button").setDisabled(true);
                                         Ext.getCmp("coursetype_delete_button").setDisabled(true);
+                                        Ext.getCmp("coursetype_enable_button").setDisabled(true);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }, '-', {
+                    id: 'coursetype_enable_button',
+                    text: '恢复信息',
+                    disabled: true,
+                    tooltip: '恢复某个类型填报的信息',
+                    handler: function () {
+                        Ext.MessageBox.confirm('确定', '是否要恢复 ' + currentSel.data.name + ' ?', function (btn, text) {
+                            if (btn == "yes") {
+                                Ext.Ajax.request({
+                                    url: '/structure/course_introduce/controller/manager_enablecourse_type.php',
+                                    params: {
+                                        id: currentSel.data.id
+                                    },
+                                    success: function (response) {
+                                        this_.store.reload();
+                                        courseTypeSelModel.deselectAll();
+                                        Ext.getCmp("coursetype_modify_button").setDisabled(true);
+                                        Ext.getCmp("coursetype_delete_button").setDisabled(true);
+                                        Ext.getCmp("coursetype_enable_button").setDisabled(true);
                                     }
                                 });
                             }
@@ -156,7 +182,7 @@ Ext.define('MyDesktop.CourseTypeWindow', {
         return win;
     },
     courseTypeModifyForm: Ext.create('Ext.window.Window', {
-        id : 'courseTypeModifyWindow',
+        id: 'courseTypeModifyWindow',
         layout: 'fit',
         title: '修改类型信息',
         closeAction: 'hide',
@@ -205,6 +231,7 @@ Ext.define('MyDesktop.CourseTypeWindow', {
                                     Ext.getCmp('courseTypeModifyWindow').close();
                                     Ext.getCmp("coursetype_modify_button").setDisabled(true);
                                     Ext.getCmp("coursetype_delete_button").setDisabled(true);
+                                    Ext.getCmp("coursetype_enable_button").setDisabled(true);
                                     courseTypeSelModel.deselectAll();
                                     courseTypeStore.reload();
                                 },
@@ -212,6 +239,7 @@ Ext.define('MyDesktop.CourseTypeWindow', {
                                     courseTypeSelModel.deselectAll();
                                     Ext.getCmp("coursetype_modify_button").setDisabled(true);
                                     Ext.getCmp("coursetype_delete_button").setDisabled(true);
+                                    Ext.getCmp("coursetype_enable_button").setDisabled(true);
                                     Ext.Msg.alert('失败', '请刷新后重试。');
                                 }
                             });
@@ -221,7 +249,7 @@ Ext.define('MyDesktop.CourseTypeWindow', {
         }]
     }),
     courseTypeAddForm: Ext.create('Ext.window.Window', {
-        id : 'courseTypeAddWindow',
+        id: 'courseTypeAddWindow',
         layout: 'fit',
         title: '添加类型信息',
         closeAction: 'hide',
@@ -270,6 +298,7 @@ Ext.define('MyDesktop.CourseTypeWindow', {
                                     Ext.getCmp('courseTypeAddWindow').close();
                                     Ext.getCmp("coursetype_modify_button").setDisabled(true);
                                     Ext.getCmp("coursetype_delete_button").setDisabled(true);
+                                    Ext.getCmp("coursetype_enable_button").setDisabled(true);
                                     courseTypeSelModel.deselectAll();
                                     courseTypeStore.reload();
                                 },
@@ -277,6 +306,7 @@ Ext.define('MyDesktop.CourseTypeWindow', {
                                     courseTypeSelModel.deselectAll();
                                     Ext.getCmp("coursetype_modify_button").setDisabled(true);
                                     Ext.getCmp("coursetype_delete_button").setDisabled(true);
+                                    Ext.getCmp("coursetype_enable_button").setDisabled(true);
                                     Ext.Msg.alert('失败', '请刷新后重试。');
                                 }
                             });
