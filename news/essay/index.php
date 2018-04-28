@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- saved from url=(0081)http://education-300.view.sitestar.cn/page8 -->
+<!-- saved from url=(0081)http://www.wefight.com/page8 -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
@@ -76,14 +76,14 @@ if($id != 0){
         'isedit': '0',
         'islogin': '0',
         'domain': 'tpl-cf61794',
-        'p_rooturl': 'http://education-300.view.sitestar.cn',
+        'p_rooturl': 'http://www.wefight.com',
         'static_rooturl': '/index',
         'interface_locale': "zh_CN",
         'dev_mode': "0",
         'getsession': ''
     }, {
         "phpsessionid": "",
-        "punyurl": "\/\/education-300.view.sitestar.cn",
+        "punyurl": "\/\/www.wefight.com",
         "curr_locale": "zh_CN",
         "mscript_name": "",
         "converted": false

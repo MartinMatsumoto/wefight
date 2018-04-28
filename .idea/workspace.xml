@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdae6ef-4cb3-492c-a5d9-bb64d0d0fb35" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/images/retain_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager/modules/RetainMessageWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/contact_us/controller/manager_listretainmessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/contact_us/controller/retain_message_save.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/contact_us/dao/retain_message_dao.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/structure/contact_us/domain/retain_message.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_us/index.php" afterPath="$PROJECT_DIR$/about_us/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact_us/index.php" afterPath="$PROJECT_DIR$/contact_us/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_introduce/essay/index.php" afterPath="$PROJECT_DIR$/course_introduce/essay/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_introduce/index.php" afterPath="$PROJECT_DIR$/course_introduce/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entrance.php" afterPath="$PROJECT_DIR$/entrance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/group_introduce/index.php" afterPath="$PROJECT_DIR$/group_introduce/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.php" afterPath="$PROJECT_DIR$/include/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.php" afterPath="$PROJECT_DIR$/include/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/index.php" afterPath="$PROJECT_DIR$/news/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse.php" afterPath="$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/course_introduce/dao/course_intro_dao.php" afterPath="$PROJECT_DIR$/structure/course_introduce/dao/course_intro_dao.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/news/controller/manager_listnews.php" afterPath="$PROJECT_DIR$/structure/news/controller/manager_listnews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/news/dao/news_dao.php" afterPath="$PROJECT_DIR$/structure/news/dao/news_dao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/css/desktop.css" afterPath="$PROJECT_DIR$/manager/css/desktop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/modules/App.js" afterPath="$PROJECT_DIR$/manager/modules/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/essay/index.php" afterPath="$PROJECT_DIR$/news/essay/index.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,50 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="RetainMessageWindow.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manager/modules/RetainMessageWindow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4773519">
-              <caret line="711" column="33" selection-start-line="711" selection-start-column="33" selection-end-line="711" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#A#0;n#div#0;n#div#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#19;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#19;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#19;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#20;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#20;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#20;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#FONT#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#A#0;n#div#0;n#div#1;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#FONT#0;n#div#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#FONT#0;n#div#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#FONT#0;n#div#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#P#2;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#26;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <marker date="1524883603754" expanded="true" signature="24640:24759" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.193548">
-              <caret line="346" column="108" selection-start-line="346" selection-start-column="77" selection-end-line="346" selection-end-column="108" />
+            <state vertical-scroll-proportion="0.4">
+              <caret line="124" column="49" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -166,20 +138,12 @@
     <setting file="file://$PROJECT_DIR$/structure/count/domain/count.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/course_introduce/essay/index.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/include/footer.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index/script.js" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/structure/banner/controller/manager_banner_add.php" />
-        <option value="$PROJECT_DIR$/structure/news/dao/news_content_dao.php" />
-        <option value="$PROJECT_DIR$/structure/news/controller/manager_news_add.php" />
-        <option value="$PROJECT_DIR$/structure/news/controller/manager_shownews.php" />
-        <option value="$PROJECT_DIR$/structure/news/controller/manager_hidenews.php" />
-        <option value="$PROJECT_DIR$/manager/modules/NewsWindow.js" />
-        <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_content.php" />
-        <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_type.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/structure/news/controller/manager_news_modify.php" />
         <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_course_modify.php" />
         <option value="$PROJECT_DIR$/course_introduce/essay/index.php" />
@@ -200,7 +164,6 @@
         <option value="$PROJECT_DIR$/structure/index_about_us/dao/index_about_us_dao.php" />
         <option value="$PROJECT_DIR$/manager/modules/AboutUsWindow.js" />
         <option value="$PROJECT_DIR$/manager/modules/ContactUsWindow.js" />
-        <option value="$PROJECT_DIR$/manager/modules/App.js" />
         <option value="$PROJECT_DIR$/manager/modules/Notepad.js" />
         <option value="$PROJECT_DIR$/structure/course_introduce/controller/manager_delcourse_type.php" />
         <option value="$PROJECT_DIR$/structure/group/controller/manager_deluser.php" />
@@ -222,6 +185,16 @@
         <option value="$PROJECT_DIR$/structure/news/controller/manager_listnews.php" />
         <option value="$PROJECT_DIR$/index/common.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/about_us/index.php" />
+        <option value="$PROJECT_DIR$/structure/contact_us/controller/retain_message_save.php" />
+        <option value="$PROJECT_DIR$/include/footer.php" />
+        <option value="$PROJECT_DIR$/manager/css/desktop.css" />
+        <option value="$PROJECT_DIR$/manager/modules/App.js" />
+        <option value="$PROJECT_DIR$/structure/contact_us/controller/manager_listretainmessage.php" />
+        <option value="$PROJECT_DIR$/structure/contact_us/dao/retain_message_dao.php" />
+        <option value="$PROJECT_DIR$/entrance.php" />
+        <option value="$PROJECT_DIR$/structure/contact_us/domain/retain_message.php" />
+        <option value="$PROJECT_DIR$/manager/modules/RetainMessageWindow.js" />
       </list>
     </option>
   </component>
@@ -294,7 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
+              <option name="myItemId" value="structure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,7 +281,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_introduce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_introduce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_introduce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact_us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact_us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact_us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wefight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,11 +429,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PHPWorkspace\wefight\structure\course_introduce\controller" />
-      <recent name="E:\PHPWorkspace\wefight\structure\group\controller" />
+      <recent name="E:\PHPWorkspace\wefight\structure\contact_us\controller" />
+      <recent name="E:\PHPWorkspace\wefight\manager\images" />
       <recent name="E:\PHPWorkspace\wefight\manager\modules" />
-      <recent name="E:\PHPWorkspace\wefight\core\db" />
-      <recent name="E:\PHPWorkspace\wefight\structure\news\controller" />
+      <recent name="E:\PHPWorkspace\wefight\structure\contact_us\dao" />
+      <recent name="E:\PHPWorkspace\wefight\structure\contact_us\domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\PHPWorkspace\wefight\upload\news" />
@@ -501,115 +602,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/structure/news/controller/manager_news_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_course_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5783972">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_delcourse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49825785">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_enablecourse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49825785">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_showcourse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4216028">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_hidecourse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/domain/course_introduce.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37108013">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/CourseWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53479856">
-          <caret line="439" column="29" selection-start-line="439" selection-start-column="29" selection-end-line="439" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_course_modify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.129032">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/group/controller/manager_user_modify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7630662">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/VideoWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/banner/controller/manager_banner_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34494773">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/js/Module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14545454">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/js/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4363637">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/structure/contact_us/controller/get_index_contact_us.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4216028">
@@ -650,6 +642,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22996515">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <marker date="1524713924843" expanded="true" signature="171:335" placeholder="UPDATE CONTA..." />
+            <marker date="1524713924843" expanded="true" signature="361:402" placeholder="SELECT * FRO..CONTACT_US..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -688,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager/modules/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49752066">
-          <caret line="79" column="92" selection-start-line="79" selection-start-column="82" selection-end-line="79" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/structure/course_introduce/controller/manager_listcourse_type.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.806452">
@@ -723,6 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3322314">
           <caret line="111" column="53" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -862,26 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structure/course_introduce/dao/course_intro_dao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35017422">
-          <caret line="106" column="54" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
-          <folding>
-            <marker date="1524880890773" expanded="true" signature="164:344" placeholder="INSERT INTO COURSE_INTRO..." />
-            <marker date="1524880890773" expanded="true" signature="381:597" placeholder="UPDATE COURS..." />
-            <marker date="1524880890773" expanded="true" signature="623:666" placeholder="SELECT * FRO..COURSE_INTRO..." />
-            <marker date="1524880890773" expanded="true" signature="693:777" placeholder="SELECT * FRO..COURSE_INTRO..." />
-            <marker date="1524880890773" expanded="true" signature="804:871" placeholder="SELECT * FRO..COURSE_INTRO..." />
-            <marker date="1524880890773" expanded="true" signature="896:950" placeholder="SELECT COUNT..." />
-            <marker date="1524880890773" expanded="true" signature="976:1028" placeholder="UPDATE `COUR..." />
-            <marker date="1524880890773" expanded="true" signature="1054:1106" placeholder="UPDATE `COUR..." />
-            <marker date="1524880890773" expanded="true" signature="1130:1185" placeholder="UPDATE `COUR..." />
-            <marker date="1524880890773" expanded="true" signature="1209:1264" placeholder="UPDATE `COUR..." />
-            <marker date="1524880890773" expanded="true" signature="3886:3922" placeholder="SELECT * FRO..COURSE_INTRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course_introduce/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37108013">
@@ -895,26 +865,6 @@
         <state vertical-scroll-proportion="-4.064516">
           <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structure/news/dao/news_dao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0017421">
-          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
-          <folding>
-            <marker date="1524883210166" expanded="true" signature="149:276" placeholder="INSERT INTO NEWS_INTRO..." />
-            <marker date="1524883210166" expanded="true" signature="306:457" placeholder="UPDATE NEWS_..." />
-            <marker date="1524883210166" expanded="true" signature="483:524" placeholder="SELECT * FRO..NEWS_INTRO..." />
-            <marker date="1524883210166" expanded="true" signature="551:633" placeholder="SELECT * FRO..NEWS_INTRO..." />
-            <marker date="1524883210166" expanded="true" signature="660:725" placeholder="SELECT * FRO..NEWS_INTRO..." />
-            <marker date="1524883210166" expanded="true" signature="750:792" placeholder="SELECT COUNT..." />
-            <marker date="1524883210166" expanded="true" signature="818:868" placeholder="UPDATE `NEWS..." />
-            <marker date="1524883210166" expanded="true" signature="894:944" placeholder="UPDATE `NEWS..." />
-            <marker date="1524883210166" expanded="true" signature="968:1021" placeholder="UPDATE `NEWS..." />
-            <marker date="1524883210166" expanded="true" signature="1045:1098" placeholder="UPDATE `NEWS..." />
-            <marker date="1524883210166" expanded="true" signature="3294:3328" placeholder="SELECT * FRO..NEWS_INTRO..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,40 +892,184 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about_us/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7247387">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_introduce/essay/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35017422">
+          <caret line="77" column="44" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4773519">
-          <caret line="711" column="33" selection-start-line="711" selection-start-column="33" selection-end-line="711" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.4599303">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/news/controller/manager_news_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.870968">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/news/dao/news_dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.029616725">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#A#0;n#div#0;n#div#0;n#div#18;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#19;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#19;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#19;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#20;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#20;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#20;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#FONT#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#A#0;n#div#0;n#div#1;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#FONT#0;n#div#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#FONT#0;n#div#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#FONT#0;n#div#0;n#div#2;n#div#1;n#div#21;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#P#2;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#26;n#div#0;n#div#1;n#div#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <marker date="1524883603754" expanded="true" signature="24640:24759" placeholder="..." />
+            <marker date="1524883210166" expanded="true" signature="149:276" placeholder="INSERT INTO NEWS_INTRO..." />
+            <marker date="1524883210166" expanded="true" signature="306:457" placeholder="UPDATE NEWS_..." />
+            <marker date="1524883210166" expanded="true" signature="483:524" placeholder="SELECT * FRO..NEWS_INTRO..." />
+            <marker date="1524883210166" expanded="true" signature="551:633" placeholder="SELECT * FRO..NEWS_INTRO..." />
+            <marker date="1524883210166" expanded="true" signature="660:725" placeholder="SELECT * FRO..NEWS_INTRO..." />
+            <marker date="1524883210166" expanded="true" signature="750:792" placeholder="SELECT COUNT..." />
+            <marker date="1524883210166" expanded="true" signature="818:868" placeholder="UPDATE `NEWS..." />
+            <marker date="1524883210166" expanded="true" signature="894:944" placeholder="UPDATE `NEWS..." />
+            <marker date="1524883210166" expanded="true" signature="968:1021" placeholder="UPDATE `NEWS..." />
+            <marker date="1524883210166" expanded="true" signature="1045:1098" placeholder="UPDATE `NEWS..." />
+            <marker date="1524883210166" expanded="true" signature="3294:3328" placeholder="SELECT * FRO..NEWS_INTRO..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/contact_us/controller/retain_message_save.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34494773">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.937282">
+          <caret line="1091" column="33" selection-start-line="1091" selection-start-column="33" selection-end-line="1091" selection-end-column="33" />
+          <folding>
+            <marker date="1524885371752" expanded="true" signature="32790:32799" placeholder="..." />
+            <marker date="1524885371752" expanded="true" signature="43089:43531" placeholder="..." />
+            <marker date="1524885371752" expanded="true" signature="43127:43316" placeholder="..." />
+            <marker date="1524885371752" expanded="false" signature="43347:43387" placeholder="..." />
+            <marker date="1524885371752" expanded="true" signature="54575:54594" placeholder="..." />
+            <marker date="1524885371752" expanded="true" signature="54595:54718" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5454545">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/js/Module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14545454">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/js/Desktop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9636364">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/css/desktop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.32258">
+          <caret line="222" column="24" selection-start-line="222" selection-start-column="1" selection-end-line="222" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="86" column="94" selection-start-line="86" selection-start-column="81" selection-end-line="86" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/course_introduce/dao/course_intro_dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275262">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1524880890773" expanded="true" signature="164:344" placeholder="INSERT INTO COURSE_INTRO..." />
+            <marker date="1524880890773" expanded="true" signature="381:597" placeholder="UPDATE COURS..." />
+            <marker date="1524880890773" expanded="true" signature="623:666" placeholder="SELECT * FRO..COURSE_INTRO..." />
+            <marker date="1524880890773" expanded="true" signature="693:777" placeholder="SELECT * FRO..COURSE_INTRO..." />
+            <marker date="1524880890773" expanded="true" signature="804:871" placeholder="SELECT * FRO..COURSE_INTRO..." />
+            <marker date="1524880890773" expanded="true" signature="896:950" placeholder="SELECT COUNT..." />
+            <marker date="1524880890773" expanded="true" signature="976:1028" placeholder="UPDATE `COUR..." />
+            <marker date="1524880890773" expanded="true" signature="1054:1106" placeholder="UPDATE `COUR..." />
+            <marker date="1524880890773" expanded="true" signature="1130:1185" placeholder="UPDATE `COUR..." />
+            <marker date="1524880890773" expanded="true" signature="1209:1264" placeholder="UPDATE `COUR..." />
+            <marker date="1524880890773" expanded="true" signature="3886:3922" placeholder="SELECT * FRO..COURSE_INTRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entrance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3641115">
+          <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/contact_us/domain/retain_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38327527">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/contact_us/controller/manager_listretainmessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5017422">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/contact_us/dao/retain_message_dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19163764">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <marker date="1524887046663" expanded="true" signature="168:241" placeholder="INSERT INTO retain_message..." />
+            <marker date="1524887046663" expanded="true" signature="266:322" placeholder="SELECT COUNT..." />
+            <marker date="1524887046663" expanded="true" signature="908:936" placeholder="SELECT * FRO..RETAIN_MESSAGE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/modules/RetainMessageWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4">
+          <caret line="124" column="49" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

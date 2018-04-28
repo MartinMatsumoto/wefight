@@ -7,7 +7,7 @@ $result = $index_contact_us_dao->getOne(1);
 $contact_us = new contact_us($result->fetch());
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- saved from url=(0043)http://education-300.view.sitestar.cn/page7 -->
+<!-- saved from url=(0043)http://www.wefight.com/page7 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
@@ -54,12 +54,12 @@ $contact_us = new contact_us($result->fetch());
         'isedit': '0',
         'islogin': '0',
         'domain': 'tpl-cf61794',
-        'p_rooturl': 'http://education-300.view.sitestar.cn',
+        'p_rooturl': 'http://www.wefight.com',
         'static_rooturl': '/index',
         'interface_locale': "zh_CN",
         'dev_mode': "0",
         'getsession': ''
-    }, {"phpsessionid": "", "punyurl": "\/\/education-300.view.sitestar.cn", "curr_locale": "zh_CN", "mscript_name": "", "converted": false}));
+    }, {"phpsessionid": "", "punyurl": "\/\/www.wefight.com", "curr_locale": "zh_CN", "mscript_name": "", "converted": false}));
 
 </script>
 <link href="/index/common.css" rel="stylesheet" />

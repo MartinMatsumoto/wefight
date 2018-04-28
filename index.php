@@ -60,14 +60,14 @@ $news_dao = new news_dao();
         'isedit': '0',
         'islogin': '0',
         'domain': 'tpl-cf61794',
-        'p_rooturl': 'http://education-300.view.sitestar.cn',
+        'p_rooturl': 'http://www.wefight.com',
         'static_rooturl': '/index',
         'interface_locale': "zh_CN",
         'dev_mode': "0",
         'getsession': ''
     }, {
         "phpsessionid": "",
-        "punyurl": "\/\/education-300.view.sitestar.cn",
+        "punyurl": "\/\/www.wefight.com",
         "curr_locale": "zh_CN",
         "mscript_name": "",
         "converted": false

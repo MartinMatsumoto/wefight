@@ -27,6 +27,7 @@ Ext.define('MyDesktop.App', {
         'MyDesktop.Notepad',
         'MyDesktop.BogusMenuModule',
         'MyDesktop.BogusModule',
+        'MyDesktop.RetainMessageWindow',
 
 //        'MyDesktop.Blockalanche',
         'MyDesktop.Settings'
@@ -51,6 +52,7 @@ Ext.define('MyDesktop.App', {
             new MyDesktop.EssayWindow(),
             new MyDesktop.NewsWindow(),
             new MyDesktop.CourseWindow(),
+            new MyDesktop.RetainMessageWindow(),
             new MyDesktop.BannerWindow(),
             new MyDesktop.IndexContentWindow(),
             new MyDesktop.CourseTypeWindow(),
@@ -81,7 +83,8 @@ Ext.define('MyDesktop.App', {
                     { name: '课程管理', iconCls: 'essay-shortcut', module: 'course-win' },
                     { name: '团队介绍', iconCls: 'accordion-shortcut', module: 'user-win' },
                     { name: '联系我们', iconCls: 'company-shortcut', module: 'contactUs-win' },
-                    { name: '关于我们', iconCls: 'direction-shortcut', module: 'aboutUs-win' }
+                    { name: '关于我们', iconCls: 'direction-shortcut', module: 'aboutUs-win' },
+                    { name: '客户留言', iconCls: 'retain_message-shortcut', module: 'retainMessage-win' }
                 ]
             }),
 

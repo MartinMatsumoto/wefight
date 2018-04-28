@@ -503,7 +503,7 @@ $contact_us = new contact_us($result->fetch());
                         display: none;
                     }
                 </style>
-                <form class="mesform" style="overflow: hidden; position: relative;" action="index.php" method="post">
+                <form class="mesform" style="overflow: hidden; position: relative;" action="/structure/contact_us/controller/retain_message_save.php" method="post">
                     <input name="msid" type="hidden" value="1" />
                     <ul class="mfields">
                         <li>
@@ -511,7 +511,7 @@ $contact_us = new contact_us($result->fetch());
                                 姓名
                             </div>
                             <div class="inpbox">
-                                <input name="mes[text-i1]" class="inptext" type="text" maxlength="50" />
+                                <input name="name" class="inptext" type="text" maxlength="50" />
                             </div>
                             <div style="overflow: hidden; clear: both;"></div> </li>
                         <li>
@@ -519,7 +519,7 @@ $contact_us = new contact_us($result->fetch());
                                 电话
                             </div>
                             <div class="inpbox">
-                                <input name="mes[mobile-i2]" class="inptext" type="text" maxlength="150" data-rule-mobile="true" />
+                                <input name="tel" class="inptext" type="text" maxlength="150" data-rule-mobile="true" />
                             </div>
                             <div style="overflow: hidden; clear: both;"></div> </li>
                         <li>
@@ -527,7 +527,7 @@ $contact_us = new contact_us($result->fetch());
                                 留言内容
                             </div>
                             <div class="inpbox">
-                                <textarea name="mes[textarea-i3]" class="txtarea" maxlength="50"></textarea>
+                                <textarea name="message" class="txtarea" maxlength="50"></textarea>
                             </div>
                             <div style="overflow: hidden; clear: both;"></div> </li>
                     </ul>
@@ -1055,42 +1055,38 @@ $contact_us = new contact_us($result->fetch());
                                         return;
                                     }
 
-                                    $.post("http://education-300.view.sitestar.cn/index.php?_m=new_message_form&_a=savemes", $(form).serialize(), function (data) {
-                                        var jsndata = $.parseJSON(data);
-                                        if (jsndata.result == 'ERROR') alert(jsndata.errmsg);
-                                        else if (jsndata.result == 'OK') {
-                                            $('#layerFA7142981F4F9B1279EA8BD66124B477').find(".defaultval").html(2);
-                                            $('#layerFA7142981F4F9B1279EA8BD66124B477').find(".send").removeClass("cancel").html("发送验证码");
-                                            alert("提交成功");
-                                            form.reset();
-                                            required_pic_post_f = false;
-                                            choose_pic_post_f = false;
-                                            $curlayer.find('.mesform').find(".uppic_hidden").each(function () {
-                                                $(this).val('');
-                                            })
-                                            $curlayer.find('.mesform').find(".filequeue").each(function () {
+                                    $.post("/structure/contact_us/controller/retain_message_save.php", $(form).serialize(), function (data) {
+                                        $('#layerFA7142981F4F9B1279EA8BD66124B477').find(".defaultval").html(2);
+                                        $('#layerFA7142981F4F9B1279EA8BD66124B477').find(".send").removeClass("cancel").html("发送验证码");
+                                        alert("提交成功");
+                                        form.reset();
+                                        required_pic_post_f = false;
+                                        choose_pic_post_f = false;
+                                        $curlayer.find('.mesform').find(".uppic_hidden").each(function () {
+                                            $(this).val('');
+                                        })
+                                        $curlayer.find('.mesform').find(".filequeue").each(function () {
+                                            $(this).html('');
+                                            $(this).css({'border': 'none', 'height': 'auto'});
+                                        })
+                                        $curlayer.find('.mesform').find(".webuploader-pick_txt").each(function () {
+                                            if (curskn == 'ms3') {
+                                                var oldname = $(this).parents('.webuploader-container').siblings('.uppic_hidden').attr('field_name');
+                                                $(this).html(oldname);
+                                            } else {
                                                 $(this).html('');
-                                                $(this).css({'border': 'none', 'height': 'auto'});
-                                            })
-                                            $curlayer.find('.mesform').find(".webuploader-pick_txt").each(function () {
-                                                if (curskn == 'ms3') {
-                                                    var oldname = $(this).parents('.webuploader-container').siblings('.uppic_hidden').attr('field_name');
-                                                    $(this).html(oldname);
-                                                } else {
-                                                    $(this).html('');
-                                                }
-                                            })
-                                            var skn = 'ms2';
-                                            $('.radiobox, .checkbox', form).removeClass("on");
-                                            $('.btn-select > span.cur_select', form).html(function () {
-                                                var tipstr = ' --- ', $li = $(this).closest('li');
-                                                if (skn == 'ms3') tipstr = $li.children('.title').html() || ' --- ';
-                                                $li.find('> .inpbox > .btn-select:gt(0)').hide();
-                                                return tipstr;
-                                            });
-                                            if (useauthcode == 'yes') $('img.captchapic', form).trigger("click");
-                                            wp_heightAdapt($curlayer);
-                                        } else alert("请求失败");
+                                            }
+                                        })
+                                        var skn = 'ms2';
+                                        $('.radiobox, .checkbox', form).removeClass("on");
+                                        $('.btn-select > span.cur_select', form).html(function () {
+                                            var tipstr = ' --- ', $li = $(this).closest('li');
+                                            if (skn == 'ms3') tipstr = $li.children('.title').html() || ' --- ';
+                                            $li.find('> .inpbox > .btn-select:gt(0)').hide();
+                                            return tipstr;
+                                        });
+                                        if (useauthcode == 'yes') $('img.captchapic', form).trigger("click");
+                                        wp_heightAdapt($curlayer);
                                         $('span.requiredtip', form).remove();
                                     });
                                 }

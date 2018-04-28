@@ -23,7 +23,7 @@ if($id != 0){
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- saved from url=(0082)http://education-300.view.sitestar.cn/page9 -->
+<!-- saved from url=(0082)http://www.wefight.com/page9 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
@@ -75,14 +75,14 @@ if($id != 0){
         'isedit': '0',
         'islogin': '0',
         'domain': 'tpl-cf61794',
-        'p_rooturl': 'http://education-300.view.sitestar.cn',
+        'p_rooturl': 'http://www.wefight.com',
         'static_rooturl': '/index',
         'interface_locale': "zh_CN",
         'dev_mode': "0",
         'getsession': ''
     }, {
         "phpsessionid": "",
-        "punyurl": "\/\/education-300.view.sitestar.cn",
+        "punyurl": "\/\/www.wefight.com",
         "curr_locale": "zh_CN",
         "mscript_name": "",
         "converted": false

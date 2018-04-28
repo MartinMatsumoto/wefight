@@ -220,6 +220,10 @@ div.ux-taskbar div.x-toolbar {
     background-image: url(../images/essay.png);
 }
 
+.retain_message-shortcut {
+    background-image: url(../images/retain_message.png);
+}
+
 .direction-shortcut{
     background-image: url(../images/direction.png);
 }

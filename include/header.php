@@ -12,7 +12,7 @@
     <div class="wp-new_navigation_content"
          style="border-width: 0px; border-color: transparent; width: 684px; height: 0px; overflow: hidden; display: block;"
          type="0">
-        <div class="nav1 menu_hs9" sethomeurl="http://education-300.view.sitestar.cn/page1"
+        <div class="nav1 menu_hs9" sethomeurl="http://www.wefight.com/page1"
              dmenu="0" umenu="0" submethod="0" hover_scr="0" hover="1" morecolor="darkorange"
              moreshow="1" more="更多" direction="0" colorstyle="black" ishorizon="1"
              skin="hs9">
