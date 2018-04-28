@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2018-04-26 17:24:13
+Date: 2018-04-28 16:43:32
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -34,7 +34,7 @@ CREATE TABLE `contact_us` (
 -- ----------------------------
 -- Records of contact_us
 -- ----------------------------
-INSERT INTO `contact_us` VALUES ('1', '299666555', '四川省成都市成华区某街道某地方', '13555555555', '5544664@163.com', '028-865555555', '104.044348', '30.62614');
+INSERT INTO `contact_us` VALUES ('1', 'a299666555', 'a四川省成都市成华区某街道某地方', 'a13555555555', 'a5544664@163.com', 'a028-865555555', '104.044348', '30.62614');
 
 -- ----------------------------
 -- Table structure for `course_intro`
@@ -51,25 +51,27 @@ CREATE TABLE `course_intro` (
   `cover_url` varchar(100) DEFAULT NULL,
   `type` int(11) NOT NULL,
   `delete_` bigint(10) NOT NULL DEFAULT '0',
+  `index_show` bigint(10) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of course_intro
 -- ----------------------------
-INSERT INTO `course_intro` VALUES ('5', '绵职院成都校友会吹响号角，快来围观', '钟娜', '2017-07-26', '饮水思源，收获怀耕。绵职人遍及大江南北，他们是学院的历史，是母校的宝贵财富，是母校与社会之间构筑互动和互益的桥梁。正是这种背景，催生了母校总会和各地校友分会的成立。', '111.52', '1.00', '/upload/news/1.jpg', '2', '0');
-INSERT INTO `course_intro` VALUES ('6', '涪诚汇-一个有情怀的平台，等着你来', '成都校友会', '2017-07-03', '自2012年5月成都校友会成立后，各项活动的开展让我们体会到单靠校友捐款难以长存，没有专职人员，校友会的工作也会缺乏连贯性，各地兄弟校友会亦有所体会。这当是校友总会最清楚又极力想改变的现状', '222.00', '2.00', '/upload/news/3.jpg', '2', '0');
-INSERT INTO `course_intro` VALUES ('7', '2016年“不忘初心，携手前行”年会圆满落幕', '成都校友会', '2017-07-04', '趣谈往事论当今，欢声笑语满堂飞。灯光杯影映笑脸，依稀时光又重回。', '333.00', '3.00', '/upload/news/2.jpg', '2', '0');
-INSERT INTO `course_intro` VALUES ('8', '聚首情丨再回首，情更浓', '成都校友会', '2017-01-13', '有人说有朋友的地方就有江湖，不论腥风血雨，都有人陪你一起趟；然而有江湖的地方何不是因为朋友，而多了一份肝胆照人的高歌。朋友中，有这样二字我们非常熟悉---校友。校友源于每个人乌托邦时代，一颦一笑，都那么青涩美好，这是它的真实写照。每个人回忆起自己的青葱岁月，也总是会嘴角上扬。', '444.00', '4.00', '/upload/news/4.jpg', '2', '0');
-INSERT INTO `course_intro` VALUES ('9', '认真而不失风趣之“何院长”', '成都校友会', '2016-11-19', '何礼果 中共党员，教授，硕士研究生导师，司法鉴定人。 现任绵阳职业技术学院院长，绵职院校友会总会会长。 中国高校科技法研究会理事；四川省法学会会员。 主要研究方向：法理学、宪法学和科技法学等领域。 从教以来，主持省、市和校级科研项目10余项，主研或参研省、市和校级科研项目12余项。 出版《现代科技法研究》专著1部，作为主编出版《法理学复习指南及阶梯训练》教材1部，副主编出版《法学概论》、《经济法学》教材2部，在《法律科学》、《学术论坛》、《社会科学研究》、《现代法学》、《经济与社会发展》等国家学术刊物公开发表学术论文60余篇。', '555.00', '5.00', '/upload/news/5.jpg', '1', '0');
-INSERT INTO `course_intro` VALUES ('10', '与肖院长零距离对话：忆往昔，展未来', '成都校友会', '2017-08-09', '当小编特意乘坐熟悉的46路公交车，一路望着窗外的风景发呆时，不由想起周杰伦《回到过去》那首歌里的歌词：“想回到过去，试着让故事继续……”   下了车，走入校园，那些陪伴了自己几年青春时光的老师和校园风光，先后出现在眼前。只是几年时间，校园已经发生了太多变化，我一点一点的走近它，像回到梦最初开始的地方。    身旁的风刮来一个个斑斓的梦，看着抱着课本匆匆走入教室的学弟学妹，内心有种说不出的平静。  直到推开肖院长的办公室门，再次见到肖院长，那张熟悉的脸庞，将小编心里突然生出的忐忑抚平，与肖院长(绵阳职业技术学院副院长）简短有趣的对话，让小编的此次校园之行，更加耐人寻味。', '666.00', '6.00', '/upload/news/6.jpg', '1', '0');
-INSERT INTO `course_intro` VALUES ('11', '成都涪诚汇科技有限公司第五次股东大会圆满召开', '成都校友会', '2017-08-09', '成都涪诚汇科技有限公司第五次股东大会于2017年7月16日下午15:00 — 18:00在成都花溪上堰酒店会议室顺利召开。到场股东28人，达到公司章程规定召开股东大会的条件。', '777.00', '7.00', '/upload/news/1.jpg', '2', '0');
-INSERT INTO `course_intro` VALUES ('12', '成都校友会2017夏游暨校友会理事大会、公司股东大会圆满召开', '成都校友会', '2017-08-09', '5月20日，绵职院成都校友会理事、涪诚汇股东、部分校友一行在根据地“火炬时代”集合完毕后向母校出发。成都校友会2017夏游暨校友会理事大会、公司股东大会由此展开，以“畅享青春 · 展望未来”为主题拉开了序幕。', '888.00', '8.00', '/upload/news/2.jpg', '1', '0');
-INSERT INTO `course_intro` VALUES ('13', '成都校友会2017夏游暨校友会理事大会、公司股东大会圆满召开', '成都校友会', '2017-08-09', '5月20日，绵职院成都校友会理事、涪诚汇股东、部分校友一行在根据地“火炬时代”集合完毕后向母校出发。成都校友会2017夏游暨校友会理事大会、公司股东大会由此展开，以“畅享青春 · 展望未来”为主题拉开了序幕。', '9999.00', '34.00', '/upload/news/3.jpg', '1', '0');
-INSERT INTO `course_intro` VALUES ('14', '1', '1', '2018-04-13', '1', '1.00', '1.00', '1', '1', '0');
-INSERT INTO `course_intro` VALUES ('15', '2', '2', '2018-04-13', '2', '2.00', '2.00', '2', '2', '0');
-INSERT INTO `course_intro` VALUES ('16', '3', '3', '2018-04-13', '3', '3.00', '3.00', '3', '3', '0');
-INSERT INTO `course_intro` VALUES ('17', '4', '4', '2018-04-13', '4', '4.00', '4.00', '4', '3', '0');
+INSERT INTO `course_intro` VALUES ('5', '绵职院成都校友会吹响号角，快来围观', '钟娜', '2017-07-26', '饮水思源，收获怀耕。绵职人遍及大江南北，他们是学院的历史，是母校的宝贵财富，是母校与社会之间构筑互动和互益的桥梁。正是这种背景，催生了母校总会和各地校友分会的成立。', '111.52', '1.00', '/upload/news/1.jpg', '2', '0', '1');
+INSERT INTO `course_intro` VALUES ('6', '涪诚汇-一个有情怀的平台，等着你来', '成都校友会', '2017-07-03', '自2012年5月成都校友会成立后，各项活动的开展让我们体会到单靠校友捐款难以长存，没有专职人员，校友会的工作也会缺乏连贯性，各地兄弟校友会亦有所体会。这当是校友总会最清楚又极力想改变的现状', '222.00', '2.00', '/upload/news/3.jpg', '2', '0', '1');
+INSERT INTO `course_intro` VALUES ('7', '2016年“不忘初心，携手前行”年会圆满落幕', '成都校友会', '2017-07-04', '趣谈往事论当今，欢声笑语满堂飞。灯光杯影映笑脸，依稀时光又重回。', '333.00', '3.00', '/upload/news/2.jpg', '2', '0', '1');
+INSERT INTO `course_intro` VALUES ('8', '聚首情丨再回首，情更浓', '成都校友会', '2017-01-13', '有人说有朋友的地方就有江湖，不论腥风血雨，都有人陪你一起趟；然而有江湖的地方何不是因为朋友，而多了一份肝胆照人的高歌。朋友中，有这样二字我们非常熟悉---校友。校友源于每个人乌托邦时代，一颦一笑，都那么青涩美好，这是它的真实写照。每个人回忆起自己的青葱岁月，也总是会嘴角上扬。', '444.00', '4.00', '/upload/news/4.jpg', '2', '1', '1');
+INSERT INTO `course_intro` VALUES ('9', '认真而不失风趣之“何院长”', '成都校友会', '2016-11-19', '何礼果 中共党员，教授，硕士研究生导师，司法鉴定人。 现任绵阳职业技术学院院长，绵职院校友会总会会长。 中国高校科技法研究会理事；四川省法学会会员。 主要研究方向：法理学、宪法学和科技法学等领域。 从教以来，主持省、市和校级科研项目10余项，主研或参研省、市和校级科研项目12余项。 出版《现代科技法研究》专著1部，作为主编出版《法理学复习指南及阶梯训练》教材1部，副主编出版《法学概论》、《经济法学》教材2部，在《法律科学》、《学术论坛》、《社会科学研究》、《现代法学》、《经济与社会发展》等国家学术刊物公开发表学术论文60余篇。', '555.00', '5.00', '/upload/news/5.jpg', '1', '1', '1');
+INSERT INTO `course_intro` VALUES ('10', '与肖院长零距离对话：忆往昔，展未来', '成都校友会', '2017-08-09', '当小编特意乘坐熟悉的46路公交车，一路望着窗外的风景发呆时，不由想起周杰伦《回到过去》那首歌里的歌词：“想回到过去，试着让故事继续……”   下了车，走入校园，那些陪伴了自己几年青春时光的老师和校园风光，先后出现在眼前。只是几年时间，校园已经发生了太多变化，我一点一点的走近它，像回到梦最初开始的地方。    身旁的风刮来一个个斑斓的梦，看着抱着课本匆匆走入教室的学弟学妹，内心有种说不出的平静。  直到推开肖院长的办公室门，再次见到肖院长，那张熟悉的脸庞，将小编心里突然生出的忐忑抚平，与肖院长(绵阳职业技术学院副院长）简短有趣的对话，让小编的此次校园之行，更加耐人寻味。', '666.00', '6.00', '/upload/news/6.jpg', '1', '0', '0');
+INSERT INTO `course_intro` VALUES ('11', '成都涪诚汇科技有限公司第五次股东大会圆满召开', '成都校友会', '2017-08-09', '成都涪诚汇科技有限公司第五次股东大会于2017年7月16日下午15:00 — 18:00在成都花溪上堰酒店会议室顺利召开。到场股东28人，达到公司章程规定召开股东大会的条件。', '777.00', '7.00', '/upload/news/1.jpg', '2', '0', '0');
+INSERT INTO `course_intro` VALUES ('12', '成都校友会2017夏游暨校友会理事大会、公司股东大会圆满召开', '成都校友会', '2017-08-09', '5月20日，绵职院成都校友会理事、涪诚汇股东、部分校友一行在根据地“火炬时代”集合完毕后向母校出发。成都校友会2017夏游暨校友会理事大会、公司股东大会由此展开，以“畅享青春 · 展望未来”为主题拉开了序幕。', '888.00', '8.00', '/upload/news/2.jpg', '1', '0', '0');
+INSERT INTO `course_intro` VALUES ('13', '成都校友会2017夏游暨校友会理事大会、公司股东大会圆满召开', '成都校友会', '2017-08-09', '5月20日，绵职院成都校友会理事、涪诚汇股东、部分校友一行在根据地“火炬时代”集合完毕后向母校出发。成都校友会2017夏游暨校友会理事大会、公司股东大会由此展开，以“畅享青春 · 展望未来”为主题拉开了序幕。', '9999.00', '34.00', '/upload/news/3.jpg', '1', '0', '0');
+INSERT INTO `course_intro` VALUES ('14', '第一个课程！', '我', '2018-04-27', '副标题！！', '998.99', '100.50', '/upload/course/1_1524796085.png', '1', '0', '0');
+INSERT INTO `course_intro` VALUES ('15', '2', '2', '2018-04-13', '2', '2.00', '2.00', '2', '2', '0', '0');
+INSERT INTO `course_intro` VALUES ('16', '3', '3', '2018-04-13', '3', '3.00', '3.00', '3', '3', '0', '1');
+INSERT INTO `course_intro` VALUES ('17', '4', '4', '2018-04-13', '4', '4.00', '4.00', '4', '3', '0', '1');
+INSERT INTO `course_intro` VALUES ('18', 'sadadasd', 'sadasdaaa', '2018-04-27', 'asdasdasdasd', '12.00', '23.00', '/upload/course/1_1524797017.png', '2', '0', '1');
 
 -- ----------------------------
 -- Table structure for `course_intro_content`
@@ -81,7 +83,7 @@ CREATE TABLE `course_intro_content` (
   `content` varchar(1000) NOT NULL,
   `type` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=723 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=743 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of course_intro_content
@@ -283,6 +285,13 @@ INSERT INTO `course_intro_content` VALUES ('719', '8', '/upload/manager/1_150813
 INSERT INTO `course_intro_content` VALUES ('720', '8', '/upload/manager/1_1508136283.png', '2');
 INSERT INTO `course_intro_content` VALUES ('721', '8', '在大家的通力合作下，从“聚首情”取名、设计再到制作、出厂，来到我们相聚杯中，都为绵职人倾注辛劳，满含校友情谊而成。现也是为绵阳职业技术学院订购酒，校友会指定酒。\n', '1');
 INSERT INTO `course_intro_content` VALUES ('722', '8', '“聚首情”不只是酒，更是校友情怀的见证结晶。', '1');
+INSERT INTO `course_intro_content` VALUES ('736', '14', 'dasdasd', '1');
+INSERT INTO `course_intro_content` VALUES ('737', '14', '段落1', '1');
+INSERT INTO `course_intro_content` VALUES ('738', '14', '段落23333', '1');
+INSERT INTO `course_intro_content` VALUES ('739', '14', '/upload/manager/1_1524796025.jpg', '2');
+INSERT INTO `course_intro_content` VALUES ('740', '18', 'sadasdasdasd', '1');
+INSERT INTO `course_intro_content` VALUES ('741', '18', 'asdasd23324234234', '1');
+INSERT INTO `course_intro_content` VALUES ('742', '18', '/upload/course/1_1524797015.jpg', '2');
 
 -- ----------------------------
 -- Table structure for `course_type`
@@ -293,14 +302,15 @@ CREATE TABLE `course_type` (
   `name` varchar(20) NOT NULL,
   `delete_` bit(1) NOT NULL DEFAULT b'0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of course_type
 -- ----------------------------
-INSERT INTO `course_type` VALUES ('1', '泰拳培训', '');
-INSERT INTO `course_type` VALUES ('2', '咏春拳培训', '');
+INSERT INTO `course_type` VALUES ('1', '泰拳培训', '');
+INSERT INTO `course_type` VALUES ('2', '咏春拳培训2222', '');
 INSERT INTO `course_type` VALUES ('3', '其他培训', '');
+INSERT INTO `course_type` VALUES ('4', 'asdasdasd', '');
 
 -- ----------------------------
 -- Table structure for `index_about_us`
@@ -316,7 +326,7 @@ CREATE TABLE `index_about_us` (
 -- ----------------------------
 -- Records of index_about_us
 -- ----------------------------
-INSERT INTO `index_about_us` VALUES ('1', '11122   教育培训学校是XX地区较权威的 教育培训网络服务平台之一。网站创办于2005年，以XX地区丰富的教育培训资源背景为强大的依托，以“一切为了求知者”为经营理念，致力于为XX地区广 大的求知者提供全面、权威、有效、便捷的服务系统，力图为求知者排除求知路上的点滴困难，明确求知方向，让目标用户面对培训不再盲目，为求知者的美好未来 保驾护航，成为求知者心目中的导航明灯。于此同时，教育培训网还为各类教育培训机构提供了招生营销、市场策划、品牌宣传等一系列的专业化服务，在求知者与 教育培训机构之间架起一座便捷之桥。\r\n11网站根据XX地区的教育培训行业市场现状，在确保所有信息都真实有效的前提之下，收集了各类权威培训机构资料与培训课程信息，从求知者的角度与 需求出发，对各类教育机构提供客观的评价，为广大的求知者提供了外语培训、IT培训、学历教育、职业技能、资格认证、才艺健身等涉及整个教育培训领', '/upload/about_us/0of8.jpg');
+INSERT INTO `index_about_us` VALUES ('1', 'jiaoyu培训222', '/upload/manager/1_1524819178.jpg');
 
 -- ----------------------------
 -- Table structure for `index_banner`
@@ -367,7 +377,7 @@ CREATE TABLE `news_content` (
   `content` varchar(1000) NOT NULL,
   `type` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=912 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1006 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of news_content
@@ -539,44 +549,40 @@ INSERT INTO `news_content` VALUES ('719', '8', '/upload/manager/1_1508136119.png
 INSERT INTO `news_content` VALUES ('720', '8', '/upload/manager/1_1508136283.png', '2');
 INSERT INTO `news_content` VALUES ('721', '8', '在大家的通力合作下，从“聚首情”取名、设计再到制作、出厂，来到我们相聚杯中，都为绵职人倾注辛劳，满含校友情谊而成。现也是为绵阳职业技术学院订购酒，校友会指定酒。\n', '1');
 INSERT INTO `news_content` VALUES ('722', '8', '“聚首情”不只是酒，更是校友情怀的见证结晶。', '1');
-INSERT INTO `news_content` VALUES ('873', '5', '饮水思源，收获怀耕。绵职人遍及大江南北，他们是学院的历史，是母校的宝贵财富，是母校与社会之间构筑互动和互益的桥梁。正是这种背景，催生了母校总会和各地校友分会的成立。', '1');
-INSERT INTO `news_content` VALUES ('874', '5', '/upload/manager/1_1501470174.jpg', '2');
-INSERT INTO `news_content` VALUES ('875', '5', '为了通过校友会平台联络校友感情，传播母校信息，增强校友之间及与母校之间的凝聚力，成都的校友们经过几番商讨与筹备，以 “分享 • 共好”为宗旨，2012年5月20日在成都市望江宾馆成功召开了成都校友会成立大会。学院党委书记文晓璋，副书记、院长何礼果，副院长左明扬等学院领导及老师见证了成都校友会的成立。', '1');
-INSERT INTO `news_content` VALUES ('876', '5', '/upload/manager/1_1502160804.jpg', '2');
-INSERT INTO `news_content` VALUES ('877', '5', '成立大会审议并通过了成都校友会章程及组织机构人员名单', '1');
-INSERT INTO `news_content` VALUES ('878', '5', '名誉会长：饶光华', '1');
-INSERT INTO `news_content` VALUES ('879', '5', '会长：万富兵', '1');
-INSERT INTO `news_content` VALUES ('880', '5', '副会长：刘昌严     李江涛', '1');
-INSERT INTO `news_content` VALUES ('881', '5', '秘书长：张晓莉', '1');
-INSERT INTO `news_content` VALUES ('882', '5', '常务理事：毛胜荣   等共计13名', '1');
-INSERT INTO `news_content` VALUES ('883', '5', '理事：林桂英   等共计30名', '1');
-INSERT INTO `news_content` VALUES ('884', '5', '感恩校友的重逢，感谢母校的关怀。有了母校的监督与鞭策，校友们的团结与付出，成都校友会不断成长与壮大。', '1');
-INSERT INTO `news_content` VALUES ('885', '5', '情系校友 • 共享发展', '1');
-INSERT INTO `news_content` VALUES ('886', '5', '1、2013年12月21日，成都校友会“在一起”把集结号吹响\n', '1');
-INSERT INTO `news_content` VALUES ('887', '5', '2、2015年2月7日，“在路上”的成都校友们面对困难，共同迎难而上\n', '1');
-INSERT INTO `news_content` VALUES ('888', '5', '3、2015年12月19日， “再聚首，情更浓”成都校友会号召大家再聚首，美丽的蓉城因有你有我，更加灿烂辉煌\n', '1');
-INSERT INTO `news_content` VALUES ('889', '5', '/upload/manager/1_1502161714.png', '2');
-INSERT INTO `news_content` VALUES ('890', '5', '/upload/manager/1_1502162422.jpg', '2');
-INSERT INTO `news_content` VALUES ('891', '5', '/upload/manager/1_1502162619.jpg', '2');
-INSERT INTO `news_content` VALUES ('892', '5', '同年5月9日，成都校友会迎来首届换届大会，经参会理事共同推荐及无记名投票，选举产生了成都校友会新一轮领导班子，并一致推举文晓璋、万富兵为名誉会长。当选的新班子表示，努力搞好校友会工作，力争成都校友会更上新台阶。', '1');
-INSERT INTO `news_content` VALUES ('893', '5', '/upload/manager/1_1502162848.png', '2');
-INSERT INTO `news_content` VALUES ('894', '5', '/upload/manager/1_1502162976.jpg', '2');
-INSERT INTO `news_content` VALUES ('895', '5', '第二届成都校友会组织机构人员名单：', '1');
-INSERT INTO `news_content` VALUES ('896', '5', '名誉会长：文晓璋     万富兵', '1');
-INSERT INTO `news_content` VALUES ('897', '5', '会长：刘昌严', '1');
-INSERT INTO `news_content` VALUES ('898', '5', '副会长：李江涛     张华川     杨伟', '1');
-INSERT INTO `news_content` VALUES ('899', '5', '秘书长：张晓莉', '1');
-INSERT INTO `news_content` VALUES ('900', '5', '副秘书长：钟娜     杨俊君', '1');
-INSERT INTO `news_content` VALUES ('901', '5', '理事：李绍强   等共计45名', '1');
-INSERT INTO `news_content` VALUES ('902', '5', '山高水长，情意悠悠。成都校友会心系每一位校友。同舟共济，共享发展。成都校友会不忘初心，携手前行。', '1');
-INSERT INTO `news_content` VALUES ('903', '5', '???', '1');
-INSERT INTO `news_content` VALUES ('905', '14', 'asdasdasd', '1');
-INSERT INTO `news_content` VALUES ('906', '14', '/upload/news/1_1524731281.png', '2');
-INSERT INTO `news_content` VALUES ('907', '14', 'asdasdaaaaaaaa', '1');
-INSERT INTO `news_content` VALUES ('908', '14', '/upload/news/1_1524731293.png', '2');
 INSERT INTO `news_content` VALUES ('909', '23', 'asdasd', '1');
 INSERT INTO `news_content` VALUES ('910', '23', '/upload/news/1_1524731715.jpg', '2');
 INSERT INTO `news_content` VALUES ('911', '23', 'sadasdasdasdasd', '1');
+INSERT INTO `news_content` VALUES ('975', '14', 'asdasd', '1');
+INSERT INTO `news_content` VALUES ('976', '5', '饮水思源，收获怀耕。绵职人遍及大江南北，他们是学院的历史，是母校的宝贵财富，是母校与社会之间构筑互动和互益的桥梁。正是这种背景，催生了母校总会和各地校友分会的成立。', '1');
+INSERT INTO `news_content` VALUES ('977', '5', '/upload/manager/1_1501470174.jpg', '2');
+INSERT INTO `news_content` VALUES ('978', '5', '为了通过校友会平台联络校友感情，传播母校信息，增强校友之间及与母校之间的凝聚力，成都的校友们经过几番商讨与筹备，以 “分享 • 共好”为宗旨，2012年5月20日在成都市望江宾馆成功召开了成都校友会成立大会。学院党委书记文晓璋，副书记、院长何礼果，副院长左明扬等学院领导及老师见证了成都校友会的成立。', '1');
+INSERT INTO `news_content` VALUES ('979', '5', '/upload/manager/1_1502160804.jpg', '2');
+INSERT INTO `news_content` VALUES ('980', '5', '成立大会审议并通过了成都校友会章程及组织机构人员名单', '1');
+INSERT INTO `news_content` VALUES ('981', '5', '名誉会长：饶光华', '1');
+INSERT INTO `news_content` VALUES ('982', '5', '会长：万富兵', '1');
+INSERT INTO `news_content` VALUES ('983', '5', '副会长：刘昌严     李江涛', '1');
+INSERT INTO `news_content` VALUES ('984', '5', '秘书长：张晓莉', '1');
+INSERT INTO `news_content` VALUES ('985', '5', '常务理事：毛胜荣   等共计13名', '1');
+INSERT INTO `news_content` VALUES ('986', '5', '理事：林桂英   等共计30名', '1');
+INSERT INTO `news_content` VALUES ('987', '5', '感恩校友的重逢，感谢母校的关怀。有了母校的监督与鞭策，校友们的团结与付出，成都校友会不断成长与壮大。', '1');
+INSERT INTO `news_content` VALUES ('988', '5', '情系校友 • 共享发展', '1');
+INSERT INTO `news_content` VALUES ('989', '5', '1、2013年12月21日，成都校友会“在一起”把集结号吹响\r\n', '1');
+INSERT INTO `news_content` VALUES ('990', '5', '2、2015年2月7日，“在路上”的成都校友们面对困难，共同迎难而上\r\n', '1');
+INSERT INTO `news_content` VALUES ('991', '5', '3、2015年12月19日， “再聚首，情更浓”成都校友会号召大家再聚首，美丽的蓉城因有你有我，更加灿烂辉煌\r\n', '1');
+INSERT INTO `news_content` VALUES ('992', '5', '/upload/manager/1_1502161714.png', '2');
+INSERT INTO `news_content` VALUES ('993', '5', '/upload/manager/1_1502162422.jpg', '2');
+INSERT INTO `news_content` VALUES ('994', '5', '/upload/manager/1_1502162619.jpg', '2');
+INSERT INTO `news_content` VALUES ('995', '5', '同年5月9日，成都校友会迎来首届换届大会，经参会理事共同推荐及无记名投票，选举产生了成都校友会新一轮领导班子，并一致推举文晓璋、万富兵为名誉会长。当选的新班子表示，努力搞好校友会工作，力争成都校友会更上新台阶。', '1');
+INSERT INTO `news_content` VALUES ('996', '5', '/upload/manager/1_1502162848.png', '2');
+INSERT INTO `news_content` VALUES ('997', '5', '/upload/manager/1_1502162976.jpg', '2');
+INSERT INTO `news_content` VALUES ('998', '5', '第二届成都校友会组织机构人员名单：', '1');
+INSERT INTO `news_content` VALUES ('999', '5', '名誉会长：文晓璋     万富兵', '1');
+INSERT INTO `news_content` VALUES ('1000', '5', '会长：刘昌严', '1');
+INSERT INTO `news_content` VALUES ('1001', '5', '副会长：李江涛     张华川     杨伟', '1');
+INSERT INTO `news_content` VALUES ('1002', '5', '秘书长：张晓莉', '1');
+INSERT INTO `news_content` VALUES ('1003', '5', '副秘书长：钟娜     杨俊君', '1');
+INSERT INTO `news_content` VALUES ('1004', '5', '理事：李绍强   等共计45名', '1');
+INSERT INTO `news_content` VALUES ('1005', '5', '山高水长，情意悠悠。成都校友会心系每一位校友。同舟共济，共享发展。成都校友会不忘初心，携手前行。', '1');
 
 -- ----------------------------
 -- Table structure for `news_intro`
@@ -597,16 +603,16 @@ CREATE TABLE `news_intro` (
 -- ----------------------------
 -- Records of news_intro
 -- ----------------------------
-INSERT INTO `news_intro` VALUES ('5', '绵职院成都校友会吹响号角，快来围观22222', '钟娜222', '2018-04-26', '222饮水思源，收获怀耕。绵职人遍及大江南北，他们是学院的历史，是母校的宝贵财富，是母校与社会之间构筑互动和互益的桥梁。正是这种背景，催生了母校总会和各地校友分会的成立。', '/upload/news/1.jpg', '1', '1');
-INSERT INTO `news_intro` VALUES ('6', '涪诚汇-一个有情怀的平台，等着你来', '成都校友会', '2017-07-03', '自2012年5月成都校友会成立后，各项活动的开展让我们体会到单靠校友捐款难以长存，没有专职人员，校友会的工作也会缺乏连贯性，各地兄弟校友会亦有所体会。这当是校友总会最清楚又极力想改变的现状', '/upload/news/3.jpg', '0', '0');
+INSERT INTO `news_intro` VALUES ('5', '绵职院成都校友会吹响号角，快来围观', '钟娜2', '2017-07-26', '饮水思源，收获怀耕。绵职人遍及大江南北，他们是学院的历史，是母校的宝贵财富，是母校与社会之间构筑互动和互益的桥梁。正是这种背景，催生了母校总会和各地校友分会的成立。', '/upload/news/1.jpg', '0', '1');
+INSERT INTO `news_intro` VALUES ('6', '涪诚汇-一个有情怀的平台，等着你来', '成都校友会', '2017-07-03', '自2012年5月成都校友会成立后，各项活动的开展让我们体会到单靠校友捐款难以长存，没有专职人员，校友会的工作也会缺乏连贯性，各地兄弟校友会亦有所体会。这当是校友总会最清楚又极力想改变的现状', '/upload/news/3.jpg', '0', '1');
 INSERT INTO `news_intro` VALUES ('7', '2016年“不忘初心，携手前行”年会圆满落幕', '成都校友会', '2017-07-04', '趣谈往事论当今，欢声笑语满堂飞。灯光杯影映笑脸，依稀时光又重回。', '/upload/news/2.jpg', '0', '1');
-INSERT INTO `news_intro` VALUES ('8', '聚首情丨再回首，情更浓', '成都校友会', '2017-01-13', '有人说有朋友的地方就有江湖，不论腥风血雨，都有人陪你一起趟；然而有江湖的地方何不是因为朋友，而多了一份肝胆照人的高歌。朋友中，有这样二字我们非常熟悉---校友。校友源于每个人乌托邦时代，一颦一笑，都那么青涩美好，这是它的真实写照。每个人回忆起自己的青葱岁月，也总是会嘴角上扬。', '/upload/news/4.jpg', '0', '0');
-INSERT INTO `news_intro` VALUES ('9', '认真而不失风趣之“何院长”', '成都校友会', '2016-11-19', '何礼果 中共党员，教授，硕士研究生导师，司法鉴定人。 现任绵阳职业技术学院院长，绵职院校友会总会会长。 中国高校科技法研究会理事；四川省法学会会员。 主要研究方向：法理学、宪法学和科技法学等领域。 从教以来，主持省、市和校级科研项目10余项，主研或参研省、市和校级科研项目12余项。 出版《现代科技法研究》专著1部，作为主编出版《法理学复习指南及阶梯训练》教材1部，副主编出版《法学概论》、《经济法学》教材2部，在《法律科学》、《学术论坛》、《社会科学研究》、《现代法学》、《经济与社会发展》等国家学术刊物公开发表学术论文60余篇。', '/upload/news/5.jpg', '0', '0');
+INSERT INTO `news_intro` VALUES ('8', '聚首情丨再回首，情更浓', '成都校友会', '2017-01-13', '有人说有朋友的地方就有江湖，不论腥风血雨，都有人陪你一起趟；然而有江湖的地方何不是因为朋友，而多了一份肝胆照人的高歌。朋友中，有这样二字我们非常熟悉---校友。校友源于每个人乌托邦时代，一颦一笑，都那么青涩美好，这是它的真实写照。每个人回忆起自己的青葱岁月，也总是会嘴角上扬。', '/upload/news/4.jpg', '0', '1');
+INSERT INTO `news_intro` VALUES ('9', '认真而不失风趣之“何院长”', '成都校友会', '2016-11-19', '何礼果 中共党员，教授，硕士研究生导师，司法鉴定人。 现任绵阳职业技术学院院长，绵职院校友会总会会长。 中国高校科技法研究会理事；四川省法学会会员。 主要研究方向：法理学、宪法学和科技法学等领域。 从教以来，主持省、市和校级科研项目10余项，主研或参研省、市和校级科研项目12余项。 出版《现代科技法研究》专著1部，作为主编出版《法理学复习指南及阶梯训练》教材1部，副主编出版《法学概论》、《经济法学》教材2部，在《法律科学》、《学术论坛》、《社会科学研究》、《现代法学》、《经济与社会发展》等国家学术刊物公开发表学术论文60余篇。', '/upload/news/5.jpg', '0', '1');
 INSERT INTO `news_intro` VALUES ('10', '与肖院长零距离对话：忆往昔，展未来', '成都校友会', '2017-08-09', '当小编特意乘坐熟悉的46路公交车，一路望着窗外的风景发呆时，不由想起周杰伦《回到过去》那首歌里的歌词：“想回到过去，试着让故事继续……”   下了车，走入校园，那些陪伴了自己几年青春时光的老师和校园风光，先后出现在眼前。只是几年时间，校园已经发生了太多变化，我一点一点的走近它，像回到梦最初开始的地方。    身旁的风刮来一个个斑斓的梦，看着抱着课本匆匆走入教室的学弟学妹，内心有种说不出的平静。  直到推开肖院长的办公室门，再次见到肖院长，那张熟悉的脸庞，将小编心里突然生出的忐忑抚平，与肖院长(绵阳职业技术学院副院长）简短有趣的对话，让小编的此次校园之行，更加耐人寻味。', '/upload/news/6.jpg', '0', '1');
-INSERT INTO `news_intro` VALUES ('11', '成都涪诚汇科技有限公司第五次股东大会圆满召开', '成都校友会', '2017-08-09', '成都涪诚汇科技有限公司第五次股东大会于2017年7月16日下午15:00 — 18:00在成都花溪上堰酒店会议室顺利召开。到场股东28人，达到公司章程规定召开股东大会的条件。', '/upload/news/1.jpg', '0', '0');
+INSERT INTO `news_intro` VALUES ('11', '成都涪诚汇科技有限公司第五次股东大会圆满召开', '成都校友会', '2017-08-09', '成都涪诚汇科技有限公司第五次股东大会于2017年7月16日下午15:00 — 18:00在成都花溪上堰酒店会议室顺利召开。到场股东28人，达到公司章程规定召开股东大会的条件。', '/upload/news/1.jpg', '0', '1');
 INSERT INTO `news_intro` VALUES ('12', '成都校友会2017夏游暨校友会理事大会、公司股东大会圆满召开', '成都校友会', '2017-08-09', '5月20日，绵职院成都校友会理事、涪诚汇股东、部分校友一行在根据地“火炬时代”集合完毕后向母校出发。成都校友会2017夏游暨校友会理事大会、公司股东大会由此展开，以“畅享青春 · 展望未来”为主题拉开了序幕。', '/upload/news/2.jpg', '0', '1');
-INSERT INTO `news_intro` VALUES ('13', '成都校友会2017夏游暨校友会理事大会、公司股东大会圆满召开', '成都校友会', '2017-08-09', '5月20日，绵职院成都校友会理事、涪诚汇股东、部分校友一行在根据地“火炬时代”集合完毕后向母校出发。成都校友会2017夏游暨校友会理事大会、公司股东大会由此展开，以“畅享青春 · 展望未来”为主题拉开了序幕。', '/upload/news/3.jpg', '0', '0');
-INSERT INTO `news_intro` VALUES ('14', '1222', '2', '2018-04-12', '23', '/upload/news/1_1524729777.png', '0', '0');
+INSERT INTO `news_intro` VALUES ('13', '成都校友会2017夏游暨校友会理事大会、公司股东大会圆满召开', '成都校友会', '2017-08-09', '5月20日，绵职院成都校友会理事、涪诚汇股东、部分校友一行在根据地“火炬时代”集合完毕后向母校出发。成都校友会2017夏游暨校友会理事大会、公司股东大会由此展开，以“畅享青春 · 展望未来”为主题拉开了序幕。', '/upload/news/3.jpg', '0', '1');
+INSERT INTO `news_intro` VALUES ('14', '1', '1', '2018-04-13', '1', '1', '0', '0');
 INSERT INTO `news_intro` VALUES ('15', '2', '2', '2018-04-12', '2', '2', '0', '0');
 INSERT INTO `news_intro` VALUES ('16', '3', '3', '2018-04-12', '3', '3', '0', '0');
 INSERT INTO `news_intro` VALUES ('17', '4', '4', '2018-04-12', '4', '4', '0', '0');
@@ -636,6 +642,24 @@ CREATE TABLE `operator` (
 INSERT INTO `operator` VALUES ('1', 'admin', '111111', '2018-04-26 12:20:17', '管理员');
 
 -- ----------------------------
+-- Table structure for `retain_message`
+-- ----------------------------
+DROP TABLE IF EXISTS `retain_message`;
+CREATE TABLE `retain_message` (
+  `id` bigint(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) DEFAULT NULL,
+  `tel` varchar(50) DEFAULT NULL,
+  `message` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of retain_message
+-- ----------------------------
+INSERT INTO `retain_message` VALUES ('1', 'asdasd', '13544444444', 'sadasdasdasd');
+INSERT INTO `retain_message` VALUES ('2', 'qweasdasd', '13467667676', 'fgdfgdfdfg');
+
+-- ----------------------------
 -- Table structure for `teacher_intro`
 -- ----------------------------
 DROP TABLE IF EXISTS `teacher_intro`;
@@ -646,11 +670,16 @@ CREATE TABLE `teacher_intro` (
   `intro` varchar(255) DEFAULT NULL,
   `cover_url` varchar(100) DEFAULT NULL,
   `delete_` bit(1) NOT NULL DEFAULT b'0',
+  `sex` bigint(5) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of teacher_intro
 -- ----------------------------
-INSERT INTO `teacher_intro` VALUES ('1', 'Amy2', '总监总监总监ceo2', '222现任某某教育外语教师，英语教学能手，大学英语六级，毕业于西安外国语学院。在此期间，曾获得“北京某某教育初级教师合格证”“某某英语明星教师”“巨人教育中级教师合格证”个人格言：教育是事业，事业的成功在于奉献；教育是科学，科学的探索在于求真；教育是艺术，艺术的人生在于创新​', 'http://tpl-cf61794.pic34.websiteonline.cn/upload/AD0I1NWxBRAEGAAgkpLBwAUoy_e72gYwhAI4_gE.png', '');
-INSERT INTO `teacher_intro` VALUES ('2', 'Jone2', '2CEO  机构创始人', '233讲课风格，深入浅出，理论知识与实践经验有机的结合在一起，语言风趣幽默，善于与学员沟通。做事顾全大局，认真慎虑，诚信大度，执着坚定，有强烈的责任感和事业心。课堂气氛活跃，能充分调动学员的学习兴趣，颇得学员 爱戴。主讲手绘等课程，有扎实的美术基本功和丰富的专业室内与建筑设计经验。', 'http://tpl-cf61794.pic34.websiteonline.cn/upload/AD0I1NWxBRAEGAAgkZLBwAUor6vMgAYwhAI4_gE.png', '');
+INSERT INTO `teacher_intro` VALUES ('1', '测试名字', '测试职业', '简介要长！简介要长！简介要长！简介要长！简介要长！简介要长！简介要长！简介要长！简介要长！简介要长！简介要长！简介要长！简介要长！', '/upload/user/1_1524809299.png', '', '2');
+INSERT INTO `teacher_intro` VALUES ('3', 'asdasdasd', 'asdasdasd', 'asdasdasd', '/upload/user/1_1524814566.png', '', '0');
+INSERT INTO `teacher_intro` VALUES ('4', '名字', '职业', '简介！简介！简介！简介！简介！简介！简介！简介！简介！简介！简介！简介！简介！简介！简介！简介！', '/upload/user/1_1524814678.png', '', '2');
+INSERT INTO `teacher_intro` VALUES ('2', 'Jone2', '2CEO  机构创始人', '233讲课风格，深入浅出，理论知识与实践经验有机的结合在一起，语言风趣幽默，善于与学员沟通。做事顾全大局，认真慎虑，诚信大度，执着坚定，有强烈的责任感和事业心。课堂气氛活跃，能充分调动学员的学习兴趣，颇得学员 爱戴。主讲手绘等课程，有扎实的美术基本功和丰富的专业室内与建筑设计经验。', 'http://tpl-cf61794.pic34.websiteonline.cn/upload/AD0I1NWxBRAEGAAgkZLBwAUor6vMgAYwhAI4_gE.png', '', '1');
+INSERT INTO `teacher_intro` VALUES ('5', '第五个老师！！', 'asdasd', 'adasdasdasdasd', '/upload/user/1_1524814692.png', '', '1');
+INSERT INTO `teacher_intro` VALUES ('6', '第六个老师！！', '第六个老师！！', '第六个老师！！', '/upload/user/1_1524814715.png', '', '1');
