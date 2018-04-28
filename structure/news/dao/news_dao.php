@@ -98,12 +98,16 @@ class news_dao
         }
     }
 
-    function listNews($begin, $size, $delete_)
+    function listNews($begin, $size, $delete_, $index_show)
     {
         $listNewss = "SELECT * FROM NEWS_INTRO WHERE 1=1 ";
 
         if (isset($delete_)) {
             $listNewss .= " AND delete_ = :delete_";
+        }
+
+        if (isset($index_show)) {
+            $listNewss .= " AND index_show = :index_show";
         }
 
         $listNewss .= " LIMIT :be ,:en ";
@@ -112,6 +116,9 @@ class news_dao
         $stmt->bindParam(':en', $size, PDO::PARAM_INT);
         if (isset($delete_)) {
             $stmt->bindParam(':delete_', $delete_, PDO::PARAM_INT);
+        }
+        if (isset($index_show)) {
+            $stmt->bindParam(':index_show', $index_show, PDO::PARAM_INT);
         }
         $stmt->execute();
         return $stmt;

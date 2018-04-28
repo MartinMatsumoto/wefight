@@ -104,7 +104,7 @@ class course_intro_dao
         }
     }
 
-    function listCourseIntro($begin, $size, $type, $delete_)
+    function listCourseIntro($begin, $size, $type, $delete_,$index_show)
     {
         $listCourseIntros = "SELECT * FROM COURSE_INTRO WHERE 1=1 ";
 
@@ -116,6 +116,10 @@ class course_intro_dao
             $listCourseIntros .= " AND type = :type";
         }
 
+        if (isset($index_show)) {
+            $listCourseIntros .= " AND index_show = :index_show";
+        }
+
         $listCourseIntros .= " LIMIT :be ,:en ";
         $stmt = $this->conn->pdo->prepare($listCourseIntros);
         $stmt->bindParam(':be', $begin, PDO::PARAM_INT);
@@ -125,6 +129,9 @@ class course_intro_dao
         }
         if (isset($type)) {
             $stmt->bindParam(':type', $type, PDO::PARAM_INT);
+        }
+        if (isset($index_show)) {
+            $stmt->bindParam(':index_show', $index_show, PDO::PARAM_INT);
         }
         $stmt->execute();
         return $stmt;

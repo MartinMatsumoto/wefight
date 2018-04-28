@@ -643,7 +643,7 @@ $banner_dao = new index_banner_dao();
                                 $begin = ($page - 1) * $pageCount;
 
                                 $currPage = $page;
-                                $result = $dao->listCourseIntro($begin, $pageCount, $type, 0);
+                                $result = $dao->listCourseIntro($begin, $pageCount, $type, 0, null);
                                 while ($row = $result->fetch()) {
                                     $course_introduce = new course_introduce($row);
                                     ?>

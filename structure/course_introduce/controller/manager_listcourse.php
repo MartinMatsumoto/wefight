@@ -12,7 +12,7 @@ $pageSize = intval($_POST["pageSize"]);
 
 $dao = new course_intro_dao();
 
-$result = $dao->listCourseIntro($begin, $pageSize, null, null);
+$result = $dao->listCourseIntro($begin, $pageSize, null, null, null);
 $arr = array();
 while ($row = $result->fetch()) {
     $course_intro = new course_introduce($row);

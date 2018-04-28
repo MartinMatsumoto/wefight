@@ -45,6 +45,8 @@ $index_content_dao = new index_content_dao();
 $index_about_us_dao = new index_about_us_dao();
 $result = $index_about_us_dao->getOne(1);
 $about_us = new about_us($result->fetch());
+$course_intro_dao = new course_intro_dao();
+$news_dao = new news_dao();
 ?>
 <SCRIPT language="javascript" src="index/script.js" type="text/javascript"></SCRIPT>
 
@@ -409,71 +411,22 @@ $about_us = new about_us($result->fetch());
                  deg="0" mid="" type="title">
                 <div class="wp-title_content"
                      style="border-width: 0px; border-color: transparent; padding: 0px; width: 159px; height: 27px; display: block; -ms-word-wrap: break-word;"><span
-                            style="text-transform: uppercase; font-size: 16px;">Popular
-course</span></div>
+                            style="text-transform: uppercase; font-size: 16px;">Popular course</span></div>
             </div>
             <SCRIPT>                 $('#layerF00418CE7523438895E5C4AC494E5AD9').triggerHandler('layer_ready');</SCRIPT>
 
-            <div class="cstlayer" id="layer164697F16D60E88004A46C3B41FD4377"
-                 style="left: 909px; top: 1115px; width: 287px; height: 187px; display: block; position: absolute; z-index: 140;"
-                 deg="0" mid="" type="media">
-                <SCRIPT>
-                    create_pc_media_set_pic('layer164697F16D60E88004A46C3B41FD4377', false);
-                </SCRIPT>
-
-                <div class="wp-media_content"
-                     style="border-width: 0px; border-style: solid; padding: 0px; width: 287px; height: 187px; overflow: hidden;"
-                     type="0">
-                    <div class="img_over"
-                         style="border-width: 0px; border-color: transparent; width: 287px; height: 187px; overflow: hidden;">
-                        <div class="imgloading" style="z-index: 100;"></div>
-                        <A class="media_link" href="http://education-300.view.sitestar.cn/page5?product_category=5"
-                           target="_self"><img class="img_lazy_load paragraph_image"
-                                               id="wp-media-image_layer164697F16D60E88004A46C3B41FD4377"
-                                               style="left: -18px; top: 0px; width: auto; height: 187px; position: relative;"
-                                               src="index/blank.gif" type="zoom"
-                                               data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/eayy.jpg">
-                        </A></div>
-                </div>
-                <SCRIPT>
-                    (function () {
-                        layer_media_init_func('layer164697F16D60E88004A46C3B41FD4377');
-                    })()
-                </SCRIPT>
-            </div>
-            <SCRIPT>                 $('#layer164697F16D60E88004A46C3B41FD4377').triggerHandler('layer_ready');</SCRIPT>
-
-            <div class="cstlayer" id="layer33E6BC946B69AC4F1FBDB67471967E1A"
-                 style="left: 303px; top: 1116px; width: 287px; height: 187px; display: block; position: absolute; z-index: 130;"
-                 deg="0" mid="" type="media">
-                <SCRIPT>
-                    create_pc_media_set_pic('layer33E6BC946B69AC4F1FBDB67471967E1A', false);
-                </SCRIPT>
-
-                <div class="wp-media_content"
-                     style="border-width: 0px; border-style: solid; padding: 0px; width: 287px; height: 187px; overflow: hidden;"
-                     type="0">
-                    <div class="img_over"
-                         style="border-width: 0px; border-color: transparent; width: 287px; height: 187px; overflow: hidden;">
-                        <div class="imgloading" style="z-index: 100;"></div>
-                        <A class="media_link" href="http://education-300.view.sitestar.cn/page5?product_category=2"
-                           target="_self"><img class="img_lazy_load paragraph_image"
-                                               id="wp-media-image_layer33E6BC946B69AC4F1FBDB67471967E1A"
-                                               style="left: -16px; top: 0px; width: auto; height: 187px; position: relative;"
-                                               src="index/blank.gif" type="zoom"
-                                               data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/apa1.jpg">
-                        </A></div>
-                </div>
-                <SCRIPT>
-                    (function () {
-                        layer_media_init_func('layer33E6BC946B69AC4F1FBDB67471967E1A');
-                    })()
-                </SCRIPT>
-            </div>
-            <SCRIPT>                 $('#layer33E6BC946B69AC4F1FBDB67471967E1A').triggerHandler('layer_ready');</SCRIPT>
-
+            <?php
+                $pageCount = 4;
+                $begin = 0;
+                $i = 0;
+                $result = $course_intro_dao->listCourseIntro($begin, $pageCount, null, 0, 1);
+                while ($row = $result->fetch()) {
+                $t0 = 3 + 300 * $i;
+                $t1 = 5 + 300 * $i;
+                $course_introduce = new course_introduce($row);
+            ?>
             <div class="cstlayer" id="layerC7A8A47396ED38044DBC26BB7BB85C2B"
-                 style="left: 3px; top: 1116px; width: 287px; height: 187px; display: block; position: absolute; z-index: 126;"
+                 style="left: <?php echo $t0 ?>px; top: 1116px; width: 287px; height: 187px; display: block; position: absolute; z-index: 126;"
                  deg="0" mid="" type="media">
                 <SCRIPT>
                     create_pc_media_set_pic('layerC7A8A47396ED38044DBC26BB7BB85C2B', false);
@@ -485,12 +438,12 @@ course</span></div>
                     <div class="img_over"
                          style="border-width: 0px; border-color: transparent; width: 287px; height: 187px; overflow: hidden;">
                         <div class="imgloading" style="z-index: 100;"></div>
-                        <A class="media_link" href="http://education-300.view.sitestar.cn/page5?product_category=3"
+                        <A class="media_link" target="_blank" href="./course_introduce/essay?id=<?php echo $course_introduce->id ?>&type=<?php echo $course_introduce->type ?>"
                            target="_self"><img class="img_lazy_load paragraph_image"
                                                id="wp-media-image_layerC7A8A47396ED38044DBC26BB7BB85C2B"
                                                style="left: -14px; top: 0px; width: auto; height: 187px; position: relative;"
                                                src="index/blank.gif" type="zoom"
-                                               data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/yjw9.jpg">
+                                               data-original="<?php echo $course_introduce->cover_url?>">
                         </A></div>
                 </div>
                 <SCRIPT>
@@ -501,121 +454,28 @@ course</span></div>
             </div>
             <SCRIPT>                 $('#layerC7A8A47396ED38044DBC26BB7BB85C2B').triggerHandler('layer_ready');</SCRIPT>
 
-            <div class="cstlayer" id="layer8F372576232708B282087CD34B0B30D3"
-                 style="left: 608px; top: 1116px; width: 287px; height: 187px; display: block; position: absolute; z-index: 143;"
-                 deg="0" mid="" type="media">
-                <SCRIPT>
-                    create_pc_media_set_pic('layer8F372576232708B282087CD34B0B30D3', false);
-                </SCRIPT>
-
-                <div class="wp-media_content"
-                     style="border-width: 0px; border-style: solid; padding: 0px; width: 287px; height: 187px; overflow: hidden;"
-                     type="0">
-                    <div class="img_over"
-                         style="border-width: 0px; border-color: transparent; width: 287px; height: 187px; overflow: hidden;">
-                        <div class="imgloading" style="z-index: 100;"></div>
-                        <A class="media_link" href="http://education-300.view.sitestar.cn/page5?product_category=4"
-                           target="_self"><img class="img_lazy_load paragraph_image"
-                                               id="wp-media-image_layer8F372576232708B282087CD34B0B30D3"
-                                               style="left: -13px; top: 0px; width: auto; height: 187px; position: relative;"
-                                               src="index/blank.gif" type="zoom"
-                                               data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/4mo1.jpg">
-                        </A></div>
-                </div>
-                <SCRIPT>
-                    (function () {
-                        layer_media_init_func('layer8F372576232708B282087CD34B0B30D3');
-                    })()
-                </SCRIPT>
-            </div>
-            <SCRIPT>                 $('#layer8F372576232708B282087CD34B0B30D3').triggerHandler('layer_ready');</SCRIPT>
-
-            <div class="cstlayer" id="layerA080106D66F6A009C3756873A6393E52"
-                 style="left: 919px; top: 1305px; width: 142px; height: 29px; display: block; position: absolute; z-index: 139;"
-                 deg="0" mid="" type="title">
-                <div class="wp-title_content"
-                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 142px; height: 29px; display: block; -ms-word-wrap: break-word;">
-                    <FONT
-                            color="#ff9900" face="微软雅黑"><span
-                                style="line-height: 25.2px; font-size: 18px;">跆拳道课程培训</span></FONT></div>
-            </div>
-            <SCRIPT>                 $('#layerA080106D66F6A009C3756873A6393E52').triggerHandler('layer_ready');</SCRIPT>
-
-            <div class="cstlayer" id="layer9B4CF40364FA3215BEFC694CAECFD00D"
-                 style="left: 618px; top: 1307px; width: 130px; height: 29px; display: block; position: absolute; z-index: 138;"
-                 deg="0" mid="" type="title">
-                <div class="wp-title_content"
-                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 130px; height: 29px; display: block; -ms-word-wrap: break-word;">
-                    <FONT
-                            color="#ff9900" face="微软雅黑"><span
-                                style="line-height: 25.2px; font-size: 20px;">音乐课程培训</span></FONT></div>
-            </div>
-            <SCRIPT>                 $('#layer9B4CF40364FA3215BEFC694CAECFD00D').triggerHandler('layer_ready');</SCRIPT>
-
             <div class="cstlayer" id="layerABC5E0BE72E26548F1E2DFE64BF5AD3A"
-                 style="left: 5px; top: 1314px; width: 123px; height: 29px; display: block; position: absolute; z-index: 132;"
+                 style="left: <?php echo $t1?>px; top: 1314px; width: 270px; height: 29px; display: block; position: absolute; z-index: 132;"
                  deg="0" mid="" type="title">
                 <div class="wp-title_content"
-                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 123px; height: 29px; display: block; -ms-word-wrap: break-word;"><span
-                            style="color: rgb(255, 153, 0); font-family: 微软雅黑; font-size: 20px;">美术课程培训</span></div>
+                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 270px; height: 29px; display: block; -ms-word-wrap: break-word;"><span
+                            style="color: rgb(255, 153, 0); font-family: 微软雅黑; font-size: 20px;"><?php echo $course_introduce->title ?></span></div>
             </div>
             <SCRIPT>                 $('#layerABC5E0BE72E26548F1E2DFE64BF5AD3A').triggerHandler('layer_ready');</SCRIPT>
 
-            <div class="cstlayer" id="layer146370573CAFEC71BB3BBD9437743995"
-                 style="left: 315px; top: 1315px; width: 141px; height: 29px; display: block; position: absolute; z-index: 137;"
-                 deg="0" mid="" type="title">
-                <div class="wp-title_content"
-                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 141px; height: 29px; display: block; -ms-word-wrap: break-word;">
-                    <FONT
-                            color="#ff9900" face="微软雅黑"><span
-                                style="line-height: 25.2px; font-size: 20px;">外语课程培训</span></FONT></div>
-            </div>
-            <SCRIPT>                 $('#layer146370573CAFEC71BB3BBD9437743995').triggerHandler('layer_ready');</SCRIPT>
-
-            <div class="cstlayer" id="layerEEEFC1C53F1F19855E64DCFFE57A321B"
-                 style="left: 923px; top: 1348px; width: 267px; height: 83px; position: absolute; z-index: 127;"
-                 deg="0" mid="" type="title">
-                <div class="wp-title_content"
-                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 267px; height: 83px; display: block; -ms-word-wrap: break-word;"><span
-                            style='color: rgb(85, 85, 85); line-height: 22px; font-family: Themege02, "Lantinghei SC", HiraginoSansGB-W3, Arial, "Microsoft YaHei", STHeiti, "WenQuanYi Micro Hei", sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);'>面对现代社会人与自然关系的变质，橙长汇为孩子们订制了一系列建设性的户外教育解决方案。</span>
-                </div>
-            </div>
-            <SCRIPT>                 $('#layerEEEFC1C53F1F19855E64DCFFE57A321B').triggerHandler('layer_ready');</SCRIPT>
-
-            <div class="cstlayer" id="layer0527EF3212AD0BAEDC2BE3F2ADDFD4B7"
-                 style="left: 622px; top: 1350px; width: 267px; height: 83px; position: absolute; z-index: 128;"
-                 deg="0" mid="" type="title">
-                <div class="wp-title_content"
-                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 267px; height: 83px; display: block; -ms-word-wrap: break-word;">
-                    <FONT
-                            face="微软雅黑"><span
-                                style="line-height: 24.7px; font-size: 13px;">根据孩子的学习特点,集启橙十年语言能力教学精华,以主题聚焦,跨学科,升读学习为特色,提供灵活,快速的定制化语言学习解决方案。</span></FONT>
-                </div>
-            </div>
-            <SCRIPT>                 $('#layer0527EF3212AD0BAEDC2BE3F2ADDFD4B7').triggerHandler('layer_ready');</SCRIPT>
-
-            <div class="cstlayer" id="layerF3EFBD263599C8E0F3EFC7A54BF09204"
-                 style="left: 314px; top: 1350px; width: 267px; height: 83px; position: absolute; z-index: 142;"
-                 deg="0" mid="" type="title">
-                <div class="wp-title_content"
-                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 267px; height: 83px; display: block; -ms-word-wrap: break-word;">
-                    <FONT
-                            face="微软雅黑"><span
-                                style="line-height: 24.7px; font-size: 13px;">原版美国小学进口教材,全学科交叉教学,未来领导力培养贯穿始终,帮助学员建立英语思维,获得综合运用英语的能力</span></FONT>
-                </div>
-            </div>
-            <SCRIPT>                 $('#layerF3EFBD263599C8E0F3EFC7A54BF09204').triggerHandler('layer_ready');</SCRIPT>
-
             <div class="cstlayer" id="layerF4E16F14100DF0A7ABF8A0F643BA11D6"
-                 style="left: 3px; top: 1352px; width: 267px; height: 83px; position: absolute; z-index: 134;"
+                 style="left: <?php echo $t0?>px; top: 1352px; width: 267px; height: 92px; position: absolute; z-index: 134;"
                  deg="0" mid="" type="title">
                 <div class="wp-title_content"
-                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 267px; height: 83px; display: block; -ms-word-wrap: break-word;"><span
-                            style="line-height: 190%; font-family: 微软雅黑; font-size: 13px;">全球较大教育出版集团原版教材,侧重幼儿早期思维训练和行为习惯养成,全面引导和激发幼儿在语言学习方面的兴趣</span>
+                     style="border-width: 0px; border-color: transparent; padding: 0px; width: 267px; height: 92px; display: block; -ms-word-wrap: break-word;"><span
+                            style="line-height: 190%; font-family: 微软雅黑; font-size: 13px;"><?php echo $course_introduce->sub_title ?></span>
                 </div>
             </div>
             <SCRIPT>                 $('#layerF4E16F14100DF0A7ABF8A0F643BA11D6').triggerHandler('layer_ready');</SCRIPT>
-
+                <?php
+                    $i++;
+            }
+            ?>
             <div class="full_column" id="layer29E94011A71CBCF5399B5D74E1164BDE" style="top: 1504px; width: 1200px; height: 567px; position: absolute; z-index: 129;">
                 <div class="full_width"
                      style="height: 567px; position: absolute; background-color: rgb(247, 63, 65);"></div>
@@ -849,201 +709,39 @@ Center</span></div>
                     </div>
                     <div class="article_list-layerEFF873442C95C9DE6C17ED8D1ECF453C" style="overflow: hidden;">
                         <ul>
+                            <?php
+                                $pageCount = 8;
+                                $begin = 0;
+
+                                $result = $news_dao->listNews($begin, $pageCount, 0,1);
+                                while ($row = $result->fetch()) {
+                                $news = new news($row);
+                            ?>
                             <li class="lihout" style="width: 260px; margin-right: 22px; margin-bottom: 0px;">
                                 <div class="imgloading" style="width: 258px; height: 148px;"></div>
                                 <P class="img"
                                    style="width: 260px; height: 150px; text-align: center; overflow: hidden; position: relative;">
                                     <A
                                             class="articleid"
-                                            href="http://education-300.view.sitestar.cn/page8?article_id=25"
+                                            href="/news/essay/?id=<?php echo $news->id?>"
                                             articleid="25"><img class="wp-article_list-thumbnail img_lazy_load"
                                                                 style="width: 260px; height: 150px; position: relative;"
                                                                 onload="set_thumb_layerEFF873442C95C9DE6C17ED8D1ECF453C(this);"
-                                                                alt="“小刘星”成高考明星 张一山成人礼上念师恩"
+                                                                alt="<?php echo $news->sub_title?>"
                                                                 src="index/blank.gif"
-                                                                data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/apa1.jpg">
+                                                                data-original="<?php echo $news->cover_url?>">
                                     </A>
                                 </P>
                                 <div class="wp-new-article-style-c">
-                                    <P class="title"><A title="“小刘星”成高考明星 张一山成人礼上念师恩" class="articleid"
-                                                        href="http://education-300.view.sitestar.cn/page8?article_id=25"
-                                                        articleid="25">“小刘星”成高考明星 张一山成......</A></P>
-                                    <P class="time"><span class="wp-new-ar-pro-time">2014-09-24</span></P>
-                                    <P class="abstract">开学前夕，大型家庭情景剧《家有儿女》中“......</P></div>
-                                <INPUT class="articleid" type="hidden" data-title="“小刘星”成高考明星 张一山成人礼上念师恩">
-                                <INPUT class="abstract" type="hidden"
-                                       data-desc="开学前夕，大型家庭情景剧《家有儿女》中“小刘星”的饰演者——张一山，为自己跨入18岁专门举行了成年礼，并 参加《山起云涌 一山爱电影》特别节目录制。张一山出场便是一首劲爆的《惊声尖叫》歌，与韩国“舞王”“斗舞”，较令人动情处，张一山与18名同龄人共同庄严宣誓，回顾成 长成才历程！张一山还高兴“秀”起今年考取北京电影学院。他深情回顾高考前，在巨人学校一周每天8小时补课情景。他曾坦言，能考上北影，巨人学校功不可没。在这较激动时刻，张一山感念师恩，特别邀请巨人教育集团董事长兼总裁尹雄，尹校长也高兴前来祝贺他18岁成人典礼">
+                                    <P class="title"><A title="<?php echo $news->title?>" class="articleid"
+                                                        href="/news/essay/?id=<?php echo $news->id?>"
+                                                        articleid="25"><?php echo $news->title?></A></P>
+                                    <P class="time"><span class="wp-new-ar-pro-time"><?php echo $news->create_date?></span></P>
+                                    <P class="abstract" style="height: 36px;overflow: hidden;"><?php echo $news->sub_title?></P></div>
                             </li>
-                            <li class="lihout" style="width: 260px; margin-right: 22px; margin-bottom: 0px;">
-                                <div class="imgloading" style="width: 258px; height: 148px;"></div>
-                                <P class="img"
-                                   style="width: 260px; height: 150px; text-align: center; overflow: hidden; position: relative;">
-                                    <A
-                                            class="articleid"
-                                            href="http://education-300.view.sitestar.cn/page8?article_id=24"
-                                            articleid="24"><img class="wp-article_list-thumbnail img_lazy_load"
-                                                                style="width: 260px; height: 150px; position: relative;"
-                                                                onload="set_thumb_layerEFF873442C95C9DE6C17ED8D1ECF453C(this);"
-                                                                alt="2010年我们的教师节到底应该怎么过"
-                                                                src="index/blank.gif"
-                                                                data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/p6s4.jpg">
-                                    </A>
-                                </P>
-                                <div class="wp-new-article-style-c">
-                                    <P class="title"><A title="2010年我们的教师节到底应该怎么过" class="articleid"
-                                                        href="http://education-300.view.sitestar.cn/page8?article_id=24"
-                                                        articleid="24">2010年我们的教师节到底应该......</A></P>
-                                    <P class="time"><span class="wp-new-ar-pro-time">2014-09-24</span></P>
-                                    <P class="abstract">设立教师节的初衷即是：倡导尊师重教，国家......</P></div>
-                                <INPUT class="articleid" type="hidden" data-title="2010年我们的教师节到底应该怎么过">
-                                <INPUT class="abstract" type="hidden"
-                                       data-desc="设立教师节的初衷即是：倡导尊师重教，国家保障老师合法权益，勉励老师为教育事业作出更大贡献。但近几年，每到教师节来临之际，坊间谈论的是送礼，我们 耳边聒噪的是送礼，有人直接称，教师节已经异化成了送礼节。前几天，教育部网站刊登了十所知名中小学联合向全国教师发出的倡议书，倡导全国教师反对利用职 务之便谋取私利，不收受学生、家长的财物。甚至，还有人建议取消教师节。教师节的本来面目越来越模糊了，这不能不让人痛心。送礼这个话题不是不能谈，但教 师节的内涵绝不只是送礼，何况礼不单指礼品、礼物，还有礼节、礼仪。如果把教师节当做送礼(礼品)节，无疑是狭隘的。">
-                            </li>
-                            <li class="lihout" style="width: 260px; margin-right: 22px; margin-bottom: 0px;">
-                                <div class="imgloading" style="width: 258px; height: 148px;"></div>
-                                <P class="img"
-                                   style="width: 260px; height: 150px; text-align: center; overflow: hidden; position: relative;">
-                                    <A
-                                            class="articleid"
-                                            href="http://education-300.view.sitestar.cn/page8?article_id=23"
-                                            articleid="23"><img class="wp-article_list-thumbnail img_lazy_load"
-                                                                style="width: 260px; height: 150px; position: relative;"
-                                                                onload="set_thumb_layerEFF873442C95C9DE6C17ED8D1ECF453C(this);"
-                                                                alt="教育部：教师大交流遏止“择校热”"
-                                                                src="index/blank.gif"
-                                                                data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/fcs4.jpg">
-                                    </A>
-                                </P>
-                                <div class="wp-new-article-style-c">
-                                    <P class="title"><A title="教育部：教师大交流遏止“择校热”" class="articleid"
-                                                        href="http://education-300.view.sitestar.cn/page8?article_id=23"
-                                                        articleid="23">教育部：教师大交流遏止“择校热......</A></P>
-                                    <P class="time"><span class="wp-new-ar-pro-time">2014-09-24</span></P>
-                                    <P class="abstract">管培俊：近年来，国家出台一系列政策措施，......</P></div>
-                                <INPUT class="articleid" type="hidden" data-title="教育部：教师大交流遏止“择校热”">
-                                <INPUT class="abstract" type="hidden"
-                                       data-desc="管培俊：近年来，国家出台一系列政策措施，教师待遇总体上逐步提高。一是在基本工资标准基础上，对中小学教师基本工资标准提高10%，并计入离退休费基 数。二是实行义务教育学校教师绩效工资制度。2009年增加财政支出1000多亿，中小学教师尤其是农村教师平均工资水平大幅提升。三是建立教龄津贴、班 主任津贴、特级教师津贴、特殊教育津贴等。四是对在艰苦边远地区工作的中小学教师发放津贴。">
-                            </li>
-                            <li class="lihout" style="width: 260px; margin-right: 22px; margin-bottom: 0px;">
-                                <div class="imgloading" style="width: 258px; height: 148px;"></div>
-                                <P class="img"
-                                   style="width: 260px; height: 150px; text-align: center; overflow: hidden; position: relative;">
-                                    <A
-                                            class="articleid"
-                                            href="http://education-300.view.sitestar.cn/page8?article_id=22"
-                                            articleid="22"><img class="wp-article_list-thumbnail img_lazy_load"
-                                                                style="width: 260px; height: 150px; position: relative;"
-                                                                onload="set_thumb_layerEFF873442C95C9DE6C17ED8D1ECF453C(this);"
-                                                                alt="俞敏洪：善于停止也是一种幸福"
-                                                                src="index/blank.gif"
-                                                                data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/87up.jpg">
-                                    </A>
-                                </P>
-                                <div class="wp-new-article-style-c">
-                                    <P class="title"><A title="俞敏洪：善于停止也是一种幸福" class="articleid"
-                                                        href="http://education-300.view.sitestar.cn/page8?article_id=22"
-                                                        articleid="22">俞敏洪：善于停止也是一种幸福</A></P>
-                                    <P class="time"><span class="wp-new-ar-pro-time">2014-09-24</span></P>
-                                    <P class="abstract">俞敏洪：善于停止也是一种幸福</P></div>
-                                <INPUT class="articleid" type="hidden" data-title="俞敏洪：善于停止也是一种幸福">
-                                <INPUT class="abstract" type="hidden" data-desc="俞敏洪：善于停止也是一种幸福"></li>
-                            <li class="lihout" style="width: 260px; margin-right: 22px; margin-bottom: 0px;">
-                                <div class="imgloading" style="width: 258px; height: 148px;"></div>
-                                <P class="img"
-                                   style="width: 260px; height: 150px; text-align: center; overflow: hidden; position: relative;">
-                                    <A
-                                            class="articleid"
-                                            href="http://education-300.view.sitestar.cn/page8?article_id=21"
-                                            articleid="21"><img class="wp-article_list-thumbnail img_lazy_load"
-                                                                style="width: 260px; height: 150px; position: relative;"
-                                                                onload="set_thumb_layerEFF873442C95C9DE6C17ED8D1ECF453C(this);"
-                                                                alt="《孙子兵法》与现代企业战略管理"
-                                                                src="index/blank.gif"
-                                                                data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/716k.jpg">
-                                    </A>
-                                </P>
-                                <div class="wp-new-article-style-c">
-                                    <P class="title"><A title="《孙子兵法》与现代企业战略管理" class="articleid"
-                                                        href="http://education-300.view.sitestar.cn/page8?article_id=21"
-                                                        articleid="21">《孙子兵法》与现代企业战略管理</A></P>
-                                    <P class="time"><span class="wp-new-ar-pro-time">2014-09-24</span></P>
-                                    <P class="abstract">《孙子兵法》与现代企业战略管理</P></div>
-                                <INPUT class="articleid" type="hidden" data-title="《孙子兵法》与现代企业战略管理">
-                                <INPUT class="abstract" type="hidden" data-desc="《孙子兵法》与现代企业战略管理"></li>
-                            <li class="lihout" style="width: 260px; margin-right: 22px; margin-bottom: 0px;">
-                                <div class="imgloading" style="width: 258px; height: 148px;"></div>
-                                <P class="img"
-                                   style="width: 260px; height: 150px; text-align: center; overflow: hidden; position: relative;">
-                                    <A
-                                            class="articleid"
-                                            href="http://education-300.view.sitestar.cn/page8?article_id=20"
-                                            articleid="20"><img class="wp-article_list-thumbnail img_lazy_load"
-                                                                style="width: 260px; height: 150px; position: relative;"
-                                                                onload="set_thumb_layerEFF873442C95C9DE6C17ED8D1ECF453C(this);"
-                                                                alt="为什么兴起“体验式培训”的深层原因"
-                                                                src="index/blank.gif"
-                                                                data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/d7pq.jpg">
-                                    </A>
-                                </P>
-                                <div class="wp-new-article-style-c">
-                                    <P class="title"><A title="为什么兴起“体验式培训”的深层原因" class="articleid"
-                                                        href="http://education-300.view.sitestar.cn/page8?article_id=20"
-                                                        articleid="20">为什么兴起“体验式培训”的深层......</A></P>
-                                    <P class="time"><span class="wp-new-ar-pro-time">2014-09-24</span></P>
-                                    <P class="abstract">为什么兴起“体验式培训”的深层原因</P></div>
-                                <INPUT class="articleid" type="hidden" data-title="为什么兴起“体验式培训”的深层原因">
-                                <INPUT class="abstract" type="hidden" data-desc="为什么兴起“体验式培训”的深层原因"></li>
-                            <li class="lihout" style="width: 260px; margin-right: 22px; margin-bottom: 0px;">
-                                <div class="imgloading" style="width: 258px; height: 148px;"></div>
-                                <P class="img"
-                                   style="width: 260px; height: 150px; text-align: center; overflow: hidden; position: relative;">
-                                    <A
-                                            class="articleid"
-                                            href="http://education-300.view.sitestar.cn/page8?article_id=19"
-                                            articleid="19"><img class="wp-article_list-thumbnail img_lazy_load"
-                                                                style="width: 260px; height: 150px; position: relative;"
-                                                                onload="set_thumb_layerEFF873442C95C9DE6C17ED8D1ECF453C(this);"
-                                                                alt="什么是授教时刻？"
-                                                                src="index/blank.gif"
-                                                                data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/87up.jpg">
-                                    </A>
-                                </P>
-                                <div class="wp-new-article-style-c">
-                                    <P class="title"><A title="什么是授教时刻？" class="articleid"
-                                                        href="http://education-300.view.sitestar.cn/page8?article_id=19"
-                                                        articleid="19">什么是授教时刻？</A></P>
-                                    <P class="time"><span class="wp-new-ar-pro-time">2014-09-24</span></P>
-                                    <P
-                                            class="abstract">&nbsp;&nbsp;&nbsp;&nbsp;一个年轻的勇士想知道善与恶的区别......</P></div>
-                                <INPUT class="articleid" type="hidden" data-title="什么是授教时刻？">
-                                <INPUT class="abstract" type="hidden"
-                                       data-desc="    一个年轻的勇士想知道善与恶的区别。他长途跋涉去寻找一个名叫古鲁的人，因为别人告诉他，古鲁能给予他答案。当这个年轻人到达的时候，古鲁正闭着他的双眼 在思考。他说：“古鲁，我前来是想知道善与恶的区别。”古鲁没有回答。年轻人又说到：“古鲁，请你帮助我，我想知道善与恶的区别。”仍然没有回答。年轻人 变得有点恼怒，拔出他的剑说道：“古鲁，如果你不告诉我它们的区别，我将把你的头砍下来。”还是没有回答。年轻人把剑放在了古鲁的脖子上说道：“较后一次 机会，给我答案或者你的头。”仍然没有回答。勇士举起了他的剑，正当他正要砍下的时候，古鲁睁开了双眼答道：“这就是恶。”然后再一次闭上了眼睛。年轻勇 士突然克服了情感瘫痪在地上。古鲁愿意冒险用生命向他诠释什么是真正的邪恶，勇士被他折服了，陷入了沉思，想到了那些在战场上被他杀害的人，他怎么可以再 生杀念呢！勇士对他以前的罪孽感到抓狂。他变得无法入睡，整个晚上辗转难眠，也拒绝吃东西。这样的状态持续了几">
-                            </li>
-                            <li class="lihout" style="width: 260px; margin-right: 22px; margin-bottom: 0px;">
-                                <div class="imgloading" style="width: 258px; height: 148px;"></div>
-                                <P class="img"
-                                   style="width: 260px; height: 150px; text-align: center; overflow: hidden; position: relative;">
-                                    <A
-                                            class="articleid"
-                                            href="http://education-300.view.sitestar.cn/page8?article_id=18"
-                                            articleid="18"><img class="wp-article_list-thumbnail img_lazy_load"
-                                                                style="width: 260px; height: 150px; position: relative;"
-                                                                onload="set_thumb_layerEFF873442C95C9DE6C17ED8D1ECF453C(this);"
-                                                                alt="体验式培训是什么？"
-                                                                src="index/blank.gif"
-                                                                data-original="http://tpl-cf61794.pic34.websiteonline.cn/upload/so36.jpg">
-                                    </A>
-                                </P>
-                                <div class="wp-new-article-style-c">
-                                    <P class="title"><A title="体验式培训是什么？" class="articleid"
-                                                        href="http://education-300.view.sitestar.cn/page8?article_id=18"
-                                                        articleid="18">体验式培训是什么？</A></P>
-                                    <P class="time"><span class="wp-new-ar-pro-time">2014-09-24</span></P>
-                                    <P class="abstract">&nbsp;对于学习者，如果一节课具有惊奇的成分，......</P></div>
-                                <INPUT class="articleid" type="hidden" data-title="体验式培训是什么？">
-                                <INPUT class="abstract" type="hidden"
-                                       data-desc=" 对于学习者，如果一节课具有惊奇的成分，并且设法迫使学习者完成一些他们一直认为不可能的事情的话，那就成为了探索。探索中有规定，并且这个规定为参加提 供既独特又与之相关的经验。探索中有挑战，参与者处在成功与失败的边缘，并且发现二者都同样有意义。探索中有冒险，不是实际身体上的冒险，而是当参与者之 前见到正常的结果后，情感上和“明显的”身体上的冒险。参与任何项目者都需要安全感，像这样他们可以讲出他们的意愿并且报导自己推到一个新的极限，更为重 要的是，体验中“啊哈！”的惊喜仅仅能够在安全和真正有趣的环境下发生。">
-                            </li>
+                                <?php
+                            }
+                            ?>
                         </ul>
                     </div>
                     <div class="article_list_save_itemList" style="display: none;" pagepar="p_article_list"

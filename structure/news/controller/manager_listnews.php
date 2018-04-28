@@ -12,7 +12,7 @@ $pageSize = intval($_POST["pageSize"]);
 
 $dao = new news_dao();
 
-$result = $dao->listNews($begin, $pageSize, null);
+$result = $dao->listNews($begin, $pageSize, null,null);
 $arr = array();
 while ($row = $result->fetch()) {
     $news = new news($row);

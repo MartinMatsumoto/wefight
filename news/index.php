@@ -328,7 +328,7 @@ $banner_dao = new index_banner_dao();
                             $begin = ($page - 1) * $pageCount;
 
                             $currPage = $page;
-                            $result = $dao->listNews($begin, $pageCount, 0);
+                            $result = $dao->listNews($begin, $pageCount, 0, null);
                             while ($row = $result->fetch()) {
                                 $news = new news($row);
                                 ?>
