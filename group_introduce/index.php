@@ -48,12 +48,12 @@ $result_group = $group_dao->listGroup(0);
         'isedit': '0',
         'islogin': '0',
         'domain': 'tpl-cf61794',
-        'p_rooturl': 'http://www.wefight.com',
+        'p_rooturl': 'http://www.kungfuyc.com',
         'static_rooturl': '/index',
         'interface_locale': "zh_CN",
         'dev_mode': "0",
         'getsession': ''
-    }, {"phpsessionid": "", "punyurl": "\/\/www.wefight.com", "curr_locale": "zh_CN", "mscript_name": "", "converted": false}));
+    }, {"phpsessionid": "", "punyurl": "\/\/www.kungfuyc.com", "curr_locale": "zh_CN", "mscript_name": "", "converted": false}));
 
 </script>
 <link href="./common.css" rel="stylesheet" />
