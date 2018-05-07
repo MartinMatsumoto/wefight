@@ -38,7 +38,7 @@ $contact_us = new contact_us($result->fetch());
     </style>
     <script type="text/javascript">
         //<![CDATA[
-        window.jQuery || document.write("<script src='http://api.map.baidu.com/api?v=2.0&ak=Ndcgn2ltp8kXkG2Ip599tREPa3lNrhic'>"+"<"+"/script>");
+        window.jQuery || document.write("<script src='http://api.map.baidu.com/api?v=2.0&ak=mUog7vgB2oLAQNST1bsO7AubAHIKnp3M'>"+"<"+"/script>");
         //]]>
     </script>
 </head>

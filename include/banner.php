@@ -67,11 +67,11 @@
 <SCRIPT>                 $('#layer53A3F47F3E0DE3CBF2BBCD10723602D1').triggerHandler('layer_ready');</SCRIPT>
 
 <div class="cstlayer" id="layer9F633FBD741232E21AD9B60B80D0146E"
-     style="left: 405px; top: 238px; width: 397px; height: 32px; display: none; position: absolute; z-index: 104; transform: rotate(0deg);"
+     style="left: 333px; top: 238px; height: 32px; display: none; position: absolute; z-index: 104; transform: rotate(0deg);"
      deg="0" mid="" type="title">
     <div class="wp-title_content"
-         style="border-width: 0px; border-color: transparent; padding: 0px; width: 397px; height: 32px; display: block; -ms-word-wrap: break-word;"><span
-                style="color: rgb(255, 255, 255); letter-spacing: 12px; font-family: 微软雅黑; font-size: 24px;"><STRONG>专业培训通向成功而奋斗</STRONG></span>
+         style="border-width: 0px; border-color: transparent; padding: 0px; height: 32px; display: block; -ms-word-wrap: break-word;"><span
+                style="color: rgb(255, 255, 255); letter-spacing: 12px; font-family: 微软雅黑; font-size: 24px;"><STRONG>蓉城首家青少年咏春功夫训练机构</STRONG></span>
     </div>
 </div>
 <SCRIPT>                 $('#layer9F633FBD741232E21AD9B60B80D0146E').data('wopop_effects', {
@@ -83,16 +83,11 @@
     });
     $('#layer9F633FBD741232E21AD9B60B80D0146E').triggerHandler('layer_ready');</SCRIPT>
 
-<div class="cstlayer" id="layer41C2873D1CFADDAC9E982E4A98D6956B"
-     style="left: 405px; top: 269px; width: 394px; height: 64px; display: none; position: absolute; z-index: 105;"
-     deg="0" mid="" type="title">
-    <div class="wp-title_content"
-         style="border-width: 0px; border-color: transparent; padding: 0px; width: 394px; height: 62px; display: block; -ms-word-wrap: break-word;"><span
-                style="color: rgb(255, 255, 255); font-family: 微软雅黑; font-size: 22px;"><span
-                    style="color: rgb(255, 255, 255); letter-spacing: 6px; font-size: 42px;"><STRONG>**名师</STRONG></span><span
-                    style="color: rgb(255, 255, 255); letter-spacing: 6px; font-size: 42px;"><STRONG>​</STRONG></span></span><STRONG
-                style="text-align: right; color: rgb(74, 134, 232); line-height: 57.4px; font-family: 微软雅黑; font-size: 41px;"><span
-                    style="color: rgb(255, 255, 255); line-height: 57.4px; letter-spacing: 6px; font-size: 42px;">权威辅导</span></STRONG>
+<div class="cstlayer" id="layer41C2873D1CFADDAC9E982E4A98D6956B" style="left: 405px; top: 269px; height: 64px; display: none; position: absolute; z-index: 105;" deg="0" mid="" type="title">
+    <div class="wp-title_content" style="border-width: 0px; border-color: transparent; padding: 0px; height: 62px; display: block; -ms-word-wrap: break-word;">
+        <STRONG style="text-align: right; color: rgb(74, 134, 232); line-height: 57.4px; font-family: 微软雅黑; font-size: 41px;">
+            <span style="color: rgb(255, 255, 255); line-height: 57.4px; letter-spacing: 6px; font-size: 42px;">快乐课堂 智慧咏春</span>
+        </STRONG>
     </div>
 </div>
 <SCRIPT>                 $('#layer41C2873D1CFADDAC9E982E4A98D6956B').data('wopop_effects', {
@@ -111,7 +106,7 @@
          style="border-width: 0px; border-color: transparent; padding: 0px; width: 396px; height: 32px; display: block; -ms-word-wrap: break-word;">
         <FONT
                 color="#ffffff" face="SimHei"><span
-                    style="color: rgb(255, 255, 255); text-transform: uppercase; line-height: 21px; font-size: 18px;">Top teachers authority guidance to success</span></FONT>
+                    style="color: rgb(255, 255, 255); text-transform: uppercase; line-height: 21px; font-size: 18px;"></span></FONT>
     </div>
 </div>
 <SCRIPT>                 $('#layer752863213C057CFA03FEEC2438957531').data('wopop_effects', {
