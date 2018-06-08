@@ -6,9 +6,9 @@
     <META content="IE=11.0000" http-equiv="X-UA-Compatible">
     <META http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <TITLE>东北师大附中与朝阳合作办学 2012年9月开学</TITLE>
-    <META name="keywords" content="网站关键字">
-    <META name="description" content="网站描述">
+    <?php
+    include '../../include/header_title.php'
+    ?>
     <LINK href="/index/default.css"
           rel="stylesheet" type="text/css">
     <LINK href="/index/media.css"

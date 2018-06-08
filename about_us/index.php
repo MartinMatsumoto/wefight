@@ -13,9 +13,9 @@ $about_us = new about_us($result->fetch());
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>成都北武咏春国术馆</title>
-    <meta name="keywords" content="网站关键字" />
-    <meta name="description" content="网站描述" />
+    <?php
+    include '../include/header_title.php'
+    ?>
     <link href="/index/default.css" rel="stylesheet" type="text/css" />
     <link href="/index/media.css" rel="stylesheet" type="text/css" />
     <link href="/index/title.css" rel="stylesheet" type="text/css" />

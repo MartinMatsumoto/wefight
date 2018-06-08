@@ -111,11 +111,11 @@
 <SCRIPT> $('#layer4D030FC884FE35B96F736CB9D08355F0').triggerHandler('layer_ready');</SCRIPT>
 
 <div class="cstlayer" id="layer2F78EDE9B6FCD1CF52556382A5E84D13"
-     style="left: 80px; top: 17px; width: 174px; height: 29px; position: absolute; z-index: 102;" deg="0" mid=""
+     style="left: 80px; top: 17px; width: 290px; height: 29px; position: absolute; z-index: 102;" deg="0" mid=""
      type="title">
     <div class="wp-title_content"
-         style="border-width: 0px; border-color: transparent; padding: 0px; width: 174px; height: 30px; display: block; -ms-word-wrap: break-word;">
-        <span style="font-family: 微软雅黑; font-size: 19px;"> 成都北武咏春国术馆</span>
+         style="border-width: 0px; border-color: transparent; padding: 0px; width: 290px; height: 30px; display: block; -ms-word-wrap: break-word;">
+        <span style="font-family: 微软雅黑; font-size: 19px;">成都北武体育文化传播有限公司</span>
     </div>
     <SCRIPT type="text/javascript">
         $(function () {
