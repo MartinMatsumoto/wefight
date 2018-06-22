@@ -1098,6 +1098,7 @@ $contact_us = new contact_us($result->fetch());
                 })</script>
         </div>
         <script>                 $('#layerFA7142981F4F9B1279EA8BD66124B477').triggerHandler('layer_ready');</script>
+        <span style="bottom: 1px;position: absolute;width: 1200px;text-align: center;font-size: 15px;">蜀ICP备18018280号</span>
     </div>
 </div>
 <script>
