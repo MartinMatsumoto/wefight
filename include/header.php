@@ -115,7 +115,7 @@
      type="title">
     <div class="wp-title_content"
          style="border-width: 0px; border-color: transparent; padding: 0px; width: 290px; height: 30px; display: block; -ms-word-wrap: break-word;">
-        <span style="font-family: 微软雅黑; font-size: 19px;">成都北武体育文化传播有限公司</span>
+        <span style="font-family: 微软雅黑; font-size: 19px;">成都北武咏春国术馆</span>
     </div>
     <SCRIPT type="text/javascript">
         $(function () {
